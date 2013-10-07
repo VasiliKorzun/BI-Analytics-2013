@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m4723fc39-0c8e-1000-9224-c0a838650000" name="DIM_TIMES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="2000.0" lastUpdated="2013-10-01 11:53:08" maxConn="0" containerRef="/oracle/bi/server/base/Schema/4723ae10-0c8e-1000-9224-c0a838650000.xml#m4723ae10-0c8e-1000-9224-c0a838650000">
+<PhysicalColumn mdsid="m4723fc3a-0c8e-1000-9224-c0a838650000" name="CAL_WEEK_NUM" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc3b-0c8e-1000-9224-c0a838650000" name="DAYS_IN_MONTH" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc3c-0c8e-1000-9224-c0a838650000" name="DAY_NUM_CAL_MONTH" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc3d-0c8e-1000-9224-c0a838650000" name="DAY_NUM_CAL_YEAR" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc3e-0c8e-1000-9224-c0a838650000" name="DAY_OF_WEEK" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc3f-0c8e-1000-9224-c0a838650000" name="END_OF_WEEK" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc40-0c8e-1000-9224-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc41-0c8e-1000-9224-c0a838650000" name="MONTH_NAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc42-0c8e-1000-9224-c0a838650000" name="YEAR_CAL" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc43-0c8e-1000-9224-c0a838650000" name="YEAR_ENDS" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m4723fc44-0c8e-1000-9224-c0a838650000" name="SYS_C0049489">
+<RefColumns>
+<RefColumn refId="m4723fc44-0c8e-1000-9224-c0a838650000-m4723fc40-0c8e-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/4723fc39-0c8e-1000-9224-c0a838650000.xml#m4723fc40-0c8e-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

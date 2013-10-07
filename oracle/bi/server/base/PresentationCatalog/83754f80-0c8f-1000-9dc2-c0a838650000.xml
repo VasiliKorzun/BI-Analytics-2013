@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m83754f80-0c8f-1000-9dc2-c0a838650000" name="Uladzislau_Dodu_TRANS_MONTHLY_ACTUAL" isDefaultReadable="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8245c5a0-0c8e-1000-9224-c0a838650000.xml#m8245c5a0-0c8e-1000-9224-c0a838650000">
+<Alias name="Uladzislau_Dodu_BM - FCT_TRANS_MONTHLY#1"/>
+<Alias name="Uladzislau_Dodu_BM - FCT_TRANS_MONTHLY_ACTUAL"/>
+<Alias name="Uladzislau_Dodu_BM - TRANS_MONTHLY_ACTUAL"/>
+<RefTables>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m83754f81-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/83754f81-0c8f-1000-9dc2-c0a838650000.xml#m83754f81-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m83754f92-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/83754f92-0c8f-1000-9dc2-c0a838650000.xml#m83754f92-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m83754fa0-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/83754fa0-0c8f-1000-9dc2-c0a838650000.xml#m83754fa0-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m8375769c-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/8375769c-0c8f-1000-9dc2-c0a838650000.xml#m8375769c-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m83759da9-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/83759da9-0c8f-1000-9dc2-c0a838650000.xml#m83759da9-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m8375c4b7-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/8375c4b7-0c8f-1000-9dc2-c0a838650000.xml#m8375c4b7-0c8f-1000-9dc2-c0a838650000"/>
+<RefPresentationTable refId="m83754f80-0c8f-1000-9dc2-c0a838650000-m8375c4c2-0c8f-1000-9dc2-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/8375c4c2-0c8f-1000-9dc2-c0a838650000.xml#m8375c4c2-0c8f-1000-9dc2-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

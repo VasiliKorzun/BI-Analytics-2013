@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m8245ed61-0c8e-1000-9224-c0a838650000" name="DIM_DEP_PORTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed5f-0c8e-1000-9224-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-600f-09aa00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PORT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-600f-09aa00000000-m824613c3-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m824613c3-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-2d1d-d23000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PORT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2d1d-d23000000000-m808c2eca-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2eca-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-6e4f-928300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."CONTACT_PERSON"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6e4f-928300000000-m8245ed62-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed62-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-7a51-072000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."CONTACT_PERSON"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-7a51-072000000000-m808c2ec1-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec1-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-2d26-4c7a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."CONTACT_TEL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-2d26-4c7a00000000-m8245ed63-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed63-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-51ac-ed3000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."CONTACT_TEL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-51ac-ed3000000000-m808c2ec2-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec2-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-40a8-2c1e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."LAST_INSERT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-40a8-2c1e00000000-m8245ed64-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed64-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-6c11-854600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."LAST_INSERT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-6c11-854600000000-m808c2ec3-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec3-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-eaac-3c0700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."LAST_UPDATE_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-eaac-3c0700000000-m8245ed65-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed65-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-7dc3-877900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."LAST_UPDATE_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-7dc3-877900000000-m808c2ec4-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec4-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-da01-409900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PIER_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-da01-409900000000-m8245ed66-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed66-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-5bec-267200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PIER_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-5bec-267200000000-m808c2ec5-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec5-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-89d7-f1db00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PORT_ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-89d7-f1db00000000-m8245ed67-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m8245ed67-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-0afe-301a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PORT_ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-0afe-301a00000000-m808c2ec6-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec6-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-a5eb-ea8100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PORT_CITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-a5eb-ea8100000000-m824613c0-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m824613c0-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-9ced-22fc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PORT_CITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-9ced-22fc00000000-m808c2ec7-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec7-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-e991-a8d600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PORT_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-e991-a8d600000000-m824613c1-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m824613c1-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-8e3d-a13e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PORT_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-8e3d-a13e00000000-m808c2ec8-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec8-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-56d0-a90a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_DEP_PORTS"."PORT_COUNTRY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-56d0-a90a00000000-m824613c2-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ed5f-0c8e-1000-9224-c0a838650000.xml#m824613c2-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-b8e8-fe4600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_DEP_PORTS"."PORT_COUNTRY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-b8e8-fe4600000000-m808c2ec9-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec9-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ec0-0c8e-1000-9224-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000015-01f4-0000-88a7-a7c400000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000016-01f4-0000-867e-32b600000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000017-01f4-0000-745c-9f1400000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

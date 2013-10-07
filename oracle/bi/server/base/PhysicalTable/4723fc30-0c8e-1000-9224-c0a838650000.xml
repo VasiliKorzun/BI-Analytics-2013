@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m4723fc30-0c8e-1000-9224-c0a838650000" name="DIM_SHIPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="1000.0" lastUpdated="2013-10-01 11:53:03" maxConn="0" containerRef="/oracle/bi/server/base/Schema/4723ae10-0c8e-1000-9224-c0a838650000.xml#m4723ae10-0c8e-1000-9224-c0a838650000">
+<PhysicalColumn mdsid="m4723fc31-0c8e-1000-9224-c0a838650000" name="LAST_INSERT_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc32-0c8e-1000-9224-c0a838650000" name="LAST_UPDATE_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc33-0c8e-1000-9224-c0a838650000" name="MAX_CARGO" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc34-0c8e-1000-9224-c0a838650000" name="SHIP_CODE" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc35-0c8e-1000-9224-c0a838650000" name="SHIP_HEIGHT" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc36-0c8e-1000-9224-c0a838650000" name="SHIP_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc37-0c8e-1000-9224-c0a838650000" name="SHIP_WEIGHT" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723fc38-0c8e-1000-9224-c0a838650000" name="WATER_VOLUME" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m807f3670-0c8e-1000-9224-c0a838650000" name="DIM_SHIPS_Key">
+<RefColumns>
+<RefColumn refId="m807f3670-0c8e-1000-9224-c0a838650000-m4723fc36-0c8e-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/4723fc30-0c8e-1000-9224-c0a838650000.xml#m4723fc36-0c8e-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc6ce9773-0c8d-1000-9224-c0a838650000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9771-0c8d-1000-9224-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-03a7-477c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-03a7-477c00000000-mc6ce9774-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9774-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-df5a-7f4900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-df5a-7f4900000000-mc6436e75-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e75-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-af0a-17ee00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_CLASS_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-af0a-17ee00000000-mc6ce9775-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9775-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-7843-d14400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_CLASS_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-7843-d14400000000-mc6436e76-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e76-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-b8ae-af5400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-b8ae-af5400000000-mc6ce9776-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9776-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-1fd3-038100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-1fd3-038100000000-mc6436e77-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e77-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-fdba-c71f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-fdba-c71f00000000-mc6ce9777-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9777-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-2e7b-a12500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-2e7b-a12500000000-mc6436e78-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e78-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-29e2-9fc000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-29e2-9fc000000000-mc6ce9778-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9778-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-e6c0-53e500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-e6c0-53e500000000-mc6436e79-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e79-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-b43f-a67d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["SH"."CHANNELS"."CHANNEL_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-b43f-a67d00000000-mc6ce9779-0c8d-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c6ce9771-0c8d-1000-9224-c0a838650000.xml#mc6ce9779-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-c2ce-a9d000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-c2ce-a9d000000000-mc6436e7a-0c8d-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e7a-0c8d-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc6436e74-0c8d-1000-9224-c0a838650000">
+</Link>
+<WhereClause mdsid="m0000000d-01f4-0000-5b3d-9a3200000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000e-01f4-0000-384f-2da900000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000f-01f4-0000-87c9-b5b800000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

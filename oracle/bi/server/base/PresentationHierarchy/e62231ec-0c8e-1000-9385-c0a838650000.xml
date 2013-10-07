@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="me62231ec-0c8e-1000-9385-c0a838650000" name="DIM_PRODUCTS_SCDDim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/e62231e2-0c8e-1000-9385-c0a838650000.xml#me62231e2-0c8e-1000-9385-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b399a400-0c8e-1000-9e70-c0a838650000.xml#mb399a400-0c8e-1000-9e70-c0a838650000">
+<PresentationLevel mdsid="me62231ed-0c8e-1000-9385-c0a838650000" name="All Categories" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e62231ec-0c8e-1000-9385-c0a838650000.xml#me62231ec-0c8e-1000-9385-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b399a400-0c8e-1000-9e70-c0a838650000.xml#mb399a403-0c8e-1000-9e70-c0a838650000">
+</PresentationLevel>
+<PresentationLevel mdsid="me62231ee-0c8e-1000-9385-c0a838650000" name="Categories" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e62231ec-0c8e-1000-9385-c0a838650000.xml#me62231ec-0c8e-1000-9385-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b399a400-0c8e-1000-9e70-c0a838650000.xml#mb39e8600-0c8e-1000-9e70-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me62231ee-0c8e-1000-9385-c0a838650000-me62231eb-0c8e-1000-9385-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e62231e2-0c8e-1000-9385-c0a838650000.xml#me62231eb-0c8e-1000-9385-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="me62231ef-0c8e-1000-9385-c0a838650000" name="Products" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e62231ec-0c8e-1000-9385-c0a838650000.xml#me62231ec-0c8e-1000-9385-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b399a400-0c8e-1000-9e70-c0a838650000.xml#mb399a401-0c8e-1000-9e70-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me62231ef-0c8e-1000-9385-c0a838650000-me62231e8-0c8e-1000-9385-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e62231e2-0c8e-1000-9385-c0a838650000.xml#me62231e8-0c8e-1000-9385-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

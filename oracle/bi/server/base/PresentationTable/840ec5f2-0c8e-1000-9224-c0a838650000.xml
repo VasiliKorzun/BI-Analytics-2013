@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m840ec5f2-0c8e-1000-9224-c0a838650000" name="DIM_PRODUCTS_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/840ec5ee-0c8e-1000-9224-c0a838650000.xml#m840ec5ee-0c8e-1000-9224-c0a838650000">
+<PresentationColumn mdsid="m840e9ee6-0c8e-1000-9224-c0a838650000" name="PROD_CATEGORY_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m824cca85-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee0-0c8e-1000-9224-c0a838650000" name="PROD_CATEGORY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf2-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9edf-0c8e-1000-9224-c0a838650000" name="INCOME_COEF" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf1-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee1-0c8e-1000-9224-c0a838650000" name="PROD_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf3-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee2-0c8e-1000-9224-c0a838650000" name="PROD_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf4-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee4-0c8e-1000-9224-c0a838650000" name="PROD_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf6-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee5-0c8e-1000-9224-c0a838650000" name="PROD_SUR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf7-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee7-0c8e-1000-9224-c0a838650000" name="PROD_CATEGORY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m824cca86-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840e9ee3-0c8e-1000-9224-c0a838650000" name="PROD_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf5-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

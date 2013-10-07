@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc6439596-0c8d-1000-9224-c0a838650000" name="SALES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/c6436e70-0c8d-1000-9224-c0a838650000.xml#mc6436e70-0c8d-1000-9224-c0a838650000">
+<PhysicalColumn mdsid="mc6439597-0c8d-1000-9224-c0a838650000" name="AMOUNT_SOLD" dataType="DOUBLE" scale="2" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6439598-0c8d-1000-9224-c0a838650000" name="CHANNEL_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6439599-0c8d-1000-9224-c0a838650000" name="CUST_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc643959a-0c8d-1000-9224-c0a838650000" name="PROD_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc643959b-0c8d-1000-9224-c0a838650000" name="PROMO_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc643959c-0c8d-1000-9224-c0a838650000" name="QUANTITY_SOLD" dataType="DOUBLE" scale="2" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc643959d-0c8d-1000-9224-c0a838650000" name="TIME_ID" dataType="DATETIME" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="mc6460682-0c8d-1000-9224-c0a838650000" name="SALES_CHANNEL_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c6436e74-0c8d-1000-9224-c0a838650000.xml#mc64395de-0c8d-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mc6460682-0c8d-1000-9224-c0a838650000-mc6439598-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6439596-0c8d-1000-9224-c0a838650000.xml#mc6439598-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc6460683-0c8d-1000-9224-c0a838650000" name="SALES_CUSTOMER_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c6436e8d-0c8d-1000-9224-c0a838650000.xml#mc64395e0-0c8d-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mc6460683-0c8d-1000-9224-c0a838650000-mc6439599-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6439596-0c8d-1000-9224-c0a838650000.xml#mc6439599-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc6460684-0c8d-1000-9224-c0a838650000" name="SALES_PRODUCT_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c6436ec2-0c8d-1000-9224-c0a838650000.xml#mc64395e3-0c8d-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mc6460684-0c8d-1000-9224-c0a838650000-mc643959a-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6439596-0c8d-1000-9224-c0a838650000.xml#mc643959a-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc6460685-0c8d-1000-9224-c0a838650000" name="SALES_PROMO_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c643958a-0c8d-1000-9224-c0a838650000.xml#mc64395e4-0c8d-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mc6460685-0c8d-1000-9224-c0a838650000-mc643959b-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6439596-0c8d-1000-9224-c0a838650000.xml#mc643959b-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc6462d90-0c8d-1000-9224-c0a838650000" name="SALES_TIME_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c64395b7-0c8d-1000-9224-c0a838650000.xml#mc64395e6-0c8d-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mc6462d90-0c8d-1000-9224-c0a838650000-mc643959d-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6439596-0c8d-1000-9224-c0a838650000.xml#mc643959d-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

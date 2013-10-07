@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me62231fd-0c8e-1000-9385-c0a838650000" name="DIM_INSURANCES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e62231d0-0c8e-1000-9385-c0a838650000.xml#me62231d0-0c8e-1000-9385-c0a838650000">
+<PresentationColumn mdsid="me62231fe-0c8e-1000-9385-c0a838650000" name="COMPANY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245ecc7-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me62231ff-0c8e-1000-9385-c0a838650000" name="INSURANCE_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245ecc8-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223200-0c8e-1000-9385-c0a838650000" name="INSURANCE_COST" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245ecc9-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223201-0c8e-1000-9385-c0a838650000" name="INSURANCE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245ecca-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223202-0c8e-1000-9385-c0a838650000" name="INSURANCE_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245eccb-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223203-0c8e-1000-9385-c0a838650000" name="LAST_INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245eccc-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223204-0c8e-1000-9385-c0a838650000" name="LAST_UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecc4-0c8e-1000-9224-c0a838650000.xml#m8245eccd-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

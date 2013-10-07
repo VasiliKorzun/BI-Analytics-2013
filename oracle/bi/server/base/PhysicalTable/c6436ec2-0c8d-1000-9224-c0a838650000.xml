@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc6436ec2-0c8d-1000-9224-c0a838650000" name="PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/c6436e70-0c8d-1000-9224-c0a838650000.xml#mc6436e70-0c8d-1000-9224-c0a838650000">
+<PhysicalColumn mdsid="mc6436ec3-0c8d-1000-9224-c0a838650000" name="PROD_CATEGORY" dataType="VARCHAR" precision="50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec4-0c8d-1000-9224-c0a838650000" name="PROD_CATEGORY_DESC" dataType="VARCHAR" precision="2000" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec5-0c8d-1000-9224-c0a838650000" name="PROD_CATEGORY_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec6-0c8d-1000-9224-c0a838650000" name="PROD_DESC" dataType="VARCHAR" precision="4000" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec7-0c8d-1000-9224-c0a838650000" name="PROD_EFF_FROM" dataType="DATETIME" precision="4000" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec8-0c8d-1000-9224-c0a838650000" name="PROD_EFF_TO" dataType="DATETIME" precision="4000" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ec9-0c8d-1000-9224-c0a838650000" name="PROD_ID" dataType="INT" precision="6" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436eca-0c8d-1000-9224-c0a838650000" name="PROD_LIST_PRICE" dataType="DOUBLE" scale="2" precision="8" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ecb-0c8d-1000-9224-c0a838650000" name="PROD_MIN_PRICE" dataType="DOUBLE" scale="2" precision="8" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ecc-0c8d-1000-9224-c0a838650000" name="PROD_NAME" dataType="VARCHAR" precision="50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ecd-0c8d-1000-9224-c0a838650000" name="PROD_PACK_SIZE" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ece-0c8d-1000-9224-c0a838650000" name="PROD_SRC_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ecf-0c8d-1000-9224-c0a838650000" name="PROD_STATUS" dataType="VARCHAR" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed0-0c8d-1000-9224-c0a838650000" name="PROD_SUBCATEGORY" dataType="VARCHAR" precision="50" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed1-0c8d-1000-9224-c0a838650000" name="PROD_SUBCATEGORY_DESC" dataType="VARCHAR" precision="2000" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed2-0c8d-1000-9224-c0a838650000" name="PROD_SUBCATEGORY_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed3-0c8d-1000-9224-c0a838650000" name="PROD_TOTAL" dataType="VARCHAR" precision="13" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed4-0c8d-1000-9224-c0a838650000" name="PROD_TOTAL_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed5-0c8d-1000-9224-c0a838650000" name="PROD_UNIT_OF_MEASURE" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed6-0c8d-1000-9224-c0a838650000" name="PROD_VALID" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed7-0c8d-1000-9224-c0a838650000" name="PROD_WEIGHT_CLASS" dataType="INT" precision="3" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc6436ed8-0c8d-1000-9224-c0a838650000" name="SUPPLIER_ID" dataType="INT" precision="6" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mc64395e3-0c8d-1000-9224-c0a838650000" name="PRODUCTS_PK">
+<RefColumns>
+<RefColumn refId="mc64395e3-0c8d-1000-9224-c0a838650000-mc6436ec9-0c8d-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/c6436ec2-0c8d-1000-9224-c0a838650000.xml#mc6436ec9-0c8d-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0edcfe5-0c8e-1000-b648-c0a838650000" name="Delivery systems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0edcfe0-0c8e-1000-b648-c0a838650000.xml#mc0edcfe0-0c8e-1000-b648-c0a838650000">
+<Alias name="DIM_DELIVERY_SYSTEMS"/>
+<PresentationColumn mdsid="mc0edcfcd-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e14-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfce-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e15-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfcf-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e16-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mc0edcfe5-0c8e-1000-b648-c0a838650000-mc0edcfe9-0c8e-1000-b648-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c0edcfe9-0c8e-1000-b648-c0a838650000.xml#mc0edcfe9-0c8e-1000-b648-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

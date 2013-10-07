@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c95de1-0bd7-0000-714b-e31d00000000" name="LOY_TOP_TIER_CLASS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Description><![CDATA[Top Tier Class Name.   Used by Loyalty Analytics.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-3078-afd600000000" name="Expr">
+<ExprText><![CDATA['Premium Recognition Status']]></ExprText>
+<ExprTextDesc><![CDATA['Premium Recognition Status']]></ExprTextDesc>
+</Expr>
+</Variable>

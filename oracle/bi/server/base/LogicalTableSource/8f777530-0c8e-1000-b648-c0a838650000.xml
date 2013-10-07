@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m8f777530-0c8e-1000-b648-c0a838650000" name="DIM_PAYMENT_SYSTEMS_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f77752e-0c8e-1000-b648-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-f47c-045e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-f47c-045e00000000-m8f777532-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777532-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-1695-9bd900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-1695-9bd900000000-m8f3cdd22-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd22-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-0ddf-b87c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0ddf-b87c00000000-m8f777533-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777533-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-a297-747200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-a297-747200000000-m8f3cdd23-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd23-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-709a-454a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-709a-454a00000000-m8f777534-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777534-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-c6f3-038600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-c6f3-038600000000-m8f3cdd24-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd24-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-67fc-40b700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-67fc-40b700000000-m8f777535-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777535-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-c8c6-6e5700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-c8c6-6e5700000000-m8f3cdd25-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd25-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-c6d5-3a5300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_TYPE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-c6d5-3a5300000000-m8f777536-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777536-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-157e-cbe000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_TYPE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-157e-cbe000000000-m8f3cdd26-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd26-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-d070-cf1b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-d070-cf1b00000000-m8f777537-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777537-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-c697-711700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."PAYMENT_SYSTEM_TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-c697-711700000000-m8f3cdd27-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd27-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-6e39-0f8400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-6e39-0f8400000000-m8f77753a-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f77753a-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-917b-420800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-917b-420800000000-m8f3cdd2a-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd2a-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-c76d-8ca100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-c76d-8ca100000000-mbc28a672-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#mbc28a672-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-994f-bb1900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PAYMENT_SYSTEMS_SCD"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-994f-bb1900000000-m8f3cdd29-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd29-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd20-0c8e-1000-b648-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000011-01f4-0000-7ff4-a83b00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000012-01f4-0000-e58e-c4b000000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000013-01f4-0000-3107-6cd400000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

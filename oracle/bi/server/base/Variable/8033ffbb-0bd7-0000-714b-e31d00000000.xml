@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8033ffbb-0bd7-0000-714b-e31d00000000" name="LAST_ICRUN_DT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/8033ffbc-0bd9-0000-714b-e31d00000000.xml#m8033ffbc-0bd9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-e4a8-7bfe00000000" name="Expr">
+<ExprText><![CDATA[ TIMESTAMP '2001-09-06 04:03:25']]></ExprText>
+<ExprTextDesc><![CDATA[ TIMESTAMP '2001-09-06 04:03:25']]></ExprTextDesc>
+</Expr>
+</Variable>

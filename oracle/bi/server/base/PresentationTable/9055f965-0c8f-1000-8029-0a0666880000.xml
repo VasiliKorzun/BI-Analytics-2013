@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m9055f965-0c8f-1000-8029-0a0666880000" name="FCT_SALES_DD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/904cf821-0c8f-1000-8029-0a0666880000.xml#m904cf821-0c8f-1000-8029-0a0666880000">
+<PresentationColumn mdsid="m9055f95c-0c8f-1000-8029-0a0666880000" name="AMOUNT_SOLD" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758d-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f95d-0c8f-1000-8029-0a0666880000" name="DELIVERY_SYSTEM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758e-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f95e-0c8f-1000-8029-0a0666880000" name="EVENT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758f-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f95f-0c8f-1000-8029-0a0666880000" name="GEO_SURR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777590-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f960-0c8f-1000-8029-0a0666880000" name="PAYMENT_SYSTEM_SURR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777592-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f961-0c8f-1000-8029-0a0666880000" name="PERIOD_SURR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777593-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f962-0c8f-1000-8029-0a0666880000" name="PROD_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777594-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f963-0c8f-1000-8029-0a0666880000" name="QUANTITY_SOLD" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777595-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m9055f964-0c8f-1000-8029-0a0666880000" name="TRANSACTION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777598-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

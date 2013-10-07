@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384b3-0bd9-0000-714b-e31d00000000" name="CD_FCST_LINK_TYPE_OWN_ITEM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FCST_FCSTITEM' and C.NAME = 'LINK_TYPE_CD' and C.TBL_ID = T.ROW_ID
+and V.TYPE = 'FCST_FCSTITEM_LINK_TYPE' 
+          and V.NAME = 'Own Item'
+and V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)']]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m002384b3-0bd9-0000-714b-e31d00000000-m002384b2-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384b2-0bd9-0000-714b-e31d00000000.xml#m002384b2-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m002384b3-0bd9-0000-714b-e31d00000000-m00238454-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238454-0bd7-0000-714b-e31d00000000.xml#m00238454-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FCST_FCSTITEM' and C.NAME = 'LINK_TYPE_CD' and C.TBL_ID = T.ROW_ID
+and V.TYPE = 'FCST_FCSTITEM_LINK_TYPE' 
+          and V.NAME = 'Own Item'
+and V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)']]></InitString>
+</InitBlock>

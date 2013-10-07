@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project mdsid="m80bb1a71-1075-0000-714b-e31d00000000" name="Human Resources Analytics Fusion Edition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<RefUsers>
+<RefUser refId="m80bb1a71-1075-0000-714b-e31d00000000-m0021f847-05dd-0000-714b-e31d00000000" userRef="/oracle/bi/server/base/User/0021f847-05dd-0000-714b-e31d00000000.xml#m0021f847-05dd-0000-714b-e31d00000000"/>
+</RefUsers>
+<RefVariables>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238445-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238445-0bd7-0000-714b-e31d00000000.xml#m00238445-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238447-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238447-0bd7-0000-714b-e31d00000000.xml#m00238447-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238451-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238451-0bd7-0000-714b-e31d00000000.xml#m00238451-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238452-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238452-0bd7-0000-714b-e31d00000000.xml#m00238452-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238453-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238453-0bd7-0000-714b-e31d00000000.xml#m00238453-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238457-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238457-0bd7-0000-714b-e31d00000000.xml#m00238457-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238459-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238459-0bd7-0000-714b-e31d00000000.xml#m00238459-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023845b-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023845b-0bd7-0000-714b-e31d00000000.xml#m0023845b-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023845e-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023845e-0bd7-0000-714b-e31d00000000.xml#m0023845e-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023845f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023845f-0bd7-0000-714b-e31d00000000.xml#m0023845f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m00238460-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238460-0bd7-0000-714b-e31d00000000.xml#m00238460-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023847f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023847f-0bd7-0000-714b-e31d00000000.xml#m0023847f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023848b-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023848b-0bd7-0000-714b-e31d00000000.xml#m0023848b-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m0023849f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023849f-0bd7-0000-714b-e31d00000000.xml#m0023849f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384a2-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384a2-0bd7-0000-714b-e31d00000000.xml#m002384a2-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384a3-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384a3-0bd7-0000-714b-e31d00000000.xml#m002384a3-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384a9-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384a9-0bd7-0000-714b-e31d00000000.xml#m002384a9-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384aa-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384aa-0bd7-0000-714b-e31d00000000.xml#m002384aa-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c93b9f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c93b9f-0bd7-0000-714b-e31d00000000.xml#m80c93b9f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b55-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b55-0c8f-1000-91b2-0a0666310000.xml#m8a623b55-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5a-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5a-0c8f-1000-91b2-0a0666310000.xml#m8a623b5a-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5b-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5b-0c8f-1000-91b2-0a0666310000.xml#m8a623b5b-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5c-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5c-0c8f-1000-91b2-0a0666310000.xml#m8a623b5c-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5d-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5d-0c8f-1000-91b2-0a0666310000.xml#m8a623b5d-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5e-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5e-0c8f-1000-91b2-0a0666310000.xml#m8a623b5e-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b5f-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b5f-0c8f-1000-91b2-0a0666310000.xml#m8a623b5f-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b60-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b60-0c8f-1000-91b2-0a0666310000.xml#m8a623b60-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b61-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b61-0c8f-1000-91b2-0a0666310000.xml#m8a623b61-0c8f-1000-91b2-0a0666310000"/>
+<RefVariable refId="m80bb1a71-1075-0000-714b-e31d00000000-m8a623b62-0c8f-1000-91b2-0a0666310000" variableRef="/oracle/bi/server/base/Variable/8a623b62-0c8f-1000-91b2-0a0666310000.xml#m8a623b62-0c8f-1000-91b2-0a0666310000"/>
+</RefVariables>
+<RefInitBlocks>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384ac-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384ac-0bd9-0000-714b-e31d00000000.xml#m002384ac-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384ad-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384ad-0bd9-0000-714b-e31d00000000.xml#m002384ad-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384af-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384af-0bd9-0000-714b-e31d00000000.xml#m002384af-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384b0-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384b0-0bd9-0000-714b-e31d00000000.xml#m002384b0-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384b2-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384b2-0bd9-0000-714b-e31d00000000.xml#m002384b2-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384e9-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384e9-0bd9-0000-714b-e31d00000000.xml#m002384e9-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384ee-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384ee-0bd9-0000-714b-e31d00000000.xml#m002384ee-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384f1-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384f1-0bd9-0000-714b-e31d00000000.xml#m002384f1-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384f3-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384f3-0bd9-0000-714b-e31d00000000.xml#m002384f3-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m002384f4-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/002384f4-0bd9-0000-714b-e31d00000000.xml#m002384f4-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80b43a9f-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80b43a9f-0bd9-0000-714b-e31d00000000.xml#m80b43a9f-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80b43aa1-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80b43aa1-0bd9-0000-714b-e31d00000000.xml#m80b43aa1-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c04796-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c04796-0bd9-0000-714b-e31d00000000.xml#m80c04796-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c04798-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c04798-0bd9-0000-714b-e31d00000000.xml#m80c04798-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c0483c-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c0483c-0bd9-0000-714b-e31d00000000.xml#m80c0483c-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c04846-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c04846-0bd9-0000-714b-e31d00000000.xml#m80c04846-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c05cc6-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c05cc6-0bd9-0000-714b-e31d00000000.xml#m80c05cc6-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80bb1a71-1075-0000-714b-e31d00000000-m80c93ba0-0bd9-0000-714b-e31d00000000" initBlockRef="/oracle/bi/server/base/InitBlock/80c93ba0-0bd9-0000-714b-e31d00000000.xml#m80c93ba0-0bd9-0000-714b-e31d00000000"/>
+</RefInitBlocks>
+</Project>

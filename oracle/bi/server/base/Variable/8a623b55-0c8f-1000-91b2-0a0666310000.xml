@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8a623b55-0c8f-1000-91b2-0a0666310000" name="OLTP_LANG_ID#1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Description><![CDATA[Transaction Database Default Language.  Out of the box it is reading this information from the Siebel Application schema. ]]></Description>
+<Expr mdsid="m00000001-01f4-0000-66fa-2afb00000000" name="Expr">
+<ExprText><![CDATA['ENU']]></ExprText>
+<ExprTextDesc><![CDATA['ENU']]></ExprTextDesc>
+</Expr>
+</Variable>

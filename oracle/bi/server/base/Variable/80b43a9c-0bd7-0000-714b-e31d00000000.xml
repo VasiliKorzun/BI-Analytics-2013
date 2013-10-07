@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80b43a9c-0bd7-0000-714b-e31d00000000" name="ORA_EBS_OLTP_DSN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-d7a5-d87900000000" name="Expr">
+<ExprText><![CDATA['ORA1158']]></ExprText>
+<ExprTextDesc><![CDATA['ORA1158']]></ExprTextDesc>
+</Expr>
+</Variable>

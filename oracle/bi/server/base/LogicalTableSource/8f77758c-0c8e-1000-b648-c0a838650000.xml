@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m8f77758c-0c8e-1000-b648-c0a838650000" name="FCT_SALES_DD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758a-0c8e-1000-b648-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-1b2a-228000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."AMOUNT_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-1b2a-228000000000-m8f77758d-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758d-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-3a95-0e2b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."AMOUNT_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-3a95-0e2b00000000-m8f3d043e-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d043e-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-3165-51fd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."DELIVERY_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-3165-51fd00000000-m8f77758e-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758e-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-3321-463a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."DELIVERY_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-3321-463a00000000-m8f3d043f-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d043f-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-b3bd-7e3300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."EVENT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-b3bd-7e3300000000-m8f77758f-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758f-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-41c2-299a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."EVENT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-41c2-299a00000000-m8f3d0440-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0440-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-b118-5d5600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."GEO_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-b118-5d5600000000-m8f777590-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777590-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-0661-261600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."GEO_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-0661-261600000000-m8f3d0441-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0441-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-89df-f28d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."PAYMENT_SYSTEM_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-89df-f28d00000000-m8f777592-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777592-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-948a-1a1800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."PAYMENT_SYSTEM_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-948a-1a1800000000-m8f3d0443-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0443-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-c024-3ee300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."PERIOD_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-c024-3ee300000000-m8f777593-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777593-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-5076-8b2300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."PERIOD_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-5076-8b2300000000-m8f3d0444-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0444-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-56a6-9bc600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-56a6-9bc600000000-m8f777594-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777594-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-b220-cfa000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-b220-cfa000000000-m8f3d0445-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0445-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-98a3-5cb800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."QUANTITY_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-98a3-5cb800000000-m8f777595-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777595-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-0d4c-c5dc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."QUANTITY_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-0d4c-c5dc00000000-m8f3d0446-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0446-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-ce7a-054900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."FCT_SALES_DD"."TRANSACTION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-ce7a-054900000000-m8f777598-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777598-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-a0e6-9f5800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."FCT_SALES_DD"."TRANSACTION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-a0e6-9f5800000000-m8f3d0449-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d0449-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/8f3d043d-0c8e-1000-b648-c0a838650000.xml#m8f3d043d-0c8e-1000-b648-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000013-01f4-0000-ce32-05d000000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000014-01f4-0000-352b-3bb900000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000015-01f4-0000-13cc-e29000000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

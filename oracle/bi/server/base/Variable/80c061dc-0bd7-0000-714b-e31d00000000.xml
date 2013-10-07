@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c061dc-0bd7-0000-714b-e31d00000000" name="EBS_SSO_INTEGRATION_MODE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/80c061dd-0bd9-0000-714b-e31d00000000.xml#m80c061dd-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[This variable helps determine if a session was a standalone BI Server session or if it was an integrated single sign-on session initiated from within an Oracle EBS session.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-d67a-752200000000" name="Expr">
+<ExprText><![CDATA['Not Integrated']]></ExprText>
+<ExprTextDesc><![CDATA['Not Integrated']]></ExprTextDesc>
+</Expr>
+</Variable>

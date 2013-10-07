@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="mbc198b40-0c8e-1000-b648-c0a838650000" name="Payment systems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/bc198b40-0c8e-1000-b648-c0a838650000.xml#mbc1a75a0-0c8e-1000-b648-c0a838650000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalLevel mdsid="mbc1a75a0-0c8e-1000-b648-c0a838650000" name="Payment system type" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Payment system type&apos;">
+<LogicalKey mdsid="mbc1f7eb0-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_DESC" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mbc1f7eb0-0c8e-1000-b648-c0a838650000-m8f777536-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777536-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mc0be8240-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_ID">
+<RefColumns>
+<RefLogicalColumn refId="mc0be8240-0c8e-1000-b648-c0a838650000-m8f777537-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777537-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="mbc1a75a0-0c8e-1000-b648-c0a838650000_mbc1bd530-0c8e-1000-b648-c0a838650000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/bc198b40-0c8e-1000-b648-c0a838650000.xml#mbc1bd530-0c8e-1000-b648-c0a838650000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mbc1a75a0-0c8e-1000-b648-c0a838650000-m8f777536-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777536-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1a75a0-0c8e-1000-b648-c0a838650000-m8f777537-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777537-0c8e-1000-b648-c0a838650000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+<LogicalLevel mdsid="mbc1bd530-0c8e-1000-b648-c0a838650000" name="Payment system" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Payment system&apos;">
+<LogicalKey mdsid="mc12bc300-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_CODE" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mc12bc300-0c8e-1000-b648-c0a838650000-m8f777532-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777532-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mc0bfe1d0-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mc0bfe1d0-0c8e-1000-b648-c0a838650000-m8f777534-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777534-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-m8f777532-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777532-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-m8f777533-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777533-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-m8f777534-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777534-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-m8f777535-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777535-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-m8f77753a-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f77753a-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="mbc1bd530-0c8e-1000-b648-c0a838650000-mbc28a672-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#mbc28a672-0c8e-1000-b648-c0a838650000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

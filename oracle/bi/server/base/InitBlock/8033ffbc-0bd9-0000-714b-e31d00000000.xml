@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m8033ffbc-0bd9-0000-714b-e31d00000000" name="Last Visible IC Calc Run" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select max(START_DT)
+from VALUEOF(TBO).S_IC_CALC_RUN
+where VISIBLE_FLG = 'Y']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m8033ffbc-0bd9-0000-714b-e31d00000000-m8033ffbb-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/8033ffbb-0bd7-0000-714b-e31d00000000.xml#m8033ffbb-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select max(START_DT)
+from VALUEOF(TBO).S_IC_CALC_RUN
+where VISIBLE_FLG = 'Y']]></InitString>
+</InitBlock>

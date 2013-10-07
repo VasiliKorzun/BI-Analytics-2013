@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0edcfe1-0c8e-1000-b648-c0a838650000" name="Payment systems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0edcfe0-0c8e-1000-b648-c0a838650000.xml#mc0edcfe0-0c8e-1000-b648-c0a838650000">
+<Alias name="DIM_PAYMENT_SYSTEMS_SCD"/>
+<PresentationColumn mdsid="mc0edcfa0-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777532-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa1-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777533-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa2-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777534-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa3-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_SURR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777535-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa4-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777536-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa5-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f777537-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa6-0c8e-1000-b648-c0a838650000" name="VALID_TO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#m8f77753a-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfa7-0c8e-1000-b648-c0a838650000" name="VALID_FROM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77752e-0c8e-1000-b648-c0a838650000.xml#mbc28a672-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mc0edcfe1-0c8e-1000-b648-c0a838650000-mc0edcfe7-0c8e-1000-b648-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c0edcfe7-0c8e-1000-b648-c0a838650000.xml#mc0edcfe7-0c8e-1000-b648-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m803119cb-0bd9-0000-714b-e31d00000000" name="Marketing Sample Tables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT 'W_PARTY_D', 'W_PARTY_PER_D', 'W_PARTY_ORG_D' , 'W_ASSET_D', 'W_INS_CLAIM_D'  FROM VALUEOF(OLAPTBO).W_DUAL_G]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m803119cb-0bd9-0000-714b-e31d00000000-m80c8916a-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c8916a-0bd7-0000-714b-e31d00000000.xml#m80c8916a-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803119cb-0bd9-0000-714b-e31d00000000-m80c88881-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c88881-0bd7-0000-714b-e31d00000000.xml#m80c88881-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803119cb-0bd9-0000-714b-e31d00000000-m80c88883-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c88883-0bd7-0000-714b-e31d00000000.xml#m80c88883-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803119cb-0bd9-0000-714b-e31d00000000-m80342e0f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80342e0f-0bd7-0000-714b-e31d00000000.xml#m80342e0f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803119cb-0bd9-0000-714b-e31d00000000-m80342e10-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80342e10-0bd7-0000-714b-e31d00000000.xml#m80342e10-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT 'W_PARTY_D', 'W_PARTY_PER_D', 'W_PARTY_ORG_D' , 'W_ASSET_D', 'W_INS_CLAIM_D'  FROM VALUEOF(OLAPTBO).W_DUAL_G]]></InitString>
+</InitBlock>

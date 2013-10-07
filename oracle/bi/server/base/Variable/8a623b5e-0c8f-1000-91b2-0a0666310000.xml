@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8a623b5e-0c8f-1000-91b2-0a0666310000" name="CD_SALES_HIER_VER_Submitted For Expiration#1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-a64f-e04d00000000" name="Expr">
+<ExprText><![CDATA['Submitted for Expiration']]></ExprText>
+<ExprTextDesc><![CDATA['Submitted for Expiration']]></ExprTextDesc>
+</Expr>
+</Variable>

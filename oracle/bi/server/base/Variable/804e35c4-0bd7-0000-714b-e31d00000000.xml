@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m804e35c4-0bd7-0000-714b-e31d00000000" name="LAST_SYND_DS_YAGO_QTD_END" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/804e35c6-0bd9-0000-714b-e31d00000000.xml#m804e35c6-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns year ago QTD end date of Pharma's last syndicated data direct sales ]]></Description>
+<Expr mdsid="m00000001-01f4-0000-9ace-893100000000" name="Expr">
+<ExprText><![CDATA[20001232]]></ExprText>
+<ExprTextDesc><![CDATA[20001232]]></ExprTextDesc>
+</Expr>
+</Variable>

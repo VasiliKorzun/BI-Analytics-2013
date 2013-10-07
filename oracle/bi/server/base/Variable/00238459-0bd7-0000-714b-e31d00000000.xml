@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m00238459-0bd7-0000-714b-e31d00000000" name="CD_OPTY_STATUS_ACCEPTED" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/002384b8-0bd9-0000-714b-e31d00000000.xml#m002384b8-0bd9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-8bc3-1ae300000000" name="Expr">
+<ExprText><![CDATA['Accepted']]></ExprText>
+<ExprTextDesc><![CDATA['Accepted']]></ExprTextDesc>
+</Expr>
+</Variable>

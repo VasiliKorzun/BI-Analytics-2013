@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m8033ffc0-0bd9-0000-714b-e31d00000000" name="UA Deployment Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select VAL_DATE from VALUEOF(OLAPTBO).W_VARIABLES_G WHERE R_TYPE='UA_DEPLOY_DT' and APP_NAME='Usage Accelerator']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m8033ffc0-0bd9-0000-714b-e31d00000000-m8033ffbf-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/8033ffbf-0bd7-0000-714b-e31d00000000.xml#m8033ffbf-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select VAL_DATE from VALUEOF(OLAPTBO).W_VARIABLES_G WHERE R_TYPE='UA_DEPLOY_DT' and APP_NAME='Usage Accelerator']]></InitString>
+</InitBlock>

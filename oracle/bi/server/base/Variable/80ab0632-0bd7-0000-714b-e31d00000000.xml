@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80ab0632-0bd7-0000-714b-e31d00000000" name="CURRENT_DAY_NUM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/00372a0b-0bd9-0000-714b-e31d00000000.xml#m00372a0b-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns the value of Current Date in the YYYYMMDD format. 
+]]></Description>
+<Expr mdsid="m00000001-01f4-0000-cf4a-ada300000000" name="Expr">
+<ExprText><![CDATA[20131006.0d]]></ExprText>
+<ExprTextDesc><![CDATA[20131006.0d]]></ExprTextDesc>
+</Expr>
+</Variable>

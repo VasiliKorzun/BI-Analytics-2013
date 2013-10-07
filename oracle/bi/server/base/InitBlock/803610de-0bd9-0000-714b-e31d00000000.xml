@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m803610de-0bd9-0000-714b-e31d00000000" name="LAST_SYND_XPT_DATES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="Oracle81">
+<Value><![CDATA[select 
+max(D.DAY_DT), 
+TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'yyyy'),'9999') , 
+TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99'), 
+trunc((TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99') - 1) / 4 + 1),
+trunc((TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99') - 1) / 3 + 1),
+max(D.JULIAN_DAY_NUM)
+from 
+VALUEOF(OLAPTBO).W_DAY_D D, 
+VALUEOF(OLAPTBO).W_SYND_XPT_T_F S
+where 
+S.PERIOD_DAY_WID = D.ROW_WID]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle9i">
+<Value><![CDATA[select 
+max(D.DAY_DT), 
+TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'yyyy'),'9999') , 
+TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99'), 
+trunc((TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99') - 1) / 4 + 1),
+trunc((TO_NUMBER(TO_CHAR(max(D.DAY_DT), 'MM'), '99') - 1) / 3 + 1),
+max(D.JULIAN_DAY_NUM)
+from 
+VALUEOF(OLAPTBO).W_DAY_D D, 
+VALUEOF(OLAPTBO).W_SYND_XPT_T_F S
+where 
+S.PERIOD_DAY_WID = D.ROW_WID]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 
+max(D.DAY_DT), 
+year(max(D.DAY_DT)), 
+month(max(D.DAY_DT)),
+(month(max(D.DAY_DT))-1)/4 + 1,
+(month(max(D.DAY_DT))-1)/3 + 1,
+max(D.JULIAN_DAY_NUM)
+from 
+VALUEOF(OLAPTBO).W_DAY_D D, 
+VALUEOF(OLAPTBO).W_SYND_XPT_T_F S
+where 
+S.PERIOD_DAY_WID = D.ROW_WID]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m803610dc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/803610dc-0bd7-0000-714b-e31d00000000.xml#m803610dc-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m803610d6-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/803610d6-0bd7-0000-714b-e31d00000000.xml#m803610d6-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m803610d8-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/803610d8-0bd7-0000-714b-e31d00000000.xml#m803610d8-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m803610da-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/803610da-0bd7-0000-714b-e31d00000000.xml#m803610da-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m803f232c-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/803f232c-0bd7-0000-714b-e31d00000000.xml#m803f232c-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m803610de-0bd9-0000-714b-e31d00000000-m804c59f3-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804c59f3-0bd7-0000-714b-e31d00000000.xml#m804c59f3-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select 
+max(D.DAY_DT), 
+year(max(D.DAY_DT)), 
+month(max(D.DAY_DT)),
+(month(max(D.DAY_DT))-1)/4 + 1,
+(month(max(D.DAY_DT))-1)/3 + 1,
+max(D.JULIAN_DAY_NUM)
+from 
+VALUEOF(OLAPTBO).W_DAY_D D, 
+VALUEOF(OLAPTBO).W_SYND_XPT_T_F S
+where 
+S.PERIOD_DAY_WID = D.ROW_WID]]></InitString>
+</InitBlock>

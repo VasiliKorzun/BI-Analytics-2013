@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m3342a0f0-0c33-1000-80c2-0af159310000" name="High" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2012-07-04 06:18:07">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 1.05 from dual;]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m3342a0f0-0c33-1000-80c2-0af159310000-m334befc0-0c33-1000-80c2-0af159310000" variableRef="/oracle/bi/server/base/Variable/334befc0-0c33-1000-80c2-0af159310000.xml#m334befc0-0c33-1000-80c2-0af159310000"/>
+</RefVariables>
+<InitString><![CDATA[select 1.05 from dual;]]></InitString>
+</InitBlock>

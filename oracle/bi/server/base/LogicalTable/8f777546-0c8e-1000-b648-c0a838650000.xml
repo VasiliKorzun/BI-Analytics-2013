@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8f777546-0c8e-1000-b648-c0a838650000" name="DIM_PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalColumn mdsid="m8f77754a-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623ca1-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721661381064155">
+<Expr mdsid="m00000001-01f4-0000-2c22-3b8a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_CATEGORY_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-2c22-3b8a00000000-m8f3cdd2e-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd2e-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f77754b-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623ca2-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721671381064155">
+<Expr mdsid="m00000002-01f4-0000-a63f-3b0300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_CATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-a63f-3b0300000000-m8f3cdd2f-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd2f-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f77754c-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623ca3-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721681381064155">
+<Expr mdsid="m00000003-01f4-0000-0b46-06ff00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_CATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0b46-06ff00000000-m8f3cdd30-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd30-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f77754d-0c8e-1000-b648-c0a838650000" name="PROD_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623ca4-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721691381064155">
+<Expr mdsid="m00000004-01f4-0000-10fd-d2d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-10fd-d2d700000000-m8f3cdd31-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd31-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f77754e-0c8e-1000-b648-c0a838650000" name="PROD_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623ca5-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721701381064155">
+<Expr mdsid="m00000005-01f4-0000-34d8-cb1700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-34d8-cb1700000000-m8f3cdd32-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd32-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f77754f-0c8e-1000-b648-c0a838650000" name="PROD_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623ca6-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721711381064155">
+<Expr mdsid="m00000006-01f4-0000-2a06-b50400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-2a06-b50400000000-m8f3cdd33-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd33-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f777550-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623ca7-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721721381064155">
+<Expr mdsid="m00000007-01f4-0000-7bd9-4ef700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_SUBCATEGORY_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-7bd9-4ef700000000-m8f3cdd34-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd34-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f777551-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623ca8-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721731381064155">
+<Expr mdsid="m00000008-01f4-0000-12f2-bafe00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_SUBCATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-12f2-bafe00000000-m8f3cdd35-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd35-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f777552-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623ca9-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721741381064155">
+<Expr mdsid="m00000009-01f4-0000-9ef8-fe3200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_PRODUCTS"."PROD_SUBCATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-9ef8-fe3200000000-m8f3cdd36-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd36-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8f777554-0c8e-1000-b648-c0a838650000" name="PK_DIM_PRODUCTS" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8f777554-0c8e-1000-b648-c0a838650000-m8f77754f-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f777546-0c8e-1000-b648-c0a838650000.xml#m8f77754f-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8f777546-0c8e-1000-b648-c0a838650000-m8f777548-0c8e-1000-b648-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8f777548-0c8e-1000-b648-c0a838650000.xml#m8f777548-0c8e-1000-b648-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

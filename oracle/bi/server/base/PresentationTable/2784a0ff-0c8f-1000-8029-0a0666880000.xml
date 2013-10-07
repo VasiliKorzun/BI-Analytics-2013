@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m2784a0ff-0c8f-1000-8029-0a0666880000" name="DEPARTMENTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/2784a0fc-0c8f-1000-8029-0a0666880000.xml#m2784a0fc-0c8f-1000-8029-0a0666880000">
+<PresentationColumn mdsid="m2784a0f3-0c8f-1000-8029-0a0666880000" name="DEPARTMENT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m273e491e-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f5-0c8f-1000-8029-0a0666880000" name="MANAGER_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m273e4921-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f4-0c8f-1000-8029-0a0666880000" name="DEPARTMENT_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m273e491f-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f6-0c8f-1000-8029-0a0666880000" name="COUNTRY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a047-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f7-0c8f-1000-8029-0a0666880000" name="COUNTRY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a048-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f8-0c8f-1000-8029-0a0666880000" name="REGION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a049-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f9-0c8f-1000-8029-0a0666880000" name="REGION_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a063-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0fa-0c8f-1000-8029-0a0666880000" name="CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m276028fa-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0fb-0c8f-1000-8029-0a0666880000" name="LOCATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m276028fb-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0e0-0c8f-1000-8029-0a0666880000" name="POSTAL_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m276028fc-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0e1-0c8f-1000-8029-0a0666880000" name="STATE_PROVINCE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m276028fd-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0e2-0c8f-1000-8029-0a0666880000" name="STREET_ADDRESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m276028fe-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m2784a0ff-0c8f-1000-8029-0a0666880000-m2784a100-0c8f-1000-8029-0a0666880000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/2784a100-0c8f-1000-8029-0a0666880000.xml#m2784a100-0c8f-1000-8029-0a0666880000"/>
+</RefHierarchies>
+</PresentationTable>

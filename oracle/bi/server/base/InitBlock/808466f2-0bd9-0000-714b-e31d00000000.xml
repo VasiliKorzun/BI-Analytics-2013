@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m808466f2-0bd9-0000-714b-e31d00000000" name="User Hierarchy Level" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select round(FIXED_HIER_LEVEL) FROM VALUEOF(OLAPTBO).W_POSITION_DH WHERE BASE_LOGIN= ':USER'  AND CURRENT_FLG='Y']]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m808466f2-0bd9-0000-714b-e31d00000000-m002384ac-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384ac-0bd9-0000-714b-e31d00000000.xml#m002384ac-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m808466f2-0bd9-0000-714b-e31d00000000-m808466f1-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/808466f1-0bd7-0000-714b-e31d00000000.xml#m808466f1-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select round(FIXED_HIER_LEVEL) FROM VALUEOF(OLAPTBO).W_POSITION_DH WHERE BASE_LOGIN= ':USER'  AND CURRENT_FLG='Y']]></InitString>
+</InitBlock>

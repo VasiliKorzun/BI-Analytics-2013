@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8033f14d-0bd7-0000-714b-e31d00000000" name="OPT_NEED_ACT_NUMDAYS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/8033f14f-0bd9-0000-714b-e31d00000000.xml#m8033f14f-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Usage Accelerator variable.  It returns the maximum number of consecutive days an opportunity can go without having an associated activity.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-945d-0c7900000000" name="Expr">
+<ExprText><![CDATA[90.0d]]></ExprText>
+<ExprTextDesc><![CDATA[90.0d]]></ExprTextDesc>
+</Expr>
+</Variable>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m00372a17-0bd9-0000-714b-e31d00000000" name="PREVIOUS_MONTH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="SQLServer70">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV, (SELECT MONTH_AGO_DT FROM VALUEOF(OLAPTBO).W_DAY_D CUR WHERE convert(char(12),CUR.DAY_DT)=convert(char(12),getdate())) MAGO_DT WHERE convert(char(12),PRV.DAY_DT)= convert(char(12),MAGO_DT.MONTH_AGO_DT)
+]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle9i">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV,(SELECT MONTH_AGO_DT FROM VALUEOF(OLAPTBO).W_DAY_D CUR WHERE TO_DATE(CUR.DAY_DT)=TO_DATE(SYSDATE)) MAGO_DT WHERE TO_DATE(PRV.DAY_DT)= TO_DATE(MAGO_DT.MONTH_AGO_DT)]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V8">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV, (SELECT MONTH_AGO_DT FROM VALUEOF(OLAPTBO).W_DAY_D CUR WHERE DATE(CUR.DAY_DT)= DATE(current_date)) MAGO_DT WHERE DATE(PRV.DAY_DT)= DATE(MAGO_DT.MONTH_AGO_DT)]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R5">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV, (SELECT MONTH_AGO_DT FROM VALUEOF(OLAPTBO).W_DAY_D CUR WHERE cast(CUR.DAY_DT as timestamp)= cast(current_date as timestamp)) MAGO_DT  WHERE cast(PRV.DAY_DT as timestamp)= cast(MAGO_DT.MONTH_AGO_DT as timestamp)
+
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R4">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV, (SELECT MONTH_AGO_DT FROM VALUEOF(OLAPTBO).W_DAY_D CUR WHERE cast(CUR.DAY_DT as timestamp)= cast(current_date as timestamp)) MAGO_DT  WHERE cast(PRV.DAY_DT as timestamp)= cast(MAGO_DT.MONTH_AGO_DT as timestamp)
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.MONTH_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))
+]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m00372a17-0bd9-0000-714b-e31d00000000-m00372a16-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a16-0bd7-0000-714b-e31d00000000.xml#m00372a16-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT PRV.PER_NAME_MONTH FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.MONTH_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))
+]]></InitString>
+</InitBlock>

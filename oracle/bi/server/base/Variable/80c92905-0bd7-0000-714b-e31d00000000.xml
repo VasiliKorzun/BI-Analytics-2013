@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c92905-0bd7-0000-714b-e31d00000000" name="PREVIOUS_FSCL_WEEK" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Description><![CDATA[Defaults to the previous fiscal period for the calendar associated with the ledger or business unit of a user.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-25b8-10c500000000" name="Expr">
+<ExprText><![CDATA['1']]></ExprText>
+<ExprTextDesc><![CDATA['1']]></ExprTextDesc>
+</Expr>
+</Variable>

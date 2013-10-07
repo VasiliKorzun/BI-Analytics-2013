@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80cec52f-0bd9-0000-714b-e31d00000000" name="Log Level" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT 0 FROM W_DUAL_G]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80cec52f-0bd9-0000-714b-e31d00000000-m80cec537-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80cec537-0bd7-0000-714b-e31d00000000.xml#m80cec537-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT 0 FROM W_DUAL_G]]></InitString>
+</InitBlock>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m00372a39-0bd9-0000-714b-e31d00000000" name="Current Enterprise Date Variables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="SQLServer70">
+<Value><![CDATA[select PER_NAME_FSCL_WEEK, PER_NAME_FSCL_MNTH, PER_NAME_FSCL_QTR, PER_NAME_FSCL_YEAR  from VALUEOF(OLAPTBO).W_DAY_D WHERE convert(char(12),DAY_DT)=convert(char(12),getdate()-valueof(time_offset))
+]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle9i">
+<Value><![CDATA[select PER_NAME_ENT_WEEK, PER_NAME_ENT_PERIOD, PER_NAME_ENT_QTR, PER_NAME_ENT_YEAR from VALUEOF(OLAPTBO).W_DAY_D WHERE to_date(DAY_DT)=to_date(SYSDATE - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V8">
+<Value><![CDATA[select PER_NAME_FSCL_WEEK, PER_NAME_FSCL_MNTH, PER_NAME_FSCL_QTR, PER_NAME_FSCL_YEAR from  VALUEOF(OLAPTBO).W_DAY_D WHERE date(DAY_DT)=date(current date - VALUEOF(TIME_OFFSET) DAYS)]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R5">
+<Value><![CDATA[select PER_NAME_ENT_WEEK, PER_NAME_ENT_PERIOD, PER_NAME_ENT_QTR, PER_NAME_ENT_YEAR 
+from VALUEOF(OLAPTBO).W_DAY_D 
+WHERE cast(DAY_DT as timestamp)=cast((current_date - interval 'VALUEOF(TIME_OFFSET)' day) as timestamp)
+
+
+
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R4">
+<Value><![CDATA[select PER_NAME_ENT_WEEK, PER_NAME_ENT_PERIOD, PER_NAME_ENT_QTR, PER_NAME_ENT_YEAR 
+from VALUEOF(OLAPTBO).W_DAY_D 
+WHERE cast(DAY_DT as timestamp)=cast((current_date - interval 'VALUEOF(TIME_OFFSET)' day) as timestamp)
+
+
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R6">
+<Value><![CDATA[select PER_NAME_ENT_WEEK, PER_NAME_ENT_PERIOD, PER_NAME_ENT_QTR, PER_NAME_ENT_YEAR 
+from VALUEOF(OLAPTBO).W_DAY_D 
+WHERE cast(DAY_DT as timestamp)=cast((current_date - interval 'VALUEOF(TIME_OFFSET)' day) as timestamp)]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select PER_NAME_FSCL_WEEK, PER_NAME_FSCL_MNTH, PER_NAME_FSCL_QTR, PER_NAME_FSCL_YEAR from  VALUEOF(OLAPTBO).W_DAY_D WHERE date(DAY_DT)=date(current date)
+]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m00372a39-0bd9-0000-714b-e31d00000000-m00372a2f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a2f-0bd7-0000-714b-e31d00000000.xml#m00372a2f-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m00372a39-0bd9-0000-714b-e31d00000000-m00372a33-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a33-0bd7-0000-714b-e31d00000000.xml#m00372a33-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m00372a39-0bd9-0000-714b-e31d00000000-m00372a35-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a35-0bd7-0000-714b-e31d00000000.xml#m00372a35-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m00372a39-0bd9-0000-714b-e31d00000000-m00372a37-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a37-0bd7-0000-714b-e31d00000000.xml#m00372a37-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select PER_NAME_FSCL_WEEK, PER_NAME_FSCL_MNTH, PER_NAME_FSCL_QTR, PER_NAME_FSCL_YEAR from  VALUEOF(OLAPTBO).W_DAY_D WHERE date(DAY_DT)=date(current date)
+]]></InitString>
+</InitBlock>

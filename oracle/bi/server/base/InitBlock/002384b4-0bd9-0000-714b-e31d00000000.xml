@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384b4-0bd9-0000-714b-e31d00000000" name="CD_FCST_LINK_TYPE_ITEM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select VAL
+from VALUEOF(TBO).S_LST_OF_VAL
+where LANG_ID = 'VALUEOF(OLTP_LANG_ID)' 
+          and TYPE = 'FCST_FCSTITEM_LINK_TYPE' 
+          and NAME = 'Item'
+]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m002384b4-0bd9-0000-714b-e31d00000000-m002384b2-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384b2-0bd9-0000-714b-e31d00000000.xml#m002384b2-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m002384b4-0bd9-0000-714b-e31d00000000-m00238455-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238455-0bd7-0000-714b-e31d00000000.xml#m00238455-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select VAL
+from VALUEOF(TBO).S_LST_OF_VAL
+where LANG_ID = 'VALUEOF(OLTP_LANG_ID)' 
+          and TYPE = 'FCST_FCSTITEM_LINK_TYPE' 
+          and NAME = 'Item'
+]]></InitString>
+</InitBlock>

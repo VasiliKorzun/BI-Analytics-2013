@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m8f3cdd2c-0c8e-1000-b648-c0a838650000" name="DIM_PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/8f3c8f00-0c8e-1000-b648-c0a838650000.xml#m8f3c8f00-0c8e-1000-b648-c0a838650000">
+<PhysicalColumn mdsid="m8f3cdd2d-0c8e-1000-b648-c0a838650000" name="INSERT_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd2e-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_CODE" dataType="VARCHAR" precision="36" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd2f-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd30-0c8e-1000-b648-c0a838650000" name="PROD_CATEGORY_ID" dataType="INT" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd31-0c8e-1000-b648-c0a838650000" name="PROD_CODE" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd32-0c8e-1000-b648-c0a838650000" name="PROD_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd33-0c8e-1000-b648-c0a838650000" name="PROD_ID" dataType="INT" precision="7" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd34-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_CODE" dataType="VARCHAR" precision="36" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd35-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd36-0c8e-1000-b648-c0a838650000" name="PROD_SUBCATEGORY_ID" dataType="INT" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd37-0c8e-1000-b648-c0a838650000" name="UPDATE_DT" dataType="DATETIME" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m8f3cdd38-0c8e-1000-b648-c0a838650000" name="PK_DIM_PRODUCTS">
+<RefColumns>
+<RefColumn refId="m8f3cdd38-0c8e-1000-b648-c0a838650000-m8f3cdd33-0c8e-1000-b648-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/8f3cdd2c-0c8e-1000-b648-c0a838650000.xml#m8f3cdd33-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m8f3cdd39-0c8e-1000-b648-c0a838650000" name="DIM_TIMES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/8f3c8f00-0c8e-1000-b648-c0a838650000.xml#m8f3c8f00-0c8e-1000-b648-c0a838650000">
+<PhysicalColumn mdsid="m8f3cdd3a-0c8e-1000-b648-c0a838650000" name="BEG_OF_CALENDAR_QUARTER" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd3b-0c8e-1000-b648-c0a838650000" name="BEG_OF_CAL_YEAR" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd3c-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NAME" dataType="VARCHAR" precision="36" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd3d-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NUMBER" dataType="INT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd3e-0c8e-1000-b648-c0a838650000" name="CALENDAR_QUARTER_NUMBER" dataType="INT" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd3f-0c8e-1000-b648-c0a838650000" name="CALENDAR_WEEK_NUMBER" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd40-0c8e-1000-b648-c0a838650000" name="CALENDAR_YEAR" dataType="INT" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0430-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_MONTH" dataType="INT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0431-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_QUARTER" dataType="INT" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0432-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_YEAR" dataType="INT" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0433-0c8e-1000-b648-c0a838650000" name="DAY_NAME" dataType="VARCHAR" precision="36" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0434-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_MONTH" dataType="INT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0435-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_WEEK" dataType="INT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0436-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_YEAR" dataType="INT" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0437-0c8e-1000-b648-c0a838650000" name="END_OF_CALENDAR_QUARTER" dataType="DATETIME" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0438-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_MONTH" dataType="DATETIME" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d0439-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_YEAR" dataType="DATETIME" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d043a-0c8e-1000-b648-c0a838650000" name="TIME_ID" dataType="DATETIME" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3d043b-0c8e-1000-b648-c0a838650000" name="WEEK_ENDING_DATE" dataType="DATETIME" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m8f3d043c-0c8e-1000-b648-c0a838650000" name="PK_DIM_TIMES">
+<RefColumns>
+<RefColumn refId="m8f3d043c-0c8e-1000-b648-c0a838650000-m8f3d043a-0c8e-1000-b648-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d043a-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

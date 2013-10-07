@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m273e4948-0c8f-1000-8029-0a0666880000" name="JOBS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e4946-0c8f-1000-8029-0a0666880000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-2bc0-873300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."JOBS"."JOB_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-2bc0-873300000000-m273e4949-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e4949-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-d2ca-58b000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."JOBS"."JOB_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-d2ca-58b000000000-m273373b8-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373b8-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-6c75-95c000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."JOBS"."JOB_TITLE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6c75-95c000000000-m273e494a-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494a-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-c1ae-bcf100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."JOBS"."JOB_TITLE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-c1ae-bcf100000000-m273373b9-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373b9-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-7da2-376100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."JOBS"."MAX_SALARY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7da2-376100000000-m273e494b-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494b-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-4856-2cd900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."JOBS"."MAX_SALARY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-4856-2cd900000000-m273373ba-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373ba-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-c797-09a100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."JOBS"."MIN_SALARY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-c797-09a100000000-m273e494c-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494c-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-c075-c51100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."JOBS"."MIN_SALARY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-c075-c51100000000-m273373bb-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373bb-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373b7-0c8f-1000-8029-0a0666880000">
+</Link>
+<WhereClause mdsid="m00000009-01f4-0000-5b65-c41f00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000a-01f4-0000-20d6-59d000000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000b-01f4-0000-654f-7b0800000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

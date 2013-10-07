@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c061dd-0bd9-0000-714b-e31d00000000" name="EBS Single Sign-on Integration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<Description><![CDATA[Determines if the session is an integrated SSO session from Oracle EBS. The name of the session vari]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select
+case when 
+   'VALUEOF(NQ_SESSION.ICX_SESSION_COOKIE)' is null then 'Not Integrated'
+else 'Integrated'
+end
+from dual]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80c061dd-0bd9-0000-714b-e31d00000000-m80c061dc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c061dc-0bd7-0000-714b-e31d00000000.xml#m80c061dc-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select
+case when 
+   'VALUEOF(NQ_SESSION.ICX_SESSION_COOKIE)' is null then 'Not Integrated'
+else 'Integrated'
+end
+from dual]]></InitString>
+</InitBlock>

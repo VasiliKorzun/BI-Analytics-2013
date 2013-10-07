@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m803610d0-0bd7-0000-714b-e31d00000000" name="LAST_SYND_PT_MONTH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/803610d4-0bd9-0000-714b-e31d00000000.xml#m803610d4-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns Pharma's last syndicated data Plantrak month]]></Description>
+<Expr mdsid="m00000001-01f4-0000-1dee-f6cc00000000" name="Expr">
+<ExprText><![CDATA[12]]></ExprText>
+<ExprTextDesc><![CDATA[12]]></ExprTextDesc>
+</Expr>
+</Variable>

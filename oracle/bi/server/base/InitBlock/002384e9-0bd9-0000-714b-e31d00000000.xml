@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384e9-0bd9-0000-714b-e31d00000000" name="ETL Default Currency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" isEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select DFLT_CURCY  from VALUEOF(TBO).S_ETL_PARAM]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m002384e9-0bd9-0000-714b-e31d00000000-m0023848b-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023848b-0bd7-0000-714b-e31d00000000.xml#m0023848b-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select DFLT_CURCY  from VALUEOF(TBO).S_ETL_PARAM]]></InitString>
+</InitBlock>

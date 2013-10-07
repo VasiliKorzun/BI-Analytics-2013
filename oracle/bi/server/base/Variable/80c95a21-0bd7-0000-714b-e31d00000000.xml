@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c95a21-0bd7-0000-714b-e31d00000000" name="NEXT_PROJECT_PERIOD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/80c95a27-0bd9-0000-714b-e31d00000000.xml#m80c95a27-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Defaults to the next project period for the calendar associated with the business unit of a user.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-0806-0f4900000000" name="Expr">
+<ExprText><![CDATA['01-09']]></ExprText>
+<ExprTextDesc><![CDATA['01-09']]></ExprTextDesc>
+</Expr>
+</Variable>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m804e35c6-0bd9-0000-714b-e31d00000000" name="LAST_SYND_DS_YTD_QTD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT
+  10000*CAL_YEAR + 100,
+  10000*CAL_YEAR + 100*CAL_MONTH + 32,
+  10000*CAL_YEAR + 100*(CAL_QTR*3 - 2),
+  10000*CAL_YEAR + 100*10000*CAL_MONTH + 32,
+  10000*(CAL_YEAR - 1) + 100,
+  10000*(CAL_YEAR - 1) + 100*CAL_MONTH + 32,
+  10000*(CAL_YEAR - 1) + 100*(CAL_QTR*3 - 2),
+  10000*(CAL_YEAR - 1) + 100*CAL_MONTH + 32
+FROM VALUEOF(OLAPTBO).W_DAY_D
+WHERE JULIAN_DAY_NUM = VALUEOF(LAST_SYND_DS_JULIAN_DAY_NUM)]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m804e35c6-0bd9-0000-714b-e31d00000000-m803610b6-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/803610b6-0bd9-0000-714b-e31d00000000.xml#m803610b6-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35ba-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35ba-0bd7-0000-714b-e31d00000000.xml#m804e35ba-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35bc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35bc-0bd7-0000-714b-e31d00000000.xml#m804e35bc-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35be-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35be-0bd7-0000-714b-e31d00000000.xml#m804e35be-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35c0-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35c0-0bd7-0000-714b-e31d00000000.xml#m804e35c0-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35b6-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35b6-0bd7-0000-714b-e31d00000000.xml#m804e35b6-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35b8-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35b8-0bd7-0000-714b-e31d00000000.xml#m804e35b8-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35c2-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35c2-0bd7-0000-714b-e31d00000000.xml#m804e35c2-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m804e35c6-0bd9-0000-714b-e31d00000000-m804e35c4-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/804e35c4-0bd7-0000-714b-e31d00000000.xml#m804e35c4-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT
+  10000*CAL_YEAR + 100,
+  10000*CAL_YEAR + 100*CAL_MONTH + 32,
+  10000*CAL_YEAR + 100*(CAL_QTR*3 - 2),
+  10000*CAL_YEAR + 100*10000*CAL_MONTH + 32,
+  10000*(CAL_YEAR - 1) + 100,
+  10000*(CAL_YEAR - 1) + 100*CAL_MONTH + 32,
+  10000*(CAL_YEAR - 1) + 100*(CAL_QTR*3 - 2),
+  10000*(CAL_YEAR - 1) + 100*CAL_MONTH + 32
+FROM VALUEOF(OLAPTBO).W_DAY_D
+WHERE JULIAN_DAY_NUM = VALUEOF(LAST_SYND_DS_JULIAN_DAY_NUM)]]></InitString>
+</InitBlock>

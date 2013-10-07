@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c88881-0bd7-0000-714b-e31d00000000" name="SAMPLE_W_PARTY_PER_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" securityMask="2" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/803119cb-0bd9-0000-714b-e31d00000000.xml#m803119cb-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Stores the name of the schema for Person Party]]></Description>
+<Expr mdsid="m00000001-01f4-0000-39a6-ade700000000" name="Expr">
+<ExprText><![CDATA['W_PARTY_PER_D']]></ExprText>
+<ExprTextDesc><![CDATA['W_PARTY_PER_D']]></ExprTextDesc>
+</Expr>
+</Variable>

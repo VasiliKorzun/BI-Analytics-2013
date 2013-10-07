@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384f3-0bd9-0000-714b-e31d00000000" name="ETL Unknown Exchange Rate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" isEnabled="false" refreshPeriod="86400">
+<DBMapItem name="Oracle81">
+<Value><![CDATA[select CAST (DFLT_EXCH_RATE AS FLOAT ) from VALUEOF(TBO).S_ETL_PARAM]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V7">
+<Value><![CDATA[select double(DFLT_EXCH_RATE) from VALUEOF(TBO).S_ETL_PARAM]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select CAST( DFLT_EXCH_RATE AS FLOAT ) from VALUEOF(TBO).S_ETL_PARAM]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m002384f3-0bd9-0000-714b-e31d00000000-m002384a9-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384a9-0bd7-0000-714b-e31d00000000.xml#m002384a9-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select CAST( DFLT_EXCH_RATE AS FLOAT ) from VALUEOF(TBO).S_ETL_PARAM]]></InitString>
+</InitBlock>

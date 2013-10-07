@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80ce488c-0bd7-0000-714b-e31d00000000" name="HIER_LEVEL#1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" securityMask="2">
+<Description><![CDATA[Returns the current Fixed Hierarchy level of the user in the Company hierarchy.  The company hierarchy is based on Employee hierarchy tree for Oracle EBS and PeopleSoft applications, and on Position hierarchy tree for Siebel application.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-6ac4-e1bb00000000" name="Expr">
+<ExprText><![CDATA[1]]></ExprText>
+<ExprTextDesc><![CDATA[1]]></ExprTextDesc>
+</Expr>
+</Variable>

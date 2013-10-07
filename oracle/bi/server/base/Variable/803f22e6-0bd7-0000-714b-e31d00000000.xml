@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m803f22e6-0bd7-0000-714b-e31d00000000" name="LAST_CALL_CON_TRI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/803f22ea-0bd9-0000-714b-e31d00000000.xml#m803f22ea-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns Pharma's last contact call trimester ]]></Description>
+<Expr mdsid="m00000001-01f4-0000-4740-5d2c00000000" name="Expr">
+<ExprText><![CDATA[3]]></ExprText>
+<ExprTextDesc><![CDATA[3]]></ExprTextDesc>
+</Expr>
+</Variable>

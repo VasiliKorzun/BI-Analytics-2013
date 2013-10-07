@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c6b9cb-0bd9-0000-714b-e31d00000000" name="HR_WRKFC_SNAPSHOT_DT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2008-11-07 03:38:11">
+<Description><![CDATA[The earliest date for which HR Workforce snapshot data is collected from on the warehouse.]]></Description>
+<DBMapItem name="SQLServer70">
+<Value><![CDATA[select convert(datetime,'01/01/2004',101)]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle9i">
+<Value><![CDATA[select calendar_date        AS HR_WRKFC_SNAPSHOT_DT
+      ,per_name_year        AS HR_WRKFC_SNAPSHOT_YEAR
+      ,per_name_qtr         AS HR_WRKFC_SNAPSHOT_QTR
+      ,per_name_month       AS HR_WRKFC_SNAPSHOT_MONTH
+from w_day_d
+where calendar_date = to_date('01/01/2004','DD/MM/YYYY')]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V8">
+<Value><![CDATA[SELECT DATE('2004-01-01') FROM SYSIBM.SYSDUMMY1
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R5">
+<Value><![CDATA[select date '2004-01-01']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80c6b9cb-0bd9-0000-714b-e31d00000000-m80c6b9cc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c6b9cc-0bd7-0000-714b-e31d00000000.xml#m80c6b9cc-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c6b9cb-0bd9-0000-714b-e31d00000000-m80c834fc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c834fc-0bd7-0000-714b-e31d00000000.xml#m80c834fc-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c6b9cb-0bd9-0000-714b-e31d00000000-m80c834fd-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c834fd-0bd7-0000-714b-e31d00000000.xml#m80c834fd-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c6b9cb-0bd9-0000-714b-e31d00000000-m80c834fe-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c834fe-0bd7-0000-714b-e31d00000000.xml#m80c834fe-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString></InitString>
+</InitBlock>

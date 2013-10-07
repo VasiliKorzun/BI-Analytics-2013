@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m2784a0fc-0c8f-1000-8029-0a0666880000" name="HR_TEAM_VAV" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/273e4910-0c8f-1000-8029-0a0666880000.xml#m273e4910-0c8f-1000-8029-0a0666880000">
+<RefTables>
+<RefPresentationTable refId="m2784a0fc-0c8f-1000-8029-0a0666880000-m2784a0ff-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/2784a0ff-0c8f-1000-8029-0a0666880000.xml#m2784a0ff-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m2784a0fc-0c8f-1000-8029-0a0666880000-m2784a0fd-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/2784a0fd-0c8f-1000-8029-0a0666880000.xml#m2784a0fd-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m2784a0fc-0c8f-1000-8029-0a0666880000-m2784a0fe-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/2784a0fe-0c8f-1000-8029-0a0666880000.xml#m2784a0fe-0c8f-1000-8029-0a0666880000"/>
+</RefTables>
+</PresentationCatalog>

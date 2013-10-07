@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m273373c9-0c8f-1000-8029-0a0666880000" name="REGIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/273373a0-0c8f-1000-8029-0a0666880000.xml#m273373a0-0c8f-1000-8029-0a0666880000">
+<PhysicalColumn mdsid="m273373ca-0c8f-1000-8029-0a0666880000" name="REGION_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373cb-0c8f-1000-8029-0a0666880000" name="REGION_NAME" dataType="VARCHAR" precision="25" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m273373d2-0c8f-1000-8029-0a0666880000" name="REG_ID_PK">
+<RefColumns>
+<RefColumn refId="m273373d2-0c8f-1000-8029-0a0666880000-m273373ca-0c8f-1000-8029-0a0666880000" columnRef="/oracle/bi/server/base/PhysicalTable/273373c9-0c8f-1000-8029-0a0666880000.xml#m273373ca-0c8f-1000-8029-0a0666880000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c1ba07-0bd9-0000-714b-e31d00000000" name="CD_FCST_VISIBILITY_TYPE_INDIRECT_SALES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2008-03-31 15:23:18">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FCSTSER' and C.NAME = 'FCST_VIEW_MODE_CD' and C.TBL_ID = T.ROW_ID
+and V.TYPE = 'FCST_VISIBILITY_TYPE' 
+          and V.NAME = 'My Revenues - Indirect Sales'
+and V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)']]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m80c1ba07-0bd9-0000-714b-e31d00000000-m002384b2-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384b2-0bd9-0000-714b-e31d00000000.xml#m002384b2-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m80c1ba07-0bd9-0000-714b-e31d00000000-m80c1ba06-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c1ba06-0bd7-0000-714b-e31d00000000.xml#m80c1ba06-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FCSTSER' and C.NAME = 'FCST_VIEW_MODE_CD' and C.TBL_ID = T.ROW_ID
+and V.TYPE = 'FCST_VISIBILITY_TYPE' 
+          and V.NAME = 'My Revenues - Indirect Sales'
+and V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)']]></InitString>
+</InitBlock>

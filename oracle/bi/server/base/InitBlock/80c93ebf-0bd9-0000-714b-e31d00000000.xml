@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c93ebf-0bd9-0000-714b-e31d00000000" name="User HR Org Hierarchy Level" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<Description><![CDATA[Retrive the highest hierarchy level a user have access.]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select 14 from dual]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80c93ebf-0bd9-0000-714b-e31d00000000-m80c93ec0-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c93ec0-0bd7-0000-714b-e31d00000000.xml#m80c93ec0-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select 14 from dual]]></InitString>
+</InitBlock>

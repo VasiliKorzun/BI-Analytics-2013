@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m2784a0fe-0c8f-1000-8029-0a0666880000" name="JOBS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/2784a0fc-0c8f-1000-8029-0a0666880000.xml#m2784a0fc-0c8f-1000-8029-0a0666880000">
+<PresentationColumn mdsid="m2784a0ef-0c8f-1000-8029-0a0666880000" name="JOB_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e4949-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f0-0c8f-1000-8029-0a0666880000" name="JOB_TITLE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494a-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f1-0c8f-1000-8029-0a0666880000" name="MAX_SALARY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494b-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2784a0f2-0c8f-1000-8029-0a0666880000" name="MIN_SALARY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/273e4946-0c8f-1000-8029-0a0666880000.xml#m273e494c-0c8f-1000-8029-0a0666880000">
+</PresentationColumn>
+</PresentationTable>

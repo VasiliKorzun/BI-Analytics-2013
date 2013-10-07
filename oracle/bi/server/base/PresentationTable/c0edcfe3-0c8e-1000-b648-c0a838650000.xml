@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0edcfe3-0c8e-1000-b648-c0a838650000" name="Fact Sales" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0edcfe0-0c8e-1000-b648-c0a838650000.xml#mc0edcfe0-0c8e-1000-b648-c0a838650000">
+<Alias name="FCT_SALES_DD"/>
+<PresentationColumn mdsid="mc0edcfb1-0c8e-1000-b648-c0a838650000" name="Amount sold" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f77758d-0c8e-1000-b648-c0a838650000">
+<Alias name="AMOUNT_SOLD"/>
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfb8-0c8e-1000-b648-c0a838650000" name="Quantity sold" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f77758a-0c8e-1000-b648-c0a838650000.xml#m8f777595-0c8e-1000-b648-c0a838650000">
+<Alias name="QUANTITY_SOLD"/>
+</PresentationColumn>
+</PresentationTable>

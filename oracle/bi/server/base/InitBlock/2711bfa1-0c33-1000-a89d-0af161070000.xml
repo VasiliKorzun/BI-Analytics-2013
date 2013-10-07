@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m2711bfa1-0c33-1000-a89d-0af161070000" name="MAX_INV_LOT_BAL_DT_VAR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select MAX(INV_BALANCE_DT_WID) from W_INV_LOT_DAILY_BAL_F]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m2711bfa1-0c33-1000-a89d-0af161070000-m2711bfa0-0c33-1000-a89d-0af161070000" variableRef="/oracle/bi/server/base/Variable/2711bfa0-0c33-1000-a89d-0af161070000.xml#m2711bfa0-0c33-1000-a89d-0af161070000"/>
+</RefVariables>
+<InitString><![CDATA[select MAX(INV_BALANCE_DT_WID) from W_INV_LOT_DAILY_BAL_F]]></InitString>
+</InitBlock>

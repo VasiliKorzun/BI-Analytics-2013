@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c92911-0bd9-0000-714b-e31d00000000" name="Next Fiscal variables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="SQLServer70">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2AS400">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V7">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As  A]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V7">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V8">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R4">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V8">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID))  As A]]></Value>
+</DBMapItem>
+<DBMapItem name="SQLServer2005">
+<Value><![CDATA[select max(A.MCAL_PERIOD_NAME),max(A.MCAL_QTR_NAME),max(A.MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)) As A]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select max(MCAL_PERIOD_NAME),max(MCAL_QTR_NAME),max(MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID))]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m80c92911-0bd9-0000-714b-e31d00000000-m80c92a07-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/80c92a07-0bd9-0000-714b-e31d00000000.xml#m80c92a07-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m80c92911-0bd9-0000-714b-e31d00000000-m80c9290d-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c9290d-0bd7-0000-714b-e31d00000000.xml#m80c9290d-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c92911-0bd9-0000-714b-e31d00000000-m80c9290e-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c9290e-0bd7-0000-714b-e31d00000000.xml#m80c9290e-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c92911-0bd9-0000-714b-e31d00000000-m80c92910-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c92910-0bd7-0000-714b-e31d00000000.xml#m80c92910-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select max(MCAL_PERIOD_NAME),max(MCAL_QTR_NAME),max(MCAL_YEAR_NAME) from
+(
+  select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,''    as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous quarter
+ select '' as MCAL_PERIOD_NAME,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME,'' as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_QTR_D C
+ WHERE C.W_CURRENT_MCAL_QTR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+ union all
+ -- Query to get previous year
+ select '' as MCAL_PERIOD_NAME,'' as MCAL_QTR_NAME,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+ from VALUEOF(OLAPTBO).W_MCAL_YEAR_D C
+ WHERE C.W_CURRENT_MCAL_YEAR_CODE = 'Next'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID))]]></InitString>
+</InitBlock>

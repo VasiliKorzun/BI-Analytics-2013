@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m809ba5a9-0bd9-0000-714b-e31d00000000" name="Global Currency Code Identification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select distinct case when 'VALUEOF(NQ_SESSION.TENANT_ID)' is null then 'None Assigned' 
+else (select max(global1_curr_code) from w_global_curr_g where tenant_id='VALUEOF(NQ_SESSION.TENANT_ID)') end 
+from w_dual_g]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m809ba5a9-0bd9-0000-714b-e31d00000000-m809ba5a5-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/809ba5a5-0bd9-0000-714b-e31d00000000.xml#m809ba5a5-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m809ba5a9-0bd9-0000-714b-e31d00000000-m809ba5a8-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/809ba5a8-0bd7-0000-714b-e31d00000000.xml#m809ba5a8-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select distinct case when 'VALUEOF(NQ_SESSION.TENANT_ID)' is null then 'None Assigned' 
+else (select max(global1_curr_code) from w_global_curr_g where tenant_id='VALUEOF(NQ_SESSION.TENANT_ID)') end 
+from w_dual_g]]></InitString>
+</InitBlock>

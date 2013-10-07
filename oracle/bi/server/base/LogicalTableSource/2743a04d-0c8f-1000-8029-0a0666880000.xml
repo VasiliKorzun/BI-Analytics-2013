@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m2743a04d-0c8f-1000-8029-0a0666880000" name="COUNTRIES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m273e491b-0c8f-1000-8029-0a0666880000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-ff50-bee000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."DEPARTMENTS"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-ff50-bee000000000-m2743a047-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a047-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-dc58-4d0d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."COUNTRIES"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-dc58-4d0d00000000-m273373a2-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a2-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-1d19-0d5900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."DEPARTMENTS"."COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-1d19-0d5900000000-m2743a048-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a048-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-d462-befd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."COUNTRIES"."COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-d462-befd00000000-m273373a3-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a3-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-7236-b4f300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."DEPARTMENTS"."REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7236-b4f300000000-m2743a049-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a049-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-007a-e1c000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."COUNTRIES"."REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-007a-e1c000000000-m273373a4-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a4-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-9021-c6b900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR_TEAM_VAV"."DEPARTMENTS"."REGION_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-9021-c6b900000000-m2743a063-0c8f-1000-8029-0a0666880000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/273e491b-0c8f-1000-8029-0a0666880000.xml#m2743a063-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-c956-8dc800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["TEAM_VAV".""."HR_TEAM_VAV"."REGIONS"."REGION_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-c956-8dc800000000-m273373cb-0c8f-1000-8029-0a0666880000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/273373c9-0c8f-1000-8029-0a0666880000.xml#m273373cb-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a1-0c8f-1000-8029-0a0666880000">
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a1-0c8f-1000-8029-0a0666880000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/273373c9-0c8f-1000-8029-0a0666880000.xml#m273373c9-0c8f-1000-8029-0a0666880000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m27354860-0c8f-1000-8029-0a0666880000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/273373c9-0c8f-1000-8029-0a0666880000.xml#m273373c9-0c8f-1000-8029-0a0666880000">
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/273373c9-0c8f-1000-8029-0a0666880000.xml#m273373c9-0c8f-1000-8029-0a0666880000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m273373a1-0c8f-1000-8029-0a0666880000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/273373a1-0c8f-1000-8029-0a0666880000.xml#m27354860-0c8f-1000-8029-0a0666880000"/>
+</Link>
+<WhereClause mdsid="m00000009-01f4-0000-e956-069e00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000a-01f4-0000-b3db-7bb400000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("HR_TEAM_VAV"."Departments"."Department")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-b3db-7bb400000000-m274cc801-0c8f-1000-8029-0a0666880000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/274cc800-0c8f-1000-8029-0a0666880000.xml#m274cc801-0c8f-1000-8029-0a0666880000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m0000000b-01f4-0000-76f1-a9d400000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

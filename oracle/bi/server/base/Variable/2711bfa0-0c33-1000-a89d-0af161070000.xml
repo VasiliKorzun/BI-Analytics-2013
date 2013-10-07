@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m2711bfa0-0c33-1000-a89d-0af161070000" name="MAX_INV_LOT_BAL_DT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/2711bfa1-0c33-1000-a89d-0af161070000.xml#m2711bfa1-0c33-1000-a89d-0af161070000">
+<Expr mdsid="m00000001-01f4-0000-37ae-0abc00000000" name="Expr">
+<ExprText><![CDATA[20101130]]></ExprText>
+<ExprTextDesc><![CDATA[20101130]]></ExprTextDesc>
+</Expr>
+</Variable>

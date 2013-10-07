@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c88891-0bd9-0000-714b-e31d00000000" name="User HR Organizations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isEnabled="false" refreshPeriod="86400">
+<Description><![CDATA[Retrieve the current HR organization from OLTP application to which the corresponding login user belong, based on his/her primary job.]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT DISTINCT FINAL_JOB.BUSINESS_UNIT
+FROM
+(
+SELECT X.EMPLID, MAX(X.BUSINESS_UNIT) BUSINESS_UNIT FROM
+(
+SELECT A.EMPLID, A.EMPL_RCD, A.EFFDT,EFFSEQ, A.JOB_INDICATOR, A.EMPL_STATUS, A.BUSINESS_UNIT 
+FROM PS_JOB A , 
+(SELECT EMPLID, MAX(EFFDT) MAX_EFFDT
+FROM PS_JOB
+WHERE
+JOB_INDICATOR = 'P' AND EMPL_STATUS IN ('A', 'L', 'P', 'W')
+GROUP BY EMPLID) B
+WHERE 
+A.EMPLID = B.EMPLID
+AND A.EFFDT = B.MAX_EFFDT
+AND A.JOB_INDICATOR = 'P' AND A.EMPL_STATUS IN ('A', 'L', 'P', 'W') 
+AND A.EFFSEQ = (SELECT MAX (C.EFFSEQ) 
+                FROM PS_JOB C 
+                WHERE 
+                  C.EMPLID = A.EMPLID AND 
+                  C.EMPL_RCD = A.EMPL_RCD AND 
+                  C.EFFDT = A.EFFDT AND
+                  C.JOB_INDICATOR = 'P' AND C.EMPL_STATUS IN ('A', 'L', 'P', 'W'))
+) X
+GROUP BY X.EMPLID
+) FINAL_JOB, PSOPRDEFN
+WHERE 
+FINAL_JOB.EMPLID = PSOPRDEFN.EMPLID AND
+PSOPRDEFN.OPRID = ':USER']]></Value>
+</DBMapItem>
+<InitString><![CDATA[SELECT DISTINCT FINAL_JOB.BUSINESS_UNIT
+FROM
+(
+SELECT X.EMPLID, MAX(X.BUSINESS_UNIT) BUSINESS_UNIT FROM
+(
+SELECT A.EMPLID, A.EMPL_RCD, A.EFFDT,EFFSEQ, A.JOB_INDICATOR, A.EMPL_STATUS, A.BUSINESS_UNIT 
+FROM PS_JOB A , 
+(SELECT EMPLID, MAX(EFFDT) MAX_EFFDT
+FROM PS_JOB
+WHERE
+JOB_INDICATOR = 'P' AND EMPL_STATUS IN ('A', 'L', 'P', 'W')
+GROUP BY EMPLID) B
+WHERE 
+A.EMPLID = B.EMPLID
+AND A.EFFDT = B.MAX_EFFDT
+AND A.JOB_INDICATOR = 'P' AND A.EMPL_STATUS IN ('A', 'L', 'P', 'W') 
+AND A.EFFSEQ = (SELECT MAX (C.EFFSEQ) 
+                FROM PS_JOB C 
+                WHERE 
+                  C.EMPLID = A.EMPLID AND 
+                  C.EMPL_RCD = A.EMPL_RCD AND 
+                  C.EFFDT = A.EFFDT AND
+                  C.JOB_INDICATOR = 'P' AND C.EMPL_STATUS IN ('A', 'L', 'P', 'W'))
+) X
+GROUP BY X.EMPLID
+) FINAL_JOB, PSOPRDEFN
+WHERE 
+FINAL_JOB.EMPLID = PSOPRDEFN.EMPLID AND
+PSOPRDEFN.OPRID = ':USER']]></InitString>
+</InitBlock>

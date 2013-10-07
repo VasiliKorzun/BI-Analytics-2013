@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m273373b7-0c8f-1000-8029-0a0666880000" name="JOBS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/273373a0-0c8f-1000-8029-0a0666880000.xml#m273373a0-0c8f-1000-8029-0a0666880000">
+<PhysicalColumn mdsid="m273373b8-0c8f-1000-8029-0a0666880000" name="JOB_ID" dataType="VARCHAR" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b9-0c8f-1000-8029-0a0666880000" name="JOB_TITLE" dataType="VARCHAR" precision="35" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373ba-0c8f-1000-8029-0a0666880000" name="MAX_SALARY" dataType="INT" precision="6" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373bb-0c8f-1000-8029-0a0666880000" name="MIN_SALARY" dataType="INT" precision="6" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m273373cf-0c8f-1000-8029-0a0666880000" name="JOB_ID_PK">
+<RefColumns>
+<RefColumn refId="m273373cf-0c8f-1000-8029-0a0666880000-m273373b8-0c8f-1000-8029-0a0666880000" columnRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373b8-0c8f-1000-8029-0a0666880000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

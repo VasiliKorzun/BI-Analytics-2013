@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c05fe5-0bd7-0000-714b-e31d00000000" name="USER_HR_ORG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/80c05cc6-0bd9-0000-714b-e31d00000000.xml#m80c05cc6-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns the current HR organization from OLTP application to which the corresponding login user belong, based on his/her primary job.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-9cc2-aa5600000000" name="Expr">
+<ExprText><![CDATA[' ']]></ExprText>
+<ExprTextDesc><![CDATA[' ']]></ExprTextDesc>
+</Expr>
+</Variable>

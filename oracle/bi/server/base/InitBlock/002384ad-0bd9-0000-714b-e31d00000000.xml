@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384ad-0bd9-0000-714b-e31d00000000" name="LOGIN Properties" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseCacheEnabled="false" isEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[Select P.NAME, 0
+from VALUEOF(TBO).S_PARTY P, VALUEOF(TBO).S_USER U 
+WHERE U.LOGIN=':USER' AND U.PAR_ROW_ID=P.ROW_ID]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m002384ad-0bd9-0000-714b-e31d00000000-m002384ac-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384ac-0bd9-0000-714b-e31d00000000.xml#m002384ac-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m002384ad-0bd9-0000-714b-e31d00000000-m00238447-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238447-0bd7-0000-714b-e31d00000000.xml#m00238447-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[Select P.NAME, 0
+from VALUEOF(TBO).S_PARTY P, VALUEOF(TBO).S_USER U 
+WHERE U.LOGIN=':USER' AND U.PAR_ROW_ID=P.ROW_ID]]></InitString>
+</InitBlock>

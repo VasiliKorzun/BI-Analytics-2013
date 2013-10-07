@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m0045bd28-0bd7-0000-714b-e31d00000000" name="internal - do not ship - SCHEMA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-a824-56f900000000" name="Expr">
+<ExprText><![CDATA['SIEBEL']]></ExprText>
+<ExprTextDesc><![CDATA['SIEBEL']]></ExprTextDesc>
+</Expr>
+</Variable>

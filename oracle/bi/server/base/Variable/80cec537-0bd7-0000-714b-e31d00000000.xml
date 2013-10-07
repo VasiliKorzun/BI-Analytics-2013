@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80cec537-0bd7-0000-714b-e31d00000000" name="LOGLEVEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/80cec52f-0bd9-0000-714b-e31d00000000.xml#m80cec52f-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Variable used for setting the log level.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-41c7-b63200000000" name="Expr">
+<ExprText><![CDATA[0]]></ExprText>
+<ExprTextDesc><![CDATA[0]]></ExprTextDesc>
+</Expr>
+</Variable>

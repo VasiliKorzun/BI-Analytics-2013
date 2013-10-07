@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c93ba0-0bd9-0000-714b-e31d00000000" name="User HR Org Hierarchy Name" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isEnabled="false" refreshPeriod="86400">
+<Description><![CDATA[Retrieve a HR organization hierarchy name as the default for a user.]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT   OS.NAME
+FROM     PER_ORGANIZATION_STRUCTURES OS
+,        PER_SECURITY_PROFILES SP
+,        (SELECT FND_PROFILE.VALUE_SPECIFIC(  'PER_SECURITY_PROFILE_ID'
+                                            , USER_ID
+                                            , RESPONSIBILITY_ID
+                                            , RESPONSIBILITY_APPLICATION_ID) PROFILE_ID 
+          FROM     FND_USER_RESP_GROUPS 
+          WHERE    START_DATE < SYSDATE 
+          AND     (CASE WHEN END_DATE IS NULL 
+                        THEN SYSDATE 
+                        ELSE TO_DATE(END_DATE) 
+                        END) >= SYSDATE 
+          AND      USER_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_USER_ID) 
+                           ELSE (SELECT USER_ID FROM FND_USER WHERE USER_NAME = ':USER') 
+                           END)
+          AND      RESPONSIBILITY_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_RESP_ID) 
+                           ELSE RESPONSIBILITY_ID 
+                           END)
+          AND      RESPONSIBILITY_APPLICATION_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_RESP_APPL_ID) 
+                           ELSE RESPONSIBILITY_APPLICATION_ID 
+                           END)
+         ) USER_SP
+WHERE    os.organization_structure_id = sp.organization_structure_id
+AND      SP.SECURITY_PROFILE_ID = USER_SP.PROFILE_ID
+AND  rownum = 1]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m80c93ba0-0bd9-0000-714b-e31d00000000-m80c061dd-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/80c061dd-0bd9-0000-714b-e31d00000000.xml#m80c061dd-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m80c93ba0-0bd9-0000-714b-e31d00000000-m80c93b9f-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c93b9f-0bd7-0000-714b-e31d00000000.xml#m80c93b9f-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT   OS.NAME
+FROM     PER_ORGANIZATION_STRUCTURES OS
+,        PER_SECURITY_PROFILES SP
+,        (SELECT FND_PROFILE.VALUE_SPECIFIC(  'PER_SECURITY_PROFILE_ID'
+                                            , USER_ID
+                                            , RESPONSIBILITY_ID
+                                            , RESPONSIBILITY_APPLICATION_ID) PROFILE_ID 
+          FROM     FND_USER_RESP_GROUPS 
+          WHERE    START_DATE < SYSDATE 
+          AND     (CASE WHEN END_DATE IS NULL 
+                        THEN SYSDATE 
+                        ELSE TO_DATE(END_DATE) 
+                        END) >= SYSDATE 
+          AND      USER_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_USER_ID) 
+                           ELSE (SELECT USER_ID FROM FND_USER WHERE USER_NAME = ':USER') 
+                           END)
+          AND      RESPONSIBILITY_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_RESP_ID) 
+                           ELSE RESPONSIBILITY_ID 
+                           END)
+          AND      RESPONSIBILITY_APPLICATION_ID = 
+                     (CASE WHEN 'VALUEOF(NQ_SESSION.EBS_SSO_INTEGRATION_MODE)' = 'Integrated' 
+                           THEN VALUEOF(NQ_SESSION.OLTP_EBS_RESP_APPL_ID) 
+                           ELSE RESPONSIBILITY_APPLICATION_ID 
+                           END)
+         ) USER_SP
+WHERE    os.organization_structure_id = sp.organization_structure_id
+AND      SP.SECURITY_PROFILE_ID = USER_SP.PROFILE_ID
+AND  rownum = 1]]></InitString>
+</InitBlock>

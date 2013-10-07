@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80ce7b8b-0bd9-0000-714b-e31d00000000" name="AR Aging Latest Snapshot Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT MAX(SNAPSHOT_DT_WID) FROM VALUEOF(OLAPTBO).W_AR_AGING_CUSTOMER_A]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80ce7b8b-0bd9-0000-714b-e31d00000000-m80ce7b8a-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80ce7b8a-0bd7-0000-714b-e31d00000000.xml#m80ce7b8a-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT MAX(SNAPSHOT_DT_WID) FROM VALUEOF(OLAPTBO).W_AR_AGING_CUSTOMER_A]]></InitString>
+</InitBlock>

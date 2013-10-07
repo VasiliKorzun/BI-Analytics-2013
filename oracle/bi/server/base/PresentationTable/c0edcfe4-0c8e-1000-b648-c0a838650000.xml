@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0edcfe4-0c8e-1000-b648-c0a838650000" name="Times" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0edcfe0-0c8e-1000-b648-c0a838650000.xml#mc0edcfe0-0c8e-1000-b648-c0a838650000">
+<Alias name="DIM_TIMES"/>
+<PresentationColumn mdsid="mc0edcfbb-0c8e-1000-b648-c0a838650000" name="BEG_OF_CALENDAR_QUARTER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424484-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfbc-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424485-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfbd-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NUMBER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424486-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfbe-0c8e-1000-b648-c0a838650000" name="CALENDAR_QUARTER_NUMBER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424487-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfbf-0c8e-1000-b648-c0a838650000" name="CALENDAR_WEEK_NUMBER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424488-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc0-0c8e-1000-b648-c0a838650000" name="CALENDAR_YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424489-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc1-0c8e-1000-b648-c0a838650000" name="DAY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448a-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc2-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448b-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc3-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_WEEK" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448c-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc4-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448d-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc5-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448e-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc6-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_QUARTER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb842448f-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc7-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424490-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc8-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424491-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfc9-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424492-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfca-0c8e-1000-b648-c0a838650000" name="END_OF_CALENDAR_QUARTER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424493-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfcb-0c8e-1000-b648-c0a838650000" name="TIME_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424494-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0edcfcc-0c8e-1000-b648-c0a838650000" name="WEEK_ENDING_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424495-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mec9dbd91-0c8e-1000-b648-c0a838650000" name="YEAR_QUARTER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mec453d50-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mec9dbd93-0c8e-1000-b648-c0a838650000" name="YEAR_MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mec80bfb0-0c8e-1000-b648-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mec9dbd95-0c8e-1000-b648-c0a838650000" name="YEAR_MONTH_WEEK" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mec899950-0c8e-1000-b648-c0a838650000">
+<Alias name="YEAR_WEEK"/>
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mc0edcfe4-0c8e-1000-b648-c0a838650000-mf874e626-0c8e-1000-b648-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/f874e626-0c8e-1000-b648-c0a838650000.xml#mf874e626-0c8e-1000-b648-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

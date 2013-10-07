@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m9055f8e1-0c8f-1000-8029-0a0666880000" name="Locations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8e0-0c8f-1000-8029-0a0666880000" logicalDimensionRef="/oracle/bi/server/base/Dimension/92218680-0c8e-1000-b648-c0a838650000.xml#m92218680-0c8e-1000-b648-c0a838650000">
+<PresentationLevel mdsid="m9055f8e2-0c8f-1000-8029-0a0666880000" name="Geo system" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f8e1-0c8f-1000-8029-0a0666880000.xml#m9055f8e1-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/92218680-0c8e-1000-b648-c0a838650000.xml#m92257e20-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f8e2-0c8f-1000-8029-0a0666880000-m9055f8d0-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8d0-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f8e3-0c8f-1000-8029-0a0666880000" name="Continent" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f8e1-0c8f-1000-8029-0a0666880000.xml#m9055f8e1-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/92218680-0c8e-1000-b648-c0a838650000.xml#m9227ef20-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f8e3-0c8f-1000-8029-0a0666880000-m9055f8d4-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8d4-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f8e4-0c8f-1000-8029-0a0666880000" name="Region" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f8e1-0c8f-1000-8029-0a0666880000.xml#m9055f8e1-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/92218680-0c8e-1000-b648-c0a838650000.xml#m92290090-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f8e4-0c8f-1000-8029-0a0666880000-m9055f8dc-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8dc-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f8e5-0c8f-1000-8029-0a0666880000" name="Country" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f8e1-0c8f-1000-8029-0a0666880000.xml#m9055f8e1-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/92218680-0c8e-1000-b648-c0a838650000.xml#m9229c3e0-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f8e5-0c8f-1000-8029-0a0666880000-m9055f8d8-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8d8-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

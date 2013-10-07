@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m921af6d0-0c8e-1000-b648-c0a838650000" name="Delivery systems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/921af6d0-0c8e-1000-b648-c0a838650000.xml#m921c7d70-0c8e-1000-b648-c0a838650000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalLevel mdsid="m921c7d70-0c8e-1000-b648-c0a838650000" name="Delivery system" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Delivery system&apos;">
+<LogicalKey mdsid="mb9b360b0-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_CODE" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mb9b360b0-0c8e-1000-b648-c0a838650000-m8f774e14-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e14-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m921c7d70-0c8e-1000-b648-c0a838650000-m8f774e14-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e14-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="m921c7d70-0c8e-1000-b648-c0a838650000-m8f774e15-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e15-0c8e-1000-b648-c0a838650000"/>
+<RefLogicalColumn refId="m921c7d70-0c8e-1000-b648-c0a838650000-m8f774e16-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e16-0c8e-1000-b648-c0a838650000"/>
+</RefLogicalColumns>
+</LogicalLevel>
+</Dimension>

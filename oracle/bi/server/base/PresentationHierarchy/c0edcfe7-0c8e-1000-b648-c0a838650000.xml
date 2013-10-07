@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="mc0edcfe7-0c8e-1000-b648-c0a838650000" name="Payment systems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/c0edcfe1-0c8e-1000-b648-c0a838650000.xml#mc0edcfe1-0c8e-1000-b648-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/bc198b40-0c8e-1000-b648-c0a838650000.xml#mbc198b40-0c8e-1000-b648-c0a838650000">
+<PresentationLevel mdsid="mc0edcfee-0c8e-1000-b648-c0a838650000" name="Payment system type" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0edcfe7-0c8e-1000-b648-c0a838650000.xml#mc0edcfe7-0c8e-1000-b648-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/bc198b40-0c8e-1000-b648-c0a838650000.xml#mbc1a75a0-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0edcfee-0c8e-1000-b648-c0a838650000-mc0edcfa4-0c8e-1000-b648-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0edcfe1-0c8e-1000-b648-c0a838650000.xml#mc0edcfa4-0c8e-1000-b648-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0edcfef-0c8e-1000-b648-c0a838650000" name="Payment system" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0edcfe7-0c8e-1000-b648-c0a838650000.xml#mc0edcfe7-0c8e-1000-b648-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/bc198b40-0c8e-1000-b648-c0a838650000.xml#mbc1bd530-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0edcfef-0c8e-1000-b648-c0a838650000-mc0edcfa1-0c8e-1000-b648-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0edcfe1-0c8e-1000-b648-c0a838650000.xml#mc0edcfa1-0c8e-1000-b648-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

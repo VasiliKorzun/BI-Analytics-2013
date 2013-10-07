@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m904cf821-0c8f-1000-8029-0a0666880000" name="Vasili_Korzun_DW_current_year" isDefaultReadable="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="m904cf821-0c8f-1000-8029-0a0666880000-m9054e769-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/9054e769-0c8f-1000-8029-0a0666880000.xml#m9054e769-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m904cf821-0c8f-1000-8029-0a0666880000-m9055f8e0-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/9055f8e0-0c8f-1000-8029-0a0666880000.xml#m9055f8e0-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m904cf821-0c8f-1000-8029-0a0666880000-m9055f915-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/9055f915-0c8f-1000-8029-0a0666880000.xml#m9055f915-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m904cf821-0c8f-1000-8029-0a0666880000-m9055f94b-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f94b-0c8f-1000-8029-0a0666880000"/>
+<RefPresentationTable refId="m904cf821-0c8f-1000-8029-0a0666880000-m9055f965-0c8f-1000-8029-0a0666880000" presentationTableRef="/oracle/bi/server/base/PresentationTable/9055f965-0c8f-1000-8029-0a0666880000.xml#m9055f965-0c8f-1000-8029-0a0666880000"/>
+</RefTables>
+</PresentationCatalog>

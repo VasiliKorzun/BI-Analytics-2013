@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8f774e11-0c8e-1000-b648-c0a838650000" name="DIM_DELIVERY_SYSTEMS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalColumn mdsid="m8f774e14-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623c87-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721401381064155">
+<Expr mdsid="m00000001-01f4-0000-73c6-837d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-73c6-837d00000000-m8f3c8f02-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f02-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e15-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623c88-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721411381064155">
+<Expr mdsid="m00000002-01f4-0000-f324-48d200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f324-48d200000000-m8f3c8f03-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f03-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e16-0c8e-1000-b648-c0a838650000" name="DELIVERY_SYSTEM_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c89-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721421381064155">
+<Expr mdsid="m00000003-01f4-0000-2a4f-8c5400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-2a4f-8c5400000000-m8f3c8f04-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f04-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8f774e19-0c8e-1000-b648-c0a838650000" name="PK_DIM_DELIVERY_SYSTEMS" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8f774e19-0c8e-1000-b648-c0a838650000-m8f774e16-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e16-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8f774e11-0c8e-1000-b648-c0a838650000-m8f774e13-0c8e-1000-b648-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8f774e13-0c8e-1000-b648-c0a838650000.xml#m8f774e13-0c8e-1000-b648-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

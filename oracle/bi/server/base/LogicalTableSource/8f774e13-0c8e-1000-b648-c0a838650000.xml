@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m8f774e13-0c8e-1000-b648-c0a838650000" name="DIM_DELIVERY_SYSTEMS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e11-0c8e-1000-b648-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-a8af-f18200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-a8af-f18200000000-m8f774e14-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e14-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-8369-97e500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-8369-97e500000000-m8f3c8f02-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f02-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-41b8-8f0700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-41b8-8f0700000000-m8f774e15-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e15-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-ac5c-327e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-ac5c-327e00000000-m8f3c8f03-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f03-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-af4d-18b100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-af4d-18b100000000-m8f774e16-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8f774e11-0c8e-1000-b648-c0a838650000.xml#m8f774e16-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-f165-f5bc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_DELIVERY_SYSTEMS"."DELIVERY_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f165-f5bc00000000-m8f3c8f04-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f04-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/8f3c8f01-0c8e-1000-b648-c0a838650000.xml#m8f3c8f01-0c8e-1000-b648-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-86db-706a00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-74d9-5d9d00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-be99-8a7200000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

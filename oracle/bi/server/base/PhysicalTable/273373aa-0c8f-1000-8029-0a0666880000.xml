@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m273373aa-0c8f-1000-8029-0a0666880000" name="EMPLOYEES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/273373a0-0c8f-1000-8029-0a0666880000.xml#m273373a0-0c8f-1000-8029-0a0666880000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT EMPLOYEE_ID,
+  FIRST_NAME,
+  LAST_NAME,
+  EMAIL,
+  PHONE_NUMBER,
+  HIRE_DATE,
+  JOB_ID,
+  SALARY,
+  COMMISSION_PCT,
+  MANAGER_ID,
+  DEPARTMENT_ID,
+  BIRTH_DATE,
+  ROUND(MONTHS_BETWEEN(sysdate, BIRTH_DATE)/12,0) as AGE,
+  ROUND(MONTHS_BETWEEN(sysdate, HIRE_DATE)/12,0) as EXP  
+FROM EMPLOYEES]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m273373ab-0c8f-1000-8029-0a0666880000" name="BIRTH_DATE" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373ac-0c8f-1000-8029-0a0666880000" name="COMMISSION_PCT" dataType="DOUBLE" scale="2" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373ad-0c8f-1000-8029-0a0666880000" name="DEPARTMENT_ID" dataType="INT" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373ae-0c8f-1000-8029-0a0666880000" name="EMAIL" dataType="VARCHAR" precision="25" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373af-0c8f-1000-8029-0a0666880000" name="EMPLOYEE_ID" dataType="INT" precision="6" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b0-0c8f-1000-8029-0a0666880000" name="FIRST_NAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b1-0c8f-1000-8029-0a0666880000" name="HIRE_DATE" dataType="DATETIME" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b2-0c8f-1000-8029-0a0666880000" name="JOB_ID" dataType="VARCHAR" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b3-0c8f-1000-8029-0a0666880000" name="LAST_NAME" dataType="VARCHAR" precision="25" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b4-0c8f-1000-8029-0a0666880000" name="MANAGER_ID" dataType="INT" precision="6" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b5-0c8f-1000-8029-0a0666880000" name="PHONE_NUMBER" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m273373b6-0c8f-1000-8029-0a0666880000" name="SALARY" dataType="DOUBLE" scale="2" precision="8" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2816f5d0-0c8f-1000-8029-0a0666880000" name="AGE" dataType="INT" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2819dc00-0c8f-1000-8029-0a0666880000" name="EXP" dataType="INT" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m273373ce-0c8f-1000-8029-0a0666880000" name="EMP_EMP_ID_PK">
+<RefColumns>
+<RefColumn refId="m273373ce-0c8f-1000-8029-0a0666880000-m273373af-0c8f-1000-8029-0a0666880000" columnRef="/oracle/bi/server/base/PhysicalTable/273373aa-0c8f-1000-8029-0a0666880000.xml#m273373af-0c8f-1000-8029-0a0666880000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m27356f71-0c8f-1000-8029-0a0666880000" name="EMP_DEPT_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/273373a5-0c8f-1000-8029-0a0666880000.xml#m273373cd-0c8f-1000-8029-0a0666880000">
+<RefColumns>
+<RefColumn refId="m27356f71-0c8f-1000-8029-0a0666880000-m273373ad-0c8f-1000-8029-0a0666880000" columnRef="/oracle/bi/server/base/PhysicalTable/273373aa-0c8f-1000-8029-0a0666880000.xml#m273373ad-0c8f-1000-8029-0a0666880000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m27356f72-0c8f-1000-8029-0a0666880000" name="EMP_JOB_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/273373b7-0c8f-1000-8029-0a0666880000.xml#m273373cf-0c8f-1000-8029-0a0666880000">
+<RefColumns>
+<RefColumn refId="m27356f72-0c8f-1000-8029-0a0666880000-m273373b2-0c8f-1000-8029-0a0666880000" columnRef="/oracle/bi/server/base/PhysicalTable/273373aa-0c8f-1000-8029-0a0666880000.xml#m273373b2-0c8f-1000-8029-0a0666880000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m8f3cdd20-0c8e-1000-b648-c0a838650000" name="DIM_PAYMENT_SYSTEMS_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/8f3c8f00-0c8e-1000-b648-c0a838650000.xml#m8f3c8f00-0c8e-1000-b648-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select * from DIM_PAYMENT_SYSTEMS_SCD
+where payment_system_id <= 70
+]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m8f3cdd21-0c8e-1000-b648-c0a838650000" name="INSERT_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd22-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_CODE" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd23-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd24-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_ID" dataType="INT" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd25-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_SURR_ID" dataType="INT" precision="5" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd26-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd27-0c8e-1000-b648-c0a838650000" name="PAYMENT_SYSTEM_TYPE_ID" dataType="INT" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd28-0c8e-1000-b648-c0a838650000" name="UPDATE_DT" dataType="DATETIME" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd29-0c8e-1000-b648-c0a838650000" name="VALID_FROM" dataType="DATETIME" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8f3cdd2a-0c8e-1000-b648-c0a838650000" name="VALID_TO" dataType="DATETIME" precision="3" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m8f3cdd2b-0c8e-1000-b648-c0a838650000" name="PK_DIM_PAYMENT_SYSTEMS_SCD">
+<RefColumns>
+<RefColumn refId="m8f3cdd2b-0c8e-1000-b648-c0a838650000-m8f3cdd25-0c8e-1000-b648-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/8f3cdd20-0c8e-1000-b648-c0a838650000.xml#m8f3cdd25-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

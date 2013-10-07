@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m00238460-0bd7-0000-714b-e31d00000000" name="CD_SALES_HIER_VER_Approved" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/002384c0-0bd9-0000-714b-e31d00000000.xml#m002384c0-0bd9-0000-714b-e31d00000000">
+<Expr mdsid="m00000001-01f4-0000-d145-cd7300000000" name="Expr">
+<ExprText><![CDATA['Approved']]></ExprText>
+<ExprTextDesc><![CDATA['Approved']]></ExprTextDesc>
+</Expr>
+</Variable>

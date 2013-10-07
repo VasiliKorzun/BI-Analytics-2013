@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384bb-0bd9-0000-714b-e31d00000000" name="CD_FINS_TXN_DEPOSIT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FN_ACCNT_TXN' and C.NAME = 'ITEM_TYPE_CD' and C.TBL_ID = T.ROW_ID
+and  V.TYPE = 'FINCORP_ACCOUNT_TXN_ITEM_TYPE'  and V.NAME = 'Deposit'
+and (
+    (V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)'AND 
+                    EXISTS (SELECT LV.TRANSLATE_FLG FROM VALUEOF(TBO).S_LST_OF_VAL LV
+                                    WHERE LV.TYPE = 'FINCORP_ACCOUNT_TXN_ITEM_TYPE'
+                                    AND LV.NAME =  'Deposit'
+                                    and LV.TRANSLATE_FLG = 'Y' 
+                                    AND LV.LANG_ID = 'VALUEOF(OLTP_LANG_ID)'))
+    OR V.LANG_ID = 'ENU') ]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m002384bb-0bd9-0000-714b-e31d00000000-m002384b2-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/002384b2-0bd9-0000-714b-e31d00000000.xml#m002384b2-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m002384bb-0bd9-0000-714b-e31d00000000-m0023845c-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/0023845c-0bd7-0000-714b-e31d00000000.xml#m0023845c-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select case when C.TRANS_TABLE_ID is null then V.VAL else V.NAME end
+from VALUEOF(TBO).S_LST_OF_VAL V,
+VALUEOF(TBO).S_COLUMN C, VALUEOF(TBO).S_TABLE T 
+where T.NAME = 'S_FN_ACCNT_TXN' and C.NAME = 'ITEM_TYPE_CD' and C.TBL_ID = T.ROW_ID
+and  V.TYPE = 'FINCORP_ACCOUNT_TXN_ITEM_TYPE'  and V.NAME = 'Deposit'
+and (
+    (V.LANG_ID = 'VALUEOF(OLTP_LANG_ID)'AND 
+                    EXISTS (SELECT LV.TRANSLATE_FLG FROM VALUEOF(TBO).S_LST_OF_VAL LV
+                                    WHERE LV.TYPE = 'FINCORP_ACCOUNT_TXN_ITEM_TYPE'
+                                    AND LV.NAME =  'Deposit'
+                                    and LV.TRANSLATE_FLG = 'Y' 
+                                    AND LV.LANG_ID = 'VALUEOF(OLTP_LANG_ID)'))
+    OR V.LANG_ID = 'ENU') ]]></InitString>
+</InitBlock>

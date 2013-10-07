@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c92a07-0bd9-0000-714b-e31d00000000" name="Mcal Calendar Wid Identification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="TeradataV2R4">
+<Value><![CDATA[select max(MCAL_CAL_WID) from VALUEOF(OLAPTBO).W_MCAL_CONTEXT_G where ((ledger_id=valueof(NQ_SESSION.LEDGER)) or
+(org_id=valueof(NQ_SESSION.OU_ORG)')) AND "CLASS"='GL']]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select max(MCAL_CAL_WID) from VALUEOF(OLAPTBO).W_MCAL_CONTEXT_G where ((ledger_id=valueof(0,NQ_SESSION.LEDGER)) or
+(org_id=valueof(NQ_SESSION.OU_ORG)')) AND CLASS='GL']]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m80c92a07-0bd9-0000-714b-e31d00000000-m80b43aa1-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/80b43aa1-0bd9-0000-714b-e31d00000000.xml#m80b43aa1-0bd9-0000-714b-e31d00000000"/>
+<RefInitBlock refId="m80c92a07-0bd9-0000-714b-e31d00000000-m80c15806-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/80c15806-0bd9-0000-714b-e31d00000000.xml#m80c15806-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m80c92a07-0bd9-0000-714b-e31d00000000-m80c92a06-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c92a06-0bd7-0000-714b-e31d00000000.xml#m80c92a06-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select max(MCAL_CAL_WID) from VALUEOF(OLAPTBO).W_MCAL_CONTEXT_G where ((ledger_id=valueof(0,NQ_SESSION.LEDGER)) or
+(org_id=valueof(NQ_SESSION.OU_ORG)')) AND CLASS='GL']]></InitString>
+</InitBlock>

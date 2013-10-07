@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8a623b61-0c8f-1000-91b2-0a0666310000" name="CD_SALES_STAGE_LOST#1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-2b8d-ba8800000000" name="Expr">
+<ExprText><![CDATA['Lost']]></ExprText>
+<ExprTextDesc><![CDATA['Lost']]></ExprTextDesc>
+</Expr>
+</Variable>

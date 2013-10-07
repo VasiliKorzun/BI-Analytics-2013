@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80ce7657-0bd7-0000-714b-e31d00000000" name="HR_DAYS_TO_YEARS_FACTOR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/80ce7679-0bd9-0000-714b-e31d00000000.xml#m80ce7679-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Convert Days to Years e.g.
+Length of Service (Days) * HR_DAYS_TO_YEARS_FACTOR]]></Description>
+<Expr mdsid="m00000001-01f4-0000-34b5-329900000000" name="Expr">
+<ExprText><![CDATA[0.002737909d]]></ExprText>
+<ExprTextDesc><![CDATA[0.002737909d]]></ExprTextDesc>
+</Expr>
+</Variable>

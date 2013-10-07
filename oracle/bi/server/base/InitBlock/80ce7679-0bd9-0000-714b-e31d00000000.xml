@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80ce7679-0bd9-0000-714b-e31d00000000" name="HR_DAYS_TO_YEARS_FACTOR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2010-12-08 03:46:09">
+<Description><![CDATA[Convert Days to Years 
+e.g. Length of Service (Days) * HR_DAYS_TO_YEARS_FACTOR]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT 0.002737909 FROM W_DUAL_G]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80ce7679-0bd9-0000-714b-e31d00000000-m80ce7657-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80ce7657-0bd7-0000-714b-e31d00000000.xml#m80ce7657-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT 0.002737909 FROM W_DUAL_G]]></InitString>
+</InitBlock>

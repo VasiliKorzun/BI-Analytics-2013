@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m9055f94c-0c8f-1000-8029-0a0666880000" name="Times" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f94b-0c8f-1000-8029-0a0666880000" logicalDimensionRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#mecc6c960-0c8e-1000-b648-c0a838650000">
+<PresentationLevel mdsid="m9055f94d-0c8f-1000-8029-0a0666880000" name="Year" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f94c-0c8f-1000-8029-0a0666880000.xml#m9055f94c-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#mecc801e0-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f94d-0c8f-1000-8029-0a0666880000-m9055f947-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f947-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f94e-0c8f-1000-8029-0a0666880000" name="Quarter" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f94c-0c8f-1000-8029-0a0666880000.xml#m9055f94c-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#mecc8ec40-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f94e-0c8f-1000-8029-0a0666880000-m9055f945-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f945-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f94f-0c8f-1000-8029-0a0666880000" name="Month" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f94c-0c8f-1000-8029-0a0666880000.xml#m9055f94c-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#mecc98880-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f94f-0c8f-1000-8029-0a0666880000-m9055f943-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f943-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f950-0c8f-1000-8029-0a0666880000" name="Week" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f94c-0c8f-1000-8029-0a0666880000.xml#m9055f94c-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#mecca24c0-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f950-0c8f-1000-8029-0a0666880000-m9055f941-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f941-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m9055f951-0c8f-1000-8029-0a0666880000" name="Day" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/9055f94c-0c8f-1000-8029-0a0666880000.xml#m9055f94c-0c8f-1000-8029-0a0666880000" logicalLevelRef="/oracle/bi/server/base/Dimension/ecc6c960-0c8e-1000-b648-c0a838650000.xml#meccac100-0c8e-1000-b648-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m9055f951-0c8f-1000-8029-0a0666880000-m9055f948-0c8f-1000-8029-0a0666880000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/9055f94b-0c8f-1000-8029-0a0666880000.xml#m9055f948-0c8f-1000-8029-0a0666880000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m1339bf50-0c3d-1000-a1a7-0af161070000" name="INV_ORG_LIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-ddb9-d43d00000000" name="Expr">
+<ExprText><![CDATA['-999']]></ExprText>
+<ExprTextDesc><![CDATA['-999']]></ExprTextDesc>
+</Expr>
+</Variable>

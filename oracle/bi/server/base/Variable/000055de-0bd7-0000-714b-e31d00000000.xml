@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m000055de-0bd7-0000-714b-e31d00000000" name="BI_EE_HOME" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-ed04-a9a400000000" name="Expr">
+<ExprText><![CDATA['C:\OracleBI']]></ExprText>
+<ExprTextDesc><![CDATA['C:\OracleBI']]></ExprTextDesc>
+</Expr>
+</Variable>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384f4-0bd9-0000-714b-e31d00000000" name="Current Snapshot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT D.DAY_DT FROM VALUEOF(OLAPTBO).W_DAY_D D WHERE D.ROW_WID = (SELECT MAX(P.SNAPSHOT_DT_WID) FROM VALUEOF(OLAPTBO).W_PIPELINE_F P)]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m002384f4-0bd9-0000-714b-e31d00000000-m002384aa-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384aa-0bd7-0000-714b-e31d00000000.xml#m002384aa-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT D.DAY_DT FROM VALUEOF(OLAPTBO).W_DAY_D D WHERE D.ROW_WID = (SELECT MAX(P.SNAPSHOT_DT_WID) FROM VALUEOF(OLAPTBO).W_PIPELINE_F P)]]></InitString>
+</InitBlock>

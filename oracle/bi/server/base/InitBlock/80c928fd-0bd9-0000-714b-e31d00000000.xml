@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c928fd-0bd9-0000-714b-e31d00000000" name="Current Fiscal Variables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME
+,C.MCAL_PERIOD as MCAL_PERIOD
+,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME
+,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+,PAGO.MCAL_PERIOD_NAME as MCAL_PERIOD_AGO
+,QAGO.MCAL_PER_NAME_QTR as MCAL_QTR_AGO
+ from 
+  VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ ,VALUEOF(OLAPTBO).W_MCAL_PERIOD_D PAGO
+ ,VALUEOF(OLAPTBO).W_MCAL_QTR_D QAGO
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Current'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+and C.mcal_period_ago_wid= pago.row_wid
+and C.mcal_qtr_ago_wid=qago.row_wid
+and c.mcal_cal_wid= pago.mcal_cal_wid
+ and c.mcal_cal_wid=qago.mcal_cal_wid]]></Value>
+</DBMapItem>
+<RefPredecessors>
+<RefInitBlock refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c92a07-0bd9-0000-714b-e31d00000000" predecessorRef="/oracle/bi/server/base/InitBlock/80c92a07-0bd9-0000-714b-e31d00000000.xml#m80c92a07-0bd9-0000-714b-e31d00000000"/>
+</RefPredecessors>
+<RefVariables>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c928f7-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c928f7-0bd7-0000-714b-e31d00000000.xml#m80c928f7-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c95e25-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c95e25-0bd7-0000-714b-e31d00000000.xml#m80c95e25-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c928f8-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c928f8-0bd7-0000-714b-e31d00000000.xml#m80c928f8-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c928fa-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c928fa-0bd7-0000-714b-e31d00000000.xml#m80c928fa-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c928fb-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c928fb-0bd7-0000-714b-e31d00000000.xml#m80c928fb-0bd7-0000-714b-e31d00000000"/>
+<RefVariable refId="m80c928fd-0bd9-0000-714b-e31d00000000-m80c928fc-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c928fc-0bd7-0000-714b-e31d00000000.xml#m80c928fc-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select C.MCAL_PERIOD_NAME as MCAL_PERIOD_NAME
+,C.MCAL_PERIOD as MCAL_PERIOD
+,C.MCAL_PER_NAME_QTR as MCAL_QTR_NAME
+,C.MCAL_PER_NAME_YEAR as MCAL_YEAR_NAME
+,PAGO.MCAL_PERIOD_NAME as MCAL_PERIOD_AGO
+,QAGO.MCAL_PER_NAME_QTR as MCAL_QTR_AGO
+ from 
+  VALUEOF(OLAPTBO).W_MCAL_PERIOD_D C
+ ,VALUEOF(OLAPTBO).W_MCAL_PERIOD_D PAGO
+ ,VALUEOF(OLAPTBO).W_MCAL_QTR_D QAGO
+ where C.adjustment_period_flg = 'N' 
+ and C.W_CURRENT_MCAL_PERIOD_CODE = 'Current'
+ and C.MCAL_CAL_WID=valueof(NQ_SESSION.MCAL_CAL_WID)
+and C.mcal_period_ago_wid= pago.row_wid
+and C.mcal_qtr_ago_wid=qago.row_wid
+and c.mcal_cal_wid= pago.mcal_cal_wid
+ and c.mcal_cal_wid=qago.mcal_cal_wid]]></InitString>
+</InitBlock>

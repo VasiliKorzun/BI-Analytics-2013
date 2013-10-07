@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m002384ef-0bd9-0000-714b-e31d00000000" name="LATEST FCST DT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600">
+<DBMapItem name="Oracle73">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= SYSDATE]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle80">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= SYSDATE]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V5">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= CURRENT TIMESTAMP]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= CURRENT TIMESTAMP
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V6">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= CURRENT TIMESTAMP]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle81">
+<Value><![CDATA[select max(FCST_DT) from VALUEOF(TBO).S_FCSTSER_DATE where FCST_DT <= SYSDATE]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V6">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= CURRENT TIMESTAMP]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V7">
+<Value><![CDATA[select max(FCST_DT) from VALUEOF(TBO).S_FCSTSER_DATE where FCST_DT <= CURRENT TIMESTAMP]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V7">
+<Value><![CDATA[select max(FCST_DT)
+from VALUEOF(TBO).S_FCSTSER_DATE
+where FCST_DT <= CURRENT TIMESTAMP]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select max(FCST_DT) from VALUEOF(TBO).S_FCSTSER_DATE where FCST_DT <= CURRENT_TIMESTAMP
+]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m002384ef-0bd9-0000-714b-e31d00000000-m002384a0-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/002384a0-0bd7-0000-714b-e31d00000000.xml#m002384a0-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select max(FCST_DT) from VALUEOF(TBO).S_FCSTSER_DATE where FCST_DT <= CURRENT_TIMESTAMP
+]]></InitString>
+</InitBlock>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m8033f153-0bd9-0000-714b-e31d00000000" name="New Activity Interval for Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="86400" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select VAL_NUM FROM VALUEOF(OLAPTBO).W_VARIABLES_G WHERE R_TYPE='ACC_NEED_ACT_NUMDAYS' AND APP_NAME ='Usage Accelerator']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m8033f153-0bd9-0000-714b-e31d00000000-m8033f151-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/8033f151-0bd7-0000-714b-e31d00000000.xml#m8033f151-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[select VAL_NUM FROM VALUEOF(OLAPTBO).W_VARIABLES_G WHERE R_TYPE='ACC_NEED_ACT_NUMDAYS' AND APP_NAME ='Usage Accelerator']]></InitString>
+</InitBlock>

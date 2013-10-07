@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m00372a45-0bd9-0000-714b-e31d00000000" name="PREVIOUS_ENTERPRISE_QUARTER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isRowWiseCacheEnabled="false" refreshPeriod="3600" baseTime="2003-01-01 00:00:00">
+<DBMapItem name="SQLServer70">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE convert(char(12),PRV.DAY_DT)=convert(char(12),CUR.QUARTER_AGO_DT) AND convert(char(12),CUR.DAY_DT)=convert(char(12),getdate()-valueof(time_offset))
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2AS400">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V7">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V7">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<DBMapItem name="Oracle9i">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2V8">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE date(PRV.DAY_DT)=date(CUR.QUARTER_AGO_DT) AND date(CUR.DAY_DT)=date(current date - VALUEOF(TIME_OFFSET) DAYS)
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R5">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE cast(PRV.DAY_DT as timestamp)=cast(CUR.QUARTER_AGO_DT as timestamp) AND cast(CUR.DAY_DT as timestamp)=cast((current_date - interval 'VALUEOF(TIME_OFFSET)' day) as timestamp)
+
+]]></Value>
+</DBMapItem>
+<DBMapItem name="TeradataV2R4">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE cast(PRV.DAY_DT as timestamp)=cast(CUR.QUARTER_AGO_DT as timestamp) AND cast(CUR.DAY_DT as timestamp)=cast((current_date - interval 'VALUEOF(TIME_OFFSET)' day) as timestamp)
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DB2OS390V8">
+<Value><![CDATA[SELECT  PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<DBMapItem name="SQLServer2005">
+<Value><![CDATA[SELECT PRV.PER_NAME_ENT_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE convert(char(12),PRV.DAY_DT)=convert(char(12),CUR.QUARTER_AGO_DT) AND convert(char(12),CUR.DAY_DT)=convert(char(12),getdate()-valueof(time_offset))
+]]></Value>
+</DBMapItem>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT PRV.PER_NAME_FSCL_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m00372a45-0bd9-0000-714b-e31d00000000-m00372a43-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00372a43-0bd7-0000-714b-e31d00000000.xml#m00372a43-0bd7-0000-714b-e31d00000000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT PRV.PER_NAME_FSCL_QTR FROM VALUEOF(OLAPTBO).W_DAY_D PRV , VALUEOF(OLAPTBO).W_DAY_D CUR WHERE to_date(PRV.DAY_DT)=to_date(CUR.QUARTER_AGO_DT) AND to_date(CUR.DAY_DT)=to_date(sysdate - VALUEOF(TIME_OFFSET))]]></InitString>
+</InitBlock>

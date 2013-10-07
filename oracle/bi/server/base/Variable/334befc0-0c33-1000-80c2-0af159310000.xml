@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m334befc0-0c33-1000-80c2-0af159310000" name="High" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/3342a0f0-0c33-1000-80c2-0af159310000.xml#m3342a0f0-0c33-1000-80c2-0af159310000">
+<Expr mdsid="m00000001-01f4-0000-535a-ce1800000000" name="Expr">
+<ExprText><![CDATA[1.05d]]></ExprText>
+<ExprTextDesc><![CDATA[1.05d]]></ExprTextDesc>
+</Expr>
+</Variable>

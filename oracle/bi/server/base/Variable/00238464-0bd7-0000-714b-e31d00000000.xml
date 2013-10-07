@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m00238464-0bd7-0000-714b-e31d00000000" name="CD_TRAINING_CLASS_STATUS_Active" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Description><![CDATA[Partner Analytics variable.  Returns the value of a class status code from the OLTP. ]]></Description>
+<Expr mdsid="m00000001-01f4-0000-6245-702200000000" name="Expr">
+<ExprText><![CDATA['Active']]></ExprText>
+<ExprTextDesc><![CDATA['Active']]></ExprTextDesc>
+</Expr>
+</Variable>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mb8424480-0c8e-1000-b648-c0a838650000" name="DIM_TIMES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalColumn mdsid="mb8424484-0c8e-1000-b648-c0a838650000" name="BEG_OF_CALENDAR_QUARTER" isWriteable="false">
+<AttrDefn mdsid="m8a623caa-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721751381064155">
+<Expr mdsid="m00000001-01f4-0000-b007-878800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."BEG_OF_CALENDAR_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-b007-878800000000-m8f3cdd3a-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd3a-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424485-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NAME" isWriteable="false">
+<AttrDefn mdsid="m8a623cab-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721761381064155">
+<Expr mdsid="m00000002-01f4-0000-6201-55e400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_MONTH_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-6201-55e400000000-m8f3cdd3c-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd3c-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424486-0c8e-1000-b648-c0a838650000" name="CALENDAR_MONTH_NUMBER" isWriteable="false">
+<AttrDefn mdsid="m8a623cac-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721771381064155">
+<Expr mdsid="m00000003-01f4-0000-baae-833d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_MONTH_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-baae-833d00000000-m8f3cdd3d-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd3d-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424487-0c8e-1000-b648-c0a838650000" name="CALENDAR_QUARTER_NUMBER" isWriteable="false">
+<AttrDefn mdsid="m8a623cad-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721781381064155">
+<Expr mdsid="m00000004-01f4-0000-ea54-40ff00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_QUARTER_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-ea54-40ff00000000-m8f3cdd3e-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd3e-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424488-0c8e-1000-b648-c0a838650000" name="CALENDAR_WEEK_NUMBER" isWriteable="false">
+<AttrDefn mdsid="m8a623cae-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721791381064155">
+<Expr mdsid="m00000005-01f4-0000-7a7f-362e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_WEEK_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7a7f-362e00000000-m8f3cdd3f-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd3f-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424489-0c8e-1000-b648-c0a838650000" name="CALENDAR_YEAR" isWriteable="false">
+<AttrDefn mdsid="m8a623caf-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721801381064155">
+<Expr mdsid="m00000006-01f4-0000-3c8a-04c700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-3c8a-04c700000000-m8f3cdd40-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd40-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448a-0c8e-1000-b648-c0a838650000" name="DAY_NAME" isWriteable="false">
+<AttrDefn mdsid="m8a623cb0-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721811381064155">
+<Expr mdsid="m00000007-01f4-0000-2f79-690d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-2f79-690d00000000-m8f3d0433-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0433-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448b-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_MONTH" isWriteable="false">
+<AttrDefn mdsid="m8a623cb1-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721821381064155">
+<Expr mdsid="m00000008-01f4-0000-1274-418e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAY_NUMBER_IN_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-1274-418e00000000-m8f3d0434-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0434-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448c-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_WEEK" isWriteable="false">
+<AttrDefn mdsid="m8a623cb2-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721831381064155">
+<Expr mdsid="m00000009-01f4-0000-01fd-d57900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAY_NUMBER_IN_WEEK"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-01fd-d57900000000-m8f3d0435-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0435-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448d-0c8e-1000-b648-c0a838650000" name="DAY_NUMBER_IN_YEAR" isWriteable="false">
+<AttrDefn mdsid="m8a623cb3-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721841381064155">
+<Expr mdsid="m0000000a-01f4-0000-1300-7c5500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAY_NUMBER_IN_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-1300-7c5500000000-m8f3d0436-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0436-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448e-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_MONTH" isWriteable="false">
+<AttrDefn mdsid="m8a623cb4-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721851381064155">
+<Expr mdsid="m0000000b-01f4-0000-7fe1-830500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAYS_IN_CAL_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-7fe1-830500000000-m8f3d0430-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0430-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb842448f-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_QUARTER" isWriteable="false">
+<AttrDefn mdsid="m8a623cb5-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721861381064155">
+<Expr mdsid="m0000000c-01f4-0000-b418-a2ce00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAYS_IN_CAL_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-b418-a2ce00000000-m8f3d0431-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0431-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424490-0c8e-1000-b648-c0a838650000" name="DAYS_IN_CAL_YEAR" isWriteable="false">
+<AttrDefn mdsid="m8a623cb6-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721871381064155">
+<Expr mdsid="m0000000d-01f4-0000-78c9-3e7500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."DAYS_IN_CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-78c9-3e7500000000-m8f3d0432-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0432-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424491-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_MONTH" isWriteable="false">
+<AttrDefn mdsid="m8a623cb7-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721881381064155">
+<Expr mdsid="m0000000e-01f4-0000-2a8a-dea900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."END_OF_CAL_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-2a8a-dea900000000-m8f3d0438-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0438-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424492-0c8e-1000-b648-c0a838650000" name="END_OF_CAL_YEAR" isWriteable="false">
+<AttrDefn mdsid="m8a623cb8-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721891381064155">
+<Expr mdsid="m0000000f-01f4-0000-b8d4-24dd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."END_OF_CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-b8d4-24dd00000000-m8f3d0439-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0439-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424493-0c8e-1000-b648-c0a838650000" name="END_OF_CALENDAR_QUARTER" isWriteable="false">
+<AttrDefn mdsid="m8a623cb9-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721901381064155">
+<Expr mdsid="m00000010-01f4-0000-c366-eccb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."END_OF_CALENDAR_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-c366-eccb00000000-m8f3d0437-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d0437-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424494-0c8e-1000-b648-c0a838650000" name="TIME_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623cba-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721911381064155">
+<Expr mdsid="m00000011-01f4-0000-df64-ae9f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-df64-ae9f00000000-m8f3d043a-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d043a-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb8424495-0c8e-1000-b648-c0a838650000" name="WEEK_ENDING_DATE" isWriteable="false">
+<AttrDefn mdsid="m8a623cbb-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721921381064155">
+<Expr mdsid="m00000012-01f4-0000-5264-183500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."WEEK_ENDING_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-5264-183500000000-m8f3d043b-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3d043b-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mec453d50-0c8e-1000-b648-c0a838650000" name="YEAR_QUARTER" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000013-01f4-0000-4715-7cc900000000" name="Expr">
+<ExprText><![CDATA[Cast("%1" AS CHAR ) || ' - ' ||   Cast("%2" AS CHAR )]]></ExprText>
+<ExprTextDesc><![CDATA[Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_YEAR" AS CHAR ) || ' - ' ||   Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_QUARTER_NUMBER" AS CHAR )]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-4715-7cc900000000-mb8424489-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424489-0c8e-1000-b648-c0a838650000"/>
+<RefObject refId="m00000013-01f4-0000-4715-7cc900000000-mb8424487-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424487-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m8a623cc6-0c8f-1000-91b2-0a0666310000" name="AD_3900:3722031381064155">
+<Expr mdsid="m00000014-01f4-0000-2028-405100000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mec80bfb0-0c8e-1000-b648-c0a838650000" name="YEAR_MONTH" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000015-01f4-0000-b1c5-28e100000000" name="Expr">
+<ExprText><![CDATA[Cast("%1" AS CHAR ) || ' - ' || Cast("%2" AS CHAR ) ]]></ExprText>
+<ExprTextDesc><![CDATA[Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_YEAR" AS CHAR ) || ' - ' || Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_MONTH_NUMBER" AS CHAR ) ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-b1c5-28e100000000-mb8424489-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424489-0c8e-1000-b648-c0a838650000"/>
+<RefObject refId="m00000015-01f4-0000-b1c5-28e100000000-mb8424486-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424486-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m8a623cc7-0c8f-1000-91b2-0a0666310000" name="AD_3900:3722041381064155">
+<Expr mdsid="m00000016-01f4-0000-2328-099000000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mec899950-0c8e-1000-b648-c0a838650000" name="YEAR_MONTH_WEEK" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000017-01f4-0000-9971-e0cd00000000" name="Expr">
+<ExprText><![CDATA[Cast("%1" AS CHAR ) || ' - ' ||
+Cast("%2" AS CHAR ) || ' - '
+ || Cast("%3" AS CHAR )]]></ExprText>
+<ExprTextDesc><![CDATA[Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_YEAR" AS CHAR ) || ' - ' ||
+Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_MONTH_NUMBER" AS CHAR ) || ' - '
+ || Cast("VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_WEEK_NUMBER" AS CHAR )]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-9971-e0cd00000000-mb8424489-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424489-0c8e-1000-b648-c0a838650000"/>
+<RefObject refId="m00000017-01f4-0000-9971-e0cd00000000-mb8424486-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424486-0c8e-1000-b648-c0a838650000"/>
+<RefObject refId="m00000017-01f4-0000-9971-e0cd00000000-mb8424488-0c8e-1000-b648-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424488-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="m8a623cc8-0c8f-1000-91b2-0a0666310000" name="AD_3900:3722051381064155">
+<Expr mdsid="m00000018-01f4-0000-69ed-262300000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mb8424496-0c8e-1000-b648-c0a838650000" name="PK_DIM_TIMES" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mb8424496-0c8e-1000-b648-c0a838650000-mb8424494-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b8424480-0c8e-1000-b648-c0a838650000.xml#mb8424494-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mb8424480-0c8e-1000-b648-c0a838650000-mb8424482-0c8e-1000-b648-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/b8424482-0c8e-1000-b648-c0a838650000.xml#mb8424482-0c8e-1000-b648-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

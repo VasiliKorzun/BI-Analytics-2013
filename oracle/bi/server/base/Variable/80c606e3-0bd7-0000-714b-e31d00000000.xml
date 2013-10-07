@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c606e3-0bd7-0000-714b-e31d00000000" name="GLOBAL_CURRENCY2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<Expr mdsid="m00000001-01f4-0000-c44f-e6fd00000000" name="Expr">
+<ExprText><![CDATA['EUR']]></ExprText>
+<ExprTextDesc><![CDATA['EUR']]></ExprTextDesc>
+</Expr>
+</Variable>

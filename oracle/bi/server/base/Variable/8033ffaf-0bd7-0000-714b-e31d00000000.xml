@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m8033ffaf-0bd7-0000-714b-e31d00000000" name="UA_CURRENT_DATE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/8033ffb4-0bd9-0000-714b-e31d00000000.xml#m8033ffb4-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Usage Accelerator Variable.  Stores the last date the ETL process was run. ]]></Description>
+<Expr mdsid="m00000001-01f4-0000-dea9-e77800000000" name="Expr">
+<ExprText><![CDATA[ TIMESTAMP '2004-03-01 00:00:00']]></ExprText>
+<ExprTextDesc><![CDATA[ TIMESTAMP '2004-03-01 00:00:00']]></ExprTextDesc>
+</Expr>
+</Variable>

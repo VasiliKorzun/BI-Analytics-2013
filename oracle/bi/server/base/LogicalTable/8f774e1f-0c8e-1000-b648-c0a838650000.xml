@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8f774e1f-0c8e-1000-b648-c0a838650000" name="DIM_GEO_LOCATIONS_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8f774e10-0c8e-1000-b648-c0a838650000.xml#m8f774e10-0c8e-1000-b648-c0a838650000">
+<LogicalColumn mdsid="m8f774e22-0c8e-1000-b648-c0a838650000" name="GEO_CONTINENT_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623c8a-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721431381064155">
+<Expr mdsid="m00000001-01f4-0000-75e4-052d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_CONTINENT_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-75e4-052d00000000-m8f3cb611-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb611-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e23-0c8e-1000-b648-c0a838650000" name="GEO_CONTINENT_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c8b-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721441381064155">
+<Expr mdsid="m00000002-01f4-0000-55a7-31f300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_CONTINENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-55a7-31f300000000-m8f3cb612-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb612-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e24-0c8e-1000-b648-c0a838650000" name="GEO_COUNTRY_CODE2" isWriteable="false">
+<AttrDefn mdsid="m8a623c8c-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721451381064155">
+<Expr mdsid="m00000003-01f4-0000-5c12-227200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_COUNTRY_CODE2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5c12-227200000000-m8f3cb613-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb613-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e25-0c8e-1000-b648-c0a838650000" name="GEO_COUNTRY_CODE3" isWriteable="false">
+<AttrDefn mdsid="m8a623c8d-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721461381064155">
+<Expr mdsid="m00000004-01f4-0000-b329-a64c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_COUNTRY_CODE3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-b329-a64c00000000-m8f3cb614-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb614-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e26-0c8e-1000-b648-c0a838650000" name="GEO_COUNTRY_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623c8e-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721471381064155">
+<Expr mdsid="m00000005-01f4-0000-e242-6c6900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_COUNTRY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-e242-6c6900000000-m8f3cb615-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb615-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e27-0c8e-1000-b648-c0a838650000" name="GEO_COUNTRY_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c8f-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721481381064155">
+<Expr mdsid="m00000006-01f4-0000-9f2d-260400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-9f2d-260400000000-m8f3cb616-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb616-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e28-0c8e-1000-b648-c0a838650000" name="GEO_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c90-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721491381064155">
+<Expr mdsid="m00000007-01f4-0000-1ef3-5fdc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-1ef3-5fdc00000000-m8f3cb617-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb617-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2a-0c8e-1000-b648-c0a838650000" name="GEO_REGION_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623c91-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721501381064155">
+<Expr mdsid="m00000008-01f4-0000-0144-179b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_REGION_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-0144-179b00000000-m8f3cb619-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb619-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2b-0c8e-1000-b648-c0a838650000" name="GEO_REGION_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623c92-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721511381064155">
+<Expr mdsid="m00000009-01f4-0000-2c8a-c15a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-2c8a-c15a00000000-m8f3cb61a-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61a-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2c-0c8e-1000-b648-c0a838650000" name="GEO_REGION_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c93-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721521381064155">
+<Expr mdsid="m0000000a-01f4-0000-6df3-3aff00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-6df3-3aff00000000-m8f3cb61b-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61b-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2d-0c8e-1000-b648-c0a838650000" name="GEO_SURR_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c94-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721531381064155">
+<Expr mdsid="m0000000b-01f4-0000-609f-cbb600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-609f-cbb600000000-m8f3cb61c-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61c-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2e-0c8e-1000-b648-c0a838650000" name="GEO_SYSTEM_CODE" isWriteable="false">
+<AttrDefn mdsid="m8a623c95-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721541381064155">
+<Expr mdsid="m0000000c-01f4-0000-96d3-e61a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-96d3-e61a00000000-m8f3cb61d-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61d-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e2f-0c8e-1000-b648-c0a838650000" name="GEO_SYSTEM_DESC" isWriteable="false">
+<AttrDefn mdsid="m8a623c96-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721551381064155">
+<Expr mdsid="m0000000d-01f4-0000-d046-a63f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-d046-a63f00000000-m8f3cb61e-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61e-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e30-0c8e-1000-b648-c0a838650000" name="GEO_SYSTEM_ID" isWriteable="false">
+<AttrDefn mdsid="m8a623c97-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721561381064155">
+<Expr mdsid="m0000000e-01f4-0000-122d-d25900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."GEO_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-122d-d25900000000-m8f3cb61f-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb61f-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e33-0c8e-1000-b648-c0a838650000" name="VALID_FROM" isWriteable="false">
+<AttrDefn mdsid="m8a623c98-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721571381064155">
+<Expr mdsid="m0000000f-01f4-0000-4de1-301800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-4de1-301800000000-m8f3cb622-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb622-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8f774e34-0c8e-1000-b648-c0a838650000" name="VALID_TO" isWriteable="false">
+<AttrDefn mdsid="m8a623c99-0c8f-1000-91b2-0a0666310000" name="AD_3900:3721581381064155">
+<Expr mdsid="m00000010-01f4-0000-a50a-882600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_GEO_LOCATIONS_SCD"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-a50a-882600000000-m8f3cb623-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cb610-0c8e-1000-b648-c0a838650000.xml#m8f3cb623-0c8e-1000-b648-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8f774e35-0c8e-1000-b648-c0a838650000" name="PK_DIM_GEO_LOCATIONS_SCD" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8f774e35-0c8e-1000-b648-c0a838650000-m8f774e2d-0c8e-1000-b648-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8f774e1f-0c8e-1000-b648-c0a838650000.xml#m8f774e2d-0c8e-1000-b648-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8f774e1f-0c8e-1000-b648-c0a838650000-m8f774e21-0c8e-1000-b648-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8f774e21-0c8e-1000-b648-c0a838650000.xml#m8f774e21-0c8e-1000-b648-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

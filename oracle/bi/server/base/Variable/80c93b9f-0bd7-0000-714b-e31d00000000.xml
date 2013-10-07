@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m80c93b9f-0bd7-0000-714b-e31d00000000" name="HR_ORG_HIER_NAME" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" securityMask="2" isSessionVar="true" initBlockRef="/oracle/bi/server/base/InitBlock/80c93ba0-0bd9-0000-714b-e31d00000000.xml#m80c93ba0-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[The Employee Organization Hierarchy name that is used within the user session.  The value will be dynamcially set by the dashboard prompt.]]></Description>
+<Expr mdsid="m00000001-01f4-0000-b186-9deb00000000" name="Expr">
+<ExprText><![CDATA['Global']]></ExprText>
+<ExprTextDesc><![CDATA['Global']]></ExprTextDesc>
+</Expr>
+</Variable>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80c04796-0bd9-0000-714b-e31d00000000" name="Companies" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseInit="true" isEnabled="false" refreshPeriod="86400">
+<Description><![CDATA[Retrieve the companies from OLTP application, corresponding to the login user.]]></Description>
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT DISTINCT
+'COMPANY',
+C.BUSINESS_UNIT
+FROM
+PSOPRDEFN A, PS_SCRTY_TBL_DEPT B, PS_BU_DEPT_VW C, PS_BUS_UNIT_TBL_GL D
+WHERE
+A.ROWSECCLASS = B.ROWSECCLASS AND
+B.ACCESS_CD = 'Y' AND
+B.DEPTID = C.DEPTID AND
+C.BUSINESS_UNIT = D.BUSINESS_UNIT AND
+A.OPRID = ':USER']]></Value>
+</DBMapItem>
+<InitString><![CDATA[SELECT DISTINCT
+'COMPANY',
+C.BUSINESS_UNIT
+FROM
+PSOPRDEFN A, PS_SCRTY_TBL_DEPT B, PS_BU_DEPT_VW C, PS_BUS_UNIT_TBL_GL D
+WHERE
+A.ROWSECCLASS = B.ROWSECCLASS AND
+B.ACCESS_CD = 'Y' AND
+B.DEPTID = C.DEPTID AND
+C.BUSINESS_UNIT = D.BUSINESS_UNIT AND
+A.OPRID = ':USER']]></InitString>
+</InitBlock>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="m803610e0-0bd7-0000-714b-e31d00000000" name="LAST_SYND_W_YEAR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/803610e8-0bd9-0000-714b-e31d00000000.xml#m803610e8-0bd9-0000-714b-e31d00000000">
+<Description><![CDATA[Returns Pharma's last syndicated data weekly year]]></Description>
+<Expr mdsid="m00000001-01f4-0000-67df-b68b00000000" name="Expr">
+<ExprText><![CDATA[2001]]></ExprText>
+<ExprTextDesc><![CDATA[2001]]></ExprTextDesc>
+</Expr>
+</Variable>

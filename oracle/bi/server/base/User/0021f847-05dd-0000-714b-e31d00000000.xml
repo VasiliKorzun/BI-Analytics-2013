@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<User mdsid="m0021f847-05dd-0000-714b-e31d00000000" name="Administrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" fullName="Oracle BI Applications Administrator" guid="99FEDB09F0F5DA90E577784E5F9FDC23">
+<Description><![CDATA[This user is provisioned "Supplier Customer Service Representative" Job Role, "All Fusion Roles - Vision Operations" Data Role,]]></Description>
+<RefGroups>
+<RefGroup refId="m0021f847-05dd-0000-714b-e31d00000000-m0023e1a2-106e-0000-714b-e31d00000000" groupRef="/oracle/bi/server/base/Group/0023e1a2-106e-0000-714b-e31d00000000.xml#m0023e1a2-106e-0000-714b-e31d00000000"/>
+</RefGroups>
+</User>

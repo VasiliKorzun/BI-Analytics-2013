@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Variable mdsid="mb235f550-0c8e-1000-9e70-c0a838650000" name="CUR_YEAR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
-<Expr mdsid="m00000001-01f4-0000-c644-5ed200000000" name="Expr">
-<ExprText><![CDATA['2013']]></ExprText>
-<ExprTextDesc><![CDATA['2013']]></ExprTextDesc>
-</Expr>
-</Variable>

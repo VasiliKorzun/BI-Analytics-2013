@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Group mdsid="m869c0af0-0c8f-1000-9dc2-c0a838650000" name="OnlyActualUser" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" guid="OnlyActualUser" displayName="OnlyActualUser">
-<Description><![CDATA[Can manage only actual report]]></Description>
-</Group>

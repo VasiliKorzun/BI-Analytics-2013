@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8367fee5-0c8e-1000-be8d-c0a838650000" name="TARIFFS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/8367fe80-0c8e-1000-be8d-c0a838650000.xml#m8367fe80-0c8e-1000-be8d-c0a838650000">
+<LogicalColumn mdsid="m8367fee8-0c8e-1000-be8d-c0a838650000" name="INSERT_DT" isWriteable="false">
+<AttrDefn mdsid="m8367fef2-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041001380623094">
+<Expr mdsid="m00000001-01f4-0000-0913-5ff500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."INSERT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0913-5ff500000000-m576a17ad-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17ad-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367fee9-0c8e-1000-be8d-c0a838650000" name="TARIFF_CODE" isWriteable="false">
+<AttrDefn mdsid="m8367fef3-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041011380623094">
+<Expr mdsid="m00000002-01f4-0000-596f-07c400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-596f-07c400000000-m576a17ae-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17ae-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feea-0c8e-1000-be8d-c0a838650000" name="TARIFF_ID" isWriteable="false">
+<AttrDefn mdsid="m8367fef4-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041021380623094">
+<Expr mdsid="m00000003-01f4-0000-b47d-b18500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-b47d-b18500000000-m576a17af-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17af-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feeb-0c8e-1000-be8d-c0a838650000" name="TARIFF_MAX_PAYMENT" isWriteable="false">
+<AttrDefn mdsid="m8367fef5-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041031380623094">
+<Expr mdsid="m00000004-01f4-0000-59a3-885000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_MAX_PAYMENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-59a3-885000000000-m576a17b0-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b0-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feec-0c8e-1000-be8d-c0a838650000" name="TARIFF_MIN_PAYMENT" isWriteable="false">
+<AttrDefn mdsid="m8367fef6-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041041380623094">
+<Expr mdsid="m00000005-01f4-0000-82c3-908100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_MIN_PAYMENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-82c3-908100000000-m576a17b1-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b1-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feed-0c8e-1000-be8d-c0a838650000" name="TARIFF_NAME" isWriteable="false">
+<AttrDefn mdsid="m8367fef7-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041051380623094">
+<Expr mdsid="m00000006-01f4-0000-82f4-d27500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-82f4-d27500000000-m576a17b2-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b2-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feee-0c8e-1000-be8d-c0a838650000" name="TARIFF_PAYMENT_SUM" isWriteable="false">
+<AttrDefn mdsid="m8367fef8-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041061380623094">
+<Expr mdsid="m00000007-01f4-0000-48ac-985a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_PAYMENT_SUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-48ac-985a00000000-m576a17b3-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b3-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367feef-0c8e-1000-be8d-c0a838650000" name="TARIFF_TYPE" isWriteable="false">
+<AttrDefn mdsid="m8367fef9-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041071380623094">
+<Expr mdsid="m00000008-01f4-0000-acc3-8cfe00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."TARIFF_TYPE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-acc3-8cfe00000000-m576a17b4-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b4-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8367fef0-0c8e-1000-be8d-c0a838650000" name="UPDATE_DT" isWriteable="false">
+<AttrDefn mdsid="m8367fefa-0c8e-1000-be8d-c0a838650000" name="AD_3900:4041081380623094">
+<Expr mdsid="m00000009-01f4-0000-16a2-762100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_TARIFFS"."UPDATE_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-16a2-762100000000-m576a17b5-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b5-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8367fef1-0c8e-1000-be8d-c0a838650000" name="PK_TARIFFS" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8367fef1-0c8e-1000-be8d-c0a838650000-m8367feea-0c8e-1000-be8d-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feea-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m8367fee5-0c8e-1000-be8d-c0a838650000-m8367fee7-0c8e-1000-be8d-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8367fee7-0c8e-1000-be8d-c0a838650000.xml#m8367fee7-0c8e-1000-be8d-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

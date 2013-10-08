@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m340656c5-0c8e-1000-884c-c0a838650000" name="Anton_Tserakhau_SH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/2e7fb250-0c8e-1000-884c-c0a838650000.xml#m2e7fb250-0c8e-1000-884c-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656c8-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656c8-0c8e-1000-884c-c0a838650000.xml#m340656c8-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656c9-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656c9-0c8e-1000-884c-c0a838650000.xml#m340656c9-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656ca-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656ca-0c8e-1000-884c-c0a838650000.xml#m340656ca-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656cb-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656cb-0c8e-1000-884c-c0a838650000.xml#m340656cb-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656cc-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656cc-0c8e-1000-884c-c0a838650000.xml#m340656cc-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656cd-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656cd-0c8e-1000-884c-c0a838650000.xml#m340656cd-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656c6-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656c6-0c8e-1000-884c-c0a838650000.xml#m340656c6-0c8e-1000-884c-c0a838650000"/>
+<RefPresentationTable refId="m340656c5-0c8e-1000-884c-c0a838650000-m340656c7-0c8e-1000-884c-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/340656c7-0c8e-1000-884c-c0a838650000.xml#m340656c7-0c8e-1000-884c-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

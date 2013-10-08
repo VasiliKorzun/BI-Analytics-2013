@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m340656c9-0c8e-1000-884c-c0a838650000" name="COSTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/340656c5-0c8e-1000-884c-c0a838650000.xml#m340656c5-0c8e-1000-884c-c0a838650000">
+<PresentationColumn mdsid="m34062fea-0c8e-1000-884c-c0a838650000" name="CHANNEL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb264-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062feb-0c8e-1000-884c-c0a838650000" name="PROD_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb265-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fec-0c8e-1000-884c-c0a838650000" name="PROMO_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb266-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fed-0c8e-1000-884c-c0a838650000" name="TIME_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb267-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fee-0c8e-1000-884c-c0a838650000" name="UNIT_COST" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb268-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fef-0c8e-1000-884c-c0a838650000" name="UNIT_PRICE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb261-0c8e-1000-884c-c0a838650000.xml#m2e7fb269-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

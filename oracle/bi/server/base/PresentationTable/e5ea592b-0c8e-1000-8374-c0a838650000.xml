@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me5ea592b-0c8e-1000-8374-c0a838650000" name="Dishes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e5ea5926-0c8e-1000-8374-c0a838650000.xml#me5ea5926-0c8e-1000-8374-c0a838650000">
+<PresentationColumn mdsid="me5ea5918-0c8e-1000-8374-c0a838650000" name="Dish identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb8-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5919-0c8e-1000-8374-c0a838650000" name="Dish code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb3-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591a-0c8e-1000-8374-c0a838650000" name="Dish name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb9-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591b-0c8e-1000-8374-c0a838650000" name="Dish description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb7-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591c-0c8e-1000-8374-c0a838650000" name="Dish cuisine identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb5-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591d-0c8e-1000-8374-c0a838650000" name="Dish cuisine name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb6-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591e-0c8e-1000-8374-c0a838650000" name="Dish cuisine description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb4-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea591f-0c8e-1000-8374-c0a838650000" name="Dish type identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccbb-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5920-0c8e-1000-8374-c0a838650000" name="Dish type name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccbc-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5921-0c8e-1000-8374-c0a838650000" name="Dish type description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccba-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5922-0c8e-1000-8374-c0a838650000" name="Dish weight" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccbd-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5923-0c8e-1000-8374-c0a838650000" name="Start price for unit ($)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccbe-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me5ea592b-0c8e-1000-8374-c0a838650000-me5ea5934-0c8e-1000-8374-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5934-0c8e-1000-8374-c0a838650000.xml#me5ea5934-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationHierarchy refId="me5ea592b-0c8e-1000-8374-c0a838650000-me5ea5935-0c8e-1000-8374-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5935-0c8e-1000-8374-c0a838650000.xml#me5ea5935-0c8e-1000-8374-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

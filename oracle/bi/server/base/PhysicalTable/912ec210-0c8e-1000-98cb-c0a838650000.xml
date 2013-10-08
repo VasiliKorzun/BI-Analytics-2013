@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m912ec210-0c8e-1000-98cb-c0a838650000" name="Operations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c40-0c8e-1000-98cb-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[FCT_OPERATIONS_DD]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m912ec211-0c8e-1000-98cb-c0a838650000" name="DISH_ID" dataType="DOUBLE" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c41-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec212-0c8e-1000-98cb-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c42-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec213-0c8e-1000-98cb-c0a838650000" name="FCT_TOTAL_SALES_DOL" dataType="DOUBLE" scale="5" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c43-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec214-0c8e-1000-98cb-c0a838650000" name="FCT_UNIT_AMOUNT" dataType="DOUBLE" scale="5" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c44-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec215-0c8e-1000-98cb-c0a838650000" name="GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c45-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec216-0c8e-1000-98cb-c0a838650000" name="PERIOD_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c46-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912ec217-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/90510c40-0c8e-1000-98cb-c0a838650000.xml#m90510c47-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m91e4cba0-0c8e-1000-98cb-c0a838650000" name="Operations_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m91e67950-0c8e-1000-98cb-c0a838650000">
+<RefColumns>
+<RefColumn refId="m91e4cba0-0c8e-1000-98cb-c0a838650000-m912ec217-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912ec210-0c8e-1000-98cb-c0a838650000.xml#m912ec217-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m91e73ca0-0c8e-1000-98cb-c0a838650000" name="Operations_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/912d3b70-0c8e-1000-98cb-c0a838650000.xml#m91e93870-0c8e-1000-98cb-c0a838650000">
+<RefColumns>
+<RefColumn refId="m91e73ca0-0c8e-1000-98cb-c0a838650000-m912ec212-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912ec210-0c8e-1000-98cb-c0a838650000.xml#m912ec212-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m91e98690-0c8e-1000-98cb-c0a838650000" name="Operations_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m91eb3440-0c8e-1000-98cb-c0a838650000">
+<RefColumns>
+<RefColumn refId="m91e98690-0c8e-1000-98cb-c0a838650000-m912ec211-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912ec210-0c8e-1000-98cb-c0a838650000.xml#m912ec211-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m92e8f530-0c8e-1000-98cb-c0a838650000" name="Operations_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/912461d0-0c8e-1000-98cb-c0a838650000.xml#m92ec2980-0c8e-1000-98cb-c0a838650000">
+<RefColumns>
+<RefColumn refId="m92e8f530-0c8e-1000-98cb-c0a838650000-m912ec216-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912ec210-0c8e-1000-98cb-c0a838650000.xml#m912ec216-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

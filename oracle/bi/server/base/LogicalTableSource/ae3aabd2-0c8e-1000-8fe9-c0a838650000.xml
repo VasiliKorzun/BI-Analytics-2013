@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mae3aabd2-0c8e-1000-8fe9-c0a838650000" name="DIM_GEO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd0-0c8e-1000-8fe9-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-3b5f-12bd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Location"."Country Code A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-3b5f-12bd00000000-mae3aabd3-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd3-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-d01a-cc2d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_CODE_A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-d01a-cc2d00000000-mad8e8d57-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d57-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-4b87-79c500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Location"."Country"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4b87-79c500000000-mae3aabd4-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd4-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-9959-898600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-9959-898600000000-mad8e8d58-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d58-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-c540-6b5e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Location"."Country Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-c540-6b5e00000000-mae3aabd5-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd5-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-f92f-e09f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f92f-e09f00000000-mad8e8d59-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d59-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-bc56-357c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Location"."Part"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-bc56-357c00000000-mae3aabd8-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd8-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-b12d-62a800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."PART_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-b12d-62a800000000-mad8e8d5c-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5c-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-8ecb-f8db00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Location"."Region"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-8ecb-f8db00000000-mae3aabdb-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabdb-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-7bfe-f9d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-7bfe-f9d700000000-mad8e8d5f-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5f-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d56-0c8e-1000-8fe9-c0a838650000">
+</Link>
+<WhereClause mdsid="m0000000b-01f4-0000-85ce-51c300000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000c-01f4-0000-a205-263700000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000d-01f4-0000-3b02-18c300000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

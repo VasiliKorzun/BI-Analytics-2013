@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mb5c4a4e7-0c8f-1000-9632-c0a838650000" name="OPERATIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/b5c4a4e3-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e3-0c8f-1000-9632-c0a838650000">
+<PresentationColumn mdsid="mb5c47df5-0c8f-1000-9632-c0a838650000" name="OPERATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93ad-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47df6-0c8f-1000-9632-c0a838650000" name="OPERATION_MAX_AMOUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93ae-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47df7-0c8f-1000-9632-c0a838650000" name="OPERATION_METHOD_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93af-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47df8-0c8f-1000-9632-c0a838650000" name="OPERATION_MIN_AMOUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93b0-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47df9-0c8f-1000-9632-c0a838650000" name="OPERATION_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93b1-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dfa-0c8f-1000-9632-c0a838650000" name="OPERATION_METHOD_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93b2-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dfb-0c8f-1000-9632-c0a838650000" name="OPERATION_METHOD_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93b3-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dfc-0c8f-1000-9632-c0a838650000" name="OPERATION_METHOD_TYPE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93ac-0c8f-1000-9632-c0a838650000.xml#mb58b93b4-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

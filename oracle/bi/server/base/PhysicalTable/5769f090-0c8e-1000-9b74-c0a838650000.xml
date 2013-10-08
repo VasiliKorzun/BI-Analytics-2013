@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m5769f090-0c8e-1000-9b74-c0a838650000" name="DIM_CUSTOMERS_REC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/57627680-0c8e-1000-9b74-c0a838650000.xml#m57627680-0c8e-1000-9b74-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT * FROM DIM_CUSTOMERS]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m5769f091-0c8e-1000-9b74-c0a838650000" name="CUST_BALANCE" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f092-0c8e-1000-9b74-c0a838650000" name="CUST_EMAIL" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f093-0c8e-1000-9b74-c0a838650000" name="CUST_FIRST_NAME" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f094-0c8e-1000-9b74-c0a838650000" name="CUST_GENDER" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f095-0c8e-1000-9b74-c0a838650000" name="CUST_GEO_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f096-0c8e-1000-9b74-c0a838650000" name="CUST_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f097-0c8e-1000-9b74-c0a838650000" name="CUST_LAST_NAME" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f098-0c8e-1000-9b74-c0a838650000" name="CUST_LEVEL_INCOME" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f099-0c8e-1000-9b74-c0a838650000" name="CUST_PASS_NUMBER" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f09a-0c8e-1000-9b74-c0a838650000" name="CUST_YEAR_OF_BIRTH" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f09b-0c8e-1000-9b74-c0a838650000" name="INSERT_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5769f09c-0c8e-1000-9b74-c0a838650000" name="UPDATE_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m5769f09d-0c8e-1000-9b74-c0a838650000" name="PK_DIM_CUSTOMERS">
+<RefColumns>
+<RefColumn refId="m5769f09d-0c8e-1000-9b74-c0a838650000-m5769f096-0c8e-1000-9b74-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/5769f090-0c8e-1000-9b74-c0a838650000.xml#m5769f096-0c8e-1000-9b74-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

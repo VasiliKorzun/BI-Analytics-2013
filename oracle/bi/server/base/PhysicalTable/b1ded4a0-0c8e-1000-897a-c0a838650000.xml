@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mb1ded4a0-0c8e-1000-897a-c0a838650000" name="FCT_OPERATIONS_AGR_DD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[Select event_dt, sum(fct_total_sales_dol) as fct_total_sales_dol, sum(fct_unit_amount) as fct_unit_amount from fct_operations_dd where extract(month from event_dt)=valueof(Anton_tserakhau_v_cur_month) group by event_dt ]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="mb1ded4a1-0c8e-1000-897a-c0a838650000" name="EVENT_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1ded4a2-0c8e-1000-897a-c0a838650000" name="FCT_TOTAL_SALES_DOL" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1ded4a3-0c8e-1000-897a-c0a838650000" name="FCT_UNIT_AMOUNT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

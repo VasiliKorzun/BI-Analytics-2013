@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m820d5080-0c8e-1000-be8d-c0a838650000" name="DIM_OPERATION_METHODS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/57627680-0c8e-1000-9b74-c0a838650000.xml#m57627680-0c8e-1000-9b74-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT DISTINCT OPERATION_METHOD_ID, OPERATION_METHOD_NAME, OPERATION_METHOD_TYPE, OPERATION_METHOD_TYPE_ID
+FROM DIM_OPERATIONS
+WHERE OPERATION_METHOD_ID IS NOT NULL]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m820d5084-0c8e-1000-be8d-c0a838650000" name="OPERATION_METHOD_ID" dataType="DOUBLE" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m820d5085-0c8e-1000-be8d-c0a838650000" name="OPERATION_METHOD_NAME" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m820d5086-0c8e-1000-be8d-c0a838650000" name="OPERATION_METHOD_TYPE" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m820d5087-0c8e-1000-be8d-c0a838650000" name="OPERATION_METHOD_TYPE_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m82a21670-0c8e-1000-be8d-c0a838650000" name="PK_OP_M">
+<RefColumns>
+<RefColumn refId="m82a21670-0c8e-1000-be8d-c0a838650000-m820d5084-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/820d5080-0c8e-1000-be8d-c0a838650000.xml#m820d5084-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

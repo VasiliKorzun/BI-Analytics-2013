@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mb5c4a4eb-0c8f-1000-9632-c0a838650000" name="CUSTOMERS_SEND" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/b5c4a4e3-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e3-0c8f-1000-9632-c0a838650000">
+<PresentationColumn mdsid="mb5c47e27-0c8f-1000-9632-c0a838650000" name="CUST_BALANCE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e3-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e28-0c8f-1000-9632-c0a838650000" name="CUST_EMAIL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e4-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e29-0c8f-1000-9632-c0a838650000" name="CUST_FIRST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e5-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2a-0c8f-1000-9632-c0a838650000" name="CUST_GENDER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e6-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2b-0c8f-1000-9632-c0a838650000" name="CUST_GEO_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e7-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2c-0c8f-1000-9632-c0a838650000" name="CUST_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e8-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2d-0c8f-1000-9632-c0a838650000" name="CUST_LAST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93e9-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2e-0c8f-1000-9632-c0a838650000" name="CUST_LEVEL_INCOME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93ea-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e2f-0c8f-1000-9632-c0a838650000" name="CUST_PASS_NUMBER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93eb-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e30-0c8f-1000-9632-c0a838650000" name="CUST_YEAR_OF_BIRTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93ec-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e31-0c8f-1000-9632-c0a838650000" name="INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93ed-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e32-0c8f-1000-9632-c0a838650000" name="UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93e2-0c8f-1000-9632-c0a838650000.xml#mb58b93ee-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

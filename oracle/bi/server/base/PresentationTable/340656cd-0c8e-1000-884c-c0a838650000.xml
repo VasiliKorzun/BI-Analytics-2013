@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m340656cd-0c8e-1000-884c-c0a838650000" name="PROMOTIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/340656c5-0c8e-1000-884c-c0a838650000.xml#m340656c5-0c8e-1000-884c-c0a838650000">
+<PresentationColumn mdsid="m340656c1-0c8e-1000-884c-c0a838650000" name="PROMO_BEGIN_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb30d-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m340656c2-0c8e-1000-884c-c0a838650000" name="PROMO_CATEGORY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb30e-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m340656c3-0c8e-1000-884c-c0a838650000" name="PROMO_CATEGORY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb30f-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m340656c4-0c8e-1000-884c-c0a838650000" name="PROMO_COST" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb310-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb0-0c8e-1000-884c-c0a838650000" name="PROMO_END_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb311-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb1-0c8e-1000-884c-c0a838650000" name="PROMO_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb312-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb2-0c8e-1000-884c-c0a838650000" name="PROMO_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb313-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb3-0c8e-1000-884c-c0a838650000" name="PROMO_SUBCATEGORY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb314-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb4-0c8e-1000-884c-c0a838650000" name="PROMO_SUBCATEGORY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb315-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb5-0c8e-1000-884c-c0a838650000" name="PROMO_TOTAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb316-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb6-0c8e-1000-884c-c0a838650000" name="PROMO_TOTAL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb30a-0c8e-1000-884c-c0a838650000.xml#m2e7fb317-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

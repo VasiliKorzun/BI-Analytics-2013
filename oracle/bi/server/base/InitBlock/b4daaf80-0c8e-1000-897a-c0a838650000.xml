@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="mb4daaf80-0c8e-1000-897a-c0a838650000" name="Anton_Tserakhau_Init_Blok_months" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="86400" baseTime="2013-10-02 12:25:12" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/555bd110-0c8e-1000-a585-c0a838650000.xml#m555bd110-0c8e-1000-a585-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[Select extract(Month from Sysdate) from dual]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="mb4daaf80-0c8e-1000-897a-c0a838650000-mb4f4ee40-0c8e-1000-897a-c0a838650000" variableRef="/oracle/bi/server/base/Variable/b4f4ee40-0c8e-1000-897a-c0a838650000.xml#mb4f4ee40-0c8e-1000-897a-c0a838650000"/>
+</RefVariables>
+<InitString><![CDATA[Select extract(Month from Sysdate) from dual]]></InitString>
+</InitBlock>

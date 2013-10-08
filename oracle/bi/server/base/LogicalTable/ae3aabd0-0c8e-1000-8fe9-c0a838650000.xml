@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mae3aabd0-0c8e-1000-8fe9-c0a838650000" name="Location" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/85722660-0c8e-1000-99b6-c0a838650000.xml#m85722660-0c8e-1000-99b6-c0a838650000">
+<LogicalColumn mdsid="mae3aabd3-0c8e-1000-8fe9-c0a838650000" name="Country Code A3" isWriteable="false">
+<AttrDefn mdsid="mc3aab193-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122321381160260">
+<Expr mdsid="m00000001-01f4-0000-6e17-4e5e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_CODE_A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-6e17-4e5e00000000-mad8e8d57-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d57-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mae3aabd4-0c8e-1000-8fe9-c0a838650000" name="Country" isWriteable="false">
+<AttrDefn mdsid="mc3aab194-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122331381160260">
+<Expr mdsid="m00000002-01f4-0000-7760-129d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-7760-129d00000000-mad8e8d58-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d58-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mae3aabd5-0c8e-1000-8fe9-c0a838650000" name="Country Key" isWriteable="false">
+<AttrDefn mdsid="mc3aab195-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122341381160260">
+<Expr mdsid="m00000003-01f4-0000-7d63-ee4100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."COUNTRY_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-7d63-ee4100000000-mad8e8d59-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d59-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mae3aabd8-0c8e-1000-8fe9-c0a838650000" name="Part" isWriteable="false">
+<AttrDefn mdsid="mc3aab196-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122351381160260">
+<Expr mdsid="m00000004-01f4-0000-168d-b7c600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."PART_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-168d-b7c600000000-mad8e8d5c-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5c-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mae3aabdb-0c8e-1000-8fe9-c0a838650000" name="Region" isWriteable="false">
+<AttrDefn mdsid="mc3aab25a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4124311381160260">
+<Expr mdsid="m00000005-01f4-0000-0b23-26ea00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_GEO"."REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-0b23-26ea00000000-mad8e8d5f-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5f-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mae3aabe0-0c8e-1000-8fe9-c0a838650000" name="DIM_GEO_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mae3aabe0-0c8e-1000-8fe9-c0a838650000-mae3aabd5-0c8e-1000-8fe9-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd5-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mae3aabd0-0c8e-1000-8fe9-c0a838650000-mae3aabd2-0c8e-1000-8fe9-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/ae3aabd2-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd2-0c8e-1000-8fe9-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

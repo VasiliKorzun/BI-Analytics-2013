@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m912461d0-0c8e-1000-98cb-c0a838650000" name="Periods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be20-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m912461d1-0c8e-1000-98cb-c0a838650000" name="END_DT" dataType="DATETIME" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be21-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d2-0c8e-1000-98cb-c0a838650000" name="PERIOD_CODE" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be22-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d3-0c8e-1000-98cb-c0a838650000" name="PERIOD_DESC" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be23-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d4-0c8e-1000-98cb-c0a838650000" name="PERIOD_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be24-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d5-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_DESC" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be25-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d6-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be26-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d7-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_NAME" dataType="VARCHAR" precision="150" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be27-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912461d8-0c8e-1000-98cb-c0a838650000" name="START_DT" dataType="DATETIME" precision="150" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050e530-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m92ec2980-0c8e-1000-98cb-c0a838650000" name="Periods_Key">
+<RefColumns>
+<RefColumn refId="m92ec2980-0c8e-1000-98cb-c0a838650000-m912461d4-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912461d0-0c8e-1000-98cb-c0a838650000.xml#m912461d4-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

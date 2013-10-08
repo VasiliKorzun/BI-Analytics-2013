@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m930eccb0-0c8e-1000-98cb-c0a838650000" name="Dishes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/91bde2b0-0c8e-1000-98cb-c0a838650000.xml#m91bde2b0-0c8e-1000-98cb-c0a838650000">
+<LogicalColumn mdsid="m930eccb8-0c8e-1000-98cb-c0a838650000" name="Dish identifier" isWriteable="false">
+<AttrDefn mdsid="mc3aab0fe-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120831381160260">
+<Expr mdsid="m00000001-01f4-0000-5b1b-237000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-5b1b-237000000000-m911d35e6-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e6-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb3-0c8e-1000-98cb-c0a838650000" name="Dish code" isWriteable="false">
+<AttrDefn mdsid="mc3aab0f7-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120761381160260">
+<Expr mdsid="m00000002-01f4-0000-33ea-5e9c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-33ea-5e9c00000000-m911d35e1-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e1-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb9-0c8e-1000-98cb-c0a838650000" name="Dish name" isWriteable="false">
+<AttrDefn mdsid="mc3aab100-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120851381160260">
+<Expr mdsid="m00000003-01f4-0000-e10b-c81900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-e10b-c81900000000-m911d35e7-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e7-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb7-0c8e-1000-98cb-c0a838650000" name="Dish description" isWriteable="false">
+<AttrDefn mdsid="mc3aab0fd-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120821381160260">
+<Expr mdsid="m00000004-01f4-0000-3643-147e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-3643-147e00000000-m911d35e5-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e5-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb5-0c8e-1000-98cb-c0a838650000" name="Dish cuisine identifier" isWriteable="false">
+<AttrDefn mdsid="mc3aab0fb-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120801381160260">
+<Expr mdsid="m00000005-01f4-0000-d57f-c02400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_CUISINE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-d57f-c02400000000-m911d35e3-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e3-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb6-0c8e-1000-98cb-c0a838650000" name="Dish cuisine name" isWriteable="false">
+<AttrDefn mdsid="mc3aab0fc-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120811381160260">
+<Expr mdsid="m00000006-01f4-0000-cc5d-c26d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_CUISINE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-cc5d-c26d00000000-m911d35e4-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e4-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccb4-0c8e-1000-98cb-c0a838650000" name="Dish cuisine description" isWriteable="false">
+<AttrDefn mdsid="mc3aab0f9-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120781381160260">
+<Expr mdsid="m00000007-01f4-0000-a36e-280700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_CUISINE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-a36e-280700000000-m911d35e2-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e2-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccbb-0c8e-1000-98cb-c0a838650000" name="Dish type identifier" isWriteable="false">
+<AttrDefn mdsid="mc3aab104-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120891381160260">
+<Expr mdsid="m00000008-01f4-0000-2801-555a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-2801-555a00000000-m911d35e9-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e9-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccbc-0c8e-1000-98cb-c0a838650000" name="Dish type name" isWriteable="false">
+<AttrDefn mdsid="mc3aab106-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120911381160260">
+<Expr mdsid="m00000009-01f4-0000-feaa-169e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_TYPE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-feaa-169e00000000-m911d35ea-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35ea-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccba-0c8e-1000-98cb-c0a838650000" name="Dish type description" isWriteable="false">
+<AttrDefn mdsid="mc3aab102-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120871381160260">
+<Expr mdsid="m0000000a-01f4-0000-f34c-a2ec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_TYPE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-f34c-a2ec00000000-m911d35e8-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e8-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccbd-0c8e-1000-98cb-c0a838650000" name="Dish weight" isWriteable="false">
+<AttrDefn mdsid="mc3aab108-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120931381160260">
+<Expr mdsid="m0000000b-01f4-0000-963a-728a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."DISH_WEIGHT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-963a-728a00000000-m911d35eb-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35eb-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m930eccbe-0c8e-1000-98cb-c0a838650000" name="Start price for unit ($)" isWriteable="false">
+<AttrDefn mdsid="mc3aab10a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4120951381160260">
+<Expr mdsid="m0000000c-01f4-0000-e378-db7800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Dishes"."START_UNIT_PRICE_DOL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-e378-db7800000000-m911d35ec-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35ec-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m930eccbf-0c8e-1000-98cb-c0a838650000" name="Dishes_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m930eccbf-0c8e-1000-98cb-c0a838650000-m930eccb8-0c8e-1000-98cb-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/930eccb0-0c8e-1000-98cb-c0a838650000.xml#m930eccb8-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m930eccb0-0c8e-1000-98cb-c0a838650000-m930eccb2-0c8e-1000-98cb-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/930eccb2-0c8e-1000-98cb-c0a838650000.xml#m930eccb2-0c8e-1000-98cb-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

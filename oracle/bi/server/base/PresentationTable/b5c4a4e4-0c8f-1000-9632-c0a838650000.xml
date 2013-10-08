@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mb5c4a4e4-0c8f-1000-9632-c0a838650000" name="CURRENCY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/b5c4a4e3-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e3-0c8f-1000-9632-c0a838650000">
+<PresentationColumn mdsid="mb5c47dd0-0c8f-1000-9632-c0a838650000" name="CURRENCY_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9385-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd1-0c8f-1000-9632-c0a838650000" name="CURRENCY_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9386-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd2-0c8f-1000-9632-c0a838650000" name="CURRENCY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9387-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd3-0c8f-1000-9632-c0a838650000" name="CURRENCY_SUR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9388-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd4-0c8f-1000-9632-c0a838650000" name="CURRENCY_TO_DOLLAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9389-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd5-0c8f-1000-9632-c0a838650000" name="CURRENCY_TYPE_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b938a-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd6-0c8f-1000-9632-c0a838650000" name="CURRENCY_TYPE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b938b-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd7-0c8f-1000-9632-c0a838650000" name="VALID_FROM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b938c-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47dd8-0c8f-1000-9632-c0a838650000" name="VALID_TO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b938d-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

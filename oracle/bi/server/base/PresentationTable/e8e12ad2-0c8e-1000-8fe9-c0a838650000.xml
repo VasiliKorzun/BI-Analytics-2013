@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me8e12ad2-0c8e-1000-8fe9-c0a838650000" name="Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e8e12ad1-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad1-0c8e-1000-8fe9-c0a838650000">
+<PresentationColumn mdsid="me8e103b0-0c8e-1000-8fe9-c0a838650000" name="Customer" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae3a5db4-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b1-0c8e-1000-8fe9-c0a838650000" name="Customer Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae3a5db5-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b2-0c8e-1000-8fe9-c0a838650000" name="Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae3a5db6-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b3-0c8e-1000-8fe9-c0a838650000" name="Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae427402-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b4-0c8e-1000-8fe9-c0a838650000" name="Part" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae438572-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b5-0c8e-1000-8fe9-c0a838650000" name="Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3a5db0-0c8e-1000-8fe9-c0a838650000.xml#mae4421b2-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="me5ea5926-0c8e-1000-8374-c0a838650000" name="Anton_Tserakhau" isDefaultReadable="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/91bde2b0-0c8e-1000-98cb-c0a838650000.xml#m91bde2b0-0c8e-1000-98cb-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea592b-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea592b-0c8e-1000-8374-c0a838650000.xml#me5ea592b-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea592c-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea592c-0c8e-1000-8374-c0a838650000.xml#me5ea592c-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea5927-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea5927-0c8e-1000-8374-c0a838650000.xml#me5ea5927-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea5928-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea5928-0c8e-1000-8374-c0a838650000.xml#me5ea5928-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea5929-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea5929-0c8e-1000-8374-c0a838650000.xml#me5ea5929-0c8e-1000-8374-c0a838650000"/>
+<RefPresentationTable refId="me5ea5926-0c8e-1000-8374-c0a838650000-me5ea592a-0c8e-1000-8374-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e5ea592a-0c8e-1000-8374-c0a838650000.xml#me5ea592a-0c8e-1000-8374-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

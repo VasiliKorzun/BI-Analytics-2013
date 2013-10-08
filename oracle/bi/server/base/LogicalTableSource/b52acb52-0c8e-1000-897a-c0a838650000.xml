@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mb52acb52-0c8e-1000-897a-c0a838650000" name="Operations with agregation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb50-0c8e-1000-897a-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-a45e-7d1000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Operations with agregation"."EVENT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-a45e-7d1000000000-mb52acb53-0c8e-1000-897a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb53-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-53ba-7cef00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Operations with agregation"."EVENT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-53ba-7cef00000000-mb1e1e1e1-0c8e-1000-897a-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/b1e1e1e0-0c8e-1000-897a-c0a838650000.xml#mb1e1e1e1-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-88b0-b79700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Operations with agregation"."FCT_TOTAL_SALES_DOL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-88b0-b79700000000-mb52acb54-0c8e-1000-897a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb54-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-e6d5-4f0500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Operations with agregation"."FCT_TOTAL_SALES_DOL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-e6d5-4f0500000000-mb1e1e1e2-0c8e-1000-897a-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/b1e1e1e0-0c8e-1000-897a-c0a838650000.xml#mb1e1e1e2-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-7193-2d1b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Operations with agregation"."FCT_UNIT_AMOUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7193-2d1b00000000-mb52acb55-0c8e-1000-897a-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb55-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-f07c-5daa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Operations with agregation"."FCT_UNIT_AMOUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f07c-5daa00000000-mb1e1e1e3-0c8e-1000-897a-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/b1e1e1e0-0c8e-1000-897a-c0a838650000.xml#mb1e1e1e3-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/b1e1e1e0-0c8e-1000-897a-c0a838650000.xml#mb1e1e1e0-0c8e-1000-897a-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-6f13-62a900000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-a424-e6ee00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-475f-8e7300000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

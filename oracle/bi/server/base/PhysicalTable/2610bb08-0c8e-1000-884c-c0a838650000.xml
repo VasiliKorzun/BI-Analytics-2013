@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m2610bb08-0c8e-1000-884c-c0a838650000" name="TIMES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/260b15b0-0c8e-1000-884c-c0a838650000.xml#m260b15b0-0c8e-1000-884c-c0a838650000">
+<PhysicalColumn mdsid="m2610bb09-0c8e-1000-884c-c0a838650000" name="CALENDAR_MONTH_DESC" dataType="VARCHAR" precision="8" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0a-0c8e-1000-884c-c0a838650000" name="CALENDAR_MONTH_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0b-0c8e-1000-884c-c0a838650000" name="CALENDAR_MONTH_NAME" dataType="VARCHAR" precision="9" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0c-0c8e-1000-884c-c0a838650000" name="CALENDAR_MONTH_NUMBER" dataType="INT" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0d-0c8e-1000-884c-c0a838650000" name="CALENDAR_QUARTER_DESC" dataType="CHAR" precision="7" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0e-0c8e-1000-884c-c0a838650000" name="CALENDAR_QUARTER_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb0f-0c8e-1000-884c-c0a838650000" name="CALENDAR_QUARTER_NUMBER" dataType="INT" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb10-0c8e-1000-884c-c0a838650000" name="CALENDAR_WEEK_NUMBER" dataType="INT" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb11-0c8e-1000-884c-c0a838650000" name="CALENDAR_YEAR" dataType="INT" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb12-0c8e-1000-884c-c0a838650000" name="CALENDAR_YEAR_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb13-0c8e-1000-884c-c0a838650000" name="DAYS_IN_CAL_MONTH" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb14-0c8e-1000-884c-c0a838650000" name="DAYS_IN_CAL_QUARTER" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb15-0c8e-1000-884c-c0a838650000" name="DAYS_IN_CAL_YEAR" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb16-0c8e-1000-884c-c0a838650000" name="DAYS_IN_FIS_MONTH" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb17-0c8e-1000-884c-c0a838650000" name="DAYS_IN_FIS_QUARTER" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb18-0c8e-1000-884c-c0a838650000" name="DAYS_IN_FIS_YEAR" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb19-0c8e-1000-884c-c0a838650000" name="DAY_NAME" dataType="VARCHAR" precision="9" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1a-0c8e-1000-884c-c0a838650000" name="DAY_NUMBER_IN_MONTH" dataType="INT" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1b-0c8e-1000-884c-c0a838650000" name="DAY_NUMBER_IN_WEEK" dataType="INT" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1c-0c8e-1000-884c-c0a838650000" name="END_OF_CAL_MONTH" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1d-0c8e-1000-884c-c0a838650000" name="END_OF_CAL_QUARTER" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1e-0c8e-1000-884c-c0a838650000" name="END_OF_CAL_YEAR" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb1f-0c8e-1000-884c-c0a838650000" name="END_OF_FIS_MONTH" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb20-0c8e-1000-884c-c0a838650000" name="END_OF_FIS_QUARTER" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb21-0c8e-1000-884c-c0a838650000" name="END_OF_FIS_YEAR" dataType="DATETIME" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb22-0c8e-1000-884c-c0a838650000" name="FISCAL_MONTH_DESC" dataType="VARCHAR" precision="8" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb23-0c8e-1000-884c-c0a838650000" name="FISCAL_MONTH_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb24-0c8e-1000-884c-c0a838650000" name="FISCAL_MONTH_NAME" dataType="VARCHAR" precision="9" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb25-0c8e-1000-884c-c0a838650000" name="FISCAL_MONTH_NUMBER" dataType="INT" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb26-0c8e-1000-884c-c0a838650000" name="FISCAL_QUARTER_DESC" dataType="CHAR" precision="7" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb27-0c8e-1000-884c-c0a838650000" name="FISCAL_QUARTER_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb28-0c8e-1000-884c-c0a838650000" name="FISCAL_QUARTER_NUMBER" dataType="INT" precision="1" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb29-0c8e-1000-884c-c0a838650000" name="FISCAL_WEEK_NUMBER" dataType="INT" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb2a-0c8e-1000-884c-c0a838650000" name="FISCAL_YEAR" dataType="INT" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb2b-0c8e-1000-884c-c0a838650000" name="FISCAL_YEAR_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb2c-0c8e-1000-884c-c0a838650000" name="TIME_ID" dataType="DATETIME" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb2d-0c8e-1000-884c-c0a838650000" name="WEEK_ENDING_DAY" dataType="DATETIME" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m2610bb2e-0c8e-1000-884c-c0a838650000" name="WEEK_ENDING_DAY_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m2610bb2f-0c8e-1000-884c-c0a838650000" name="TIMES_PK">
+<RefColumns>
+<RefColumn refId="m2610bb2f-0c8e-1000-884c-c0a838650000-m2610bb2c-0c8e-1000-884c-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/2610bb08-0c8e-1000-884c-c0a838650000.xml#m2610bb2c-0c8e-1000-884c-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

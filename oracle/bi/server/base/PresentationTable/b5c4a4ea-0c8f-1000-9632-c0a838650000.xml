@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mb5c4a4ea-0c8f-1000-9632-c0a838650000" name="TRANSACTIONS_DAILY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/b5c4a4e3-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e3-0c8f-1000-9632-c0a838650000">
+<PresentationColumn mdsid="mb5c47e1c-0c8f-1000-9632-c0a838650000" name="AMOUNT_PAYMENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93d7-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e1d-0c8f-1000-9632-c0a838650000" name="COUNT_PAYMENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93d8-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e1e-0c8f-1000-9632-c0a838650000" name="CURRENCY_SUR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93d9-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e1f-0c8f-1000-9632-c0a838650000" name="CUS_REC_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93da-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e20-0c8f-1000-9632-c0a838650000" name="CUST_SEND_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93db-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e21-0c8f-1000-9632-c0a838650000" name="EVENT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93dc-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e22-0c8f-1000-9632-c0a838650000" name="GEO_REC_SUR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93dd-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e23-0c8f-1000-9632-c0a838650000" name="GEO_SEND_SUR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93de-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e24-0c8f-1000-9632-c0a838650000" name="OPERATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93df-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e25-0c8f-1000-9632-c0a838650000" name="TARIFF_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93e0-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mb5c47e26-0c8f-1000-9632-c0a838650000" name="PAYMENT_WHIS_TAX" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b93d6-0c8f-1000-9632-c0a838650000.xml#mb58b93e1-0c8f-1000-9632-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

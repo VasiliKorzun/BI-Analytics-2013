@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mba80a660-0c8f-1000-9912-c0a838650000" name="Daily Actual Income Facts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/ba80a65b-0c8f-1000-9912-c0a838650000.xml#mba80a65b-0c8f-1000-9912-c0a838650000">
+<PresentationColumn mdsid="mba807f62-0c8f-1000-9912-c0a838650000" name="Amount Sold" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e3-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f63-0c8f-1000-9912-c0a838650000" name="Customer Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e4-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f64-0c8f-1000-9912-c0a838650000" name="Time Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e5-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f65-0c8f-1000-9912-c0a838650000" name="Location Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e6-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f66-0c8f-1000-9912-c0a838650000" name="Product Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e7-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f67-0c8f-1000-9912-c0a838650000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e8-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f68-0c8f-1000-9912-c0a838650000" name="Total Cost" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9c3d7e9-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f69-0c8f-1000-9912-c0a838650000" name="Income" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9e51b80-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="mba807f6a-0c8f-1000-9912-c0a838650000" name="Profitability" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/d9c3d7e0-0c8e-1000-8fe9-c0a838650000.xml#md9e9d670-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

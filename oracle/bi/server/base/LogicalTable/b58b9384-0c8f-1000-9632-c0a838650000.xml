@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mb58b9384-0c8f-1000-9632-c0a838650000" name="CURRENCY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/b58b9380-0c8f-1000-9632-c0a838650000.xml#mb58b9380-0c8f-1000-9632-c0a838650000">
+<LogicalColumn mdsid="mb58b9385-0c8f-1000-9632-c0a838650000" name="CURRENCY_CODE" isWriteable="false">
+<AttrDefn mdsid="mb58bbb00-0c8f-1000-9632-c0a838650000" name="AD_3900:4082541381136583">
+<Expr mdsid="m00000001-01f4-0000-6567-54bf00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-6567-54bf00000000-m57627682-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627682-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b9386-0c8f-1000-9632-c0a838650000" name="CURRENCY_DESC" isWriteable="false">
+<AttrDefn mdsid="mb58bbb01-0c8f-1000-9632-c0a838650000" name="AD_3900:4082551381136583">
+<Expr mdsid="m00000002-01f4-0000-9da3-d82600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-9da3-d82600000000-m57627683-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627683-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b9387-0c8f-1000-9632-c0a838650000" name="CURRENCY_NAME" isWriteable="false">
+<AttrDefn mdsid="mb58bbb02-0c8f-1000-9632-c0a838650000" name="AD_3900:4082561381136583">
+<Expr mdsid="m00000003-01f4-0000-a7d8-574700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-a7d8-574700000000-m57627684-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627684-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b9388-0c8f-1000-9632-c0a838650000" name="CURRENCY_SUR_ID" isWriteable="false">
+<AttrDefn mdsid="mb58bbb03-0c8f-1000-9632-c0a838650000" name="AD_3900:4082571381136583">
+<Expr mdsid="m00000004-01f4-0000-195c-971d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_SUR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-195c-971d00000000-m57627685-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627685-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b9389-0c8f-1000-9632-c0a838650000" name="CURRENCY_TO_DOLLAR" isWriteable="false">
+<AttrDefn mdsid="mb58bbb04-0c8f-1000-9632-c0a838650000" name="AD_3900:4082581381136583">
+<Expr mdsid="m00000005-01f4-0000-61fd-fa2600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_TO_DOLLAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-61fd-fa2600000000-m57627686-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627686-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b938a-0c8f-1000-9632-c0a838650000" name="CURRENCY_TYPE_DESC" isWriteable="false">
+<AttrDefn mdsid="mb58bbb05-0c8f-1000-9632-c0a838650000" name="AD_3900:4082591381136583">
+<Expr mdsid="m00000006-01f4-0000-f2cc-c27400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_TYPE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f2cc-c27400000000-m57627687-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627687-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b938b-0c8f-1000-9632-c0a838650000" name="CURRENCY_TYPE_ID" isWriteable="false">
+<AttrDefn mdsid="mb58bbb06-0c8f-1000-9632-c0a838650000" name="AD_3900:4082601381136583">
+<Expr mdsid="m00000007-01f4-0000-c4c7-9d0e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."CURRENCY_TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-c4c7-9d0e00000000-m57627688-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627688-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b938c-0c8f-1000-9632-c0a838650000" name="VALID_FROM" isWriteable="false">
+<AttrDefn mdsid="mb58bbb07-0c8f-1000-9632-c0a838650000" name="AD_3900:4082611381136583">
+<Expr mdsid="m00000008-01f4-0000-7d8d-2f9700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-7d8d-2f9700000000-m57627689-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627689-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mb58b938d-0c8f-1000-9632-c0a838650000" name="VALID_TO" isWriteable="false">
+<AttrDefn mdsid="mb58bbb08-0c8f-1000-9632-c0a838650000" name="AD_3900:4082621381136583">
+<Expr mdsid="m00000009-01f4-0000-f290-7a6900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_CURRENCY_SCD"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f290-7a6900000000-m5762768a-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m5762768a-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mb58bbaf8-0c8f-1000-9632-c0a838650000" name="PK_DIM_CURRENCY_SCD" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mb58bbaf8-0c8f-1000-9632-c0a838650000-mb58b9388-0c8f-1000-9632-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b58b9384-0c8f-1000-9632-c0a838650000.xml#mb58b9388-0c8f-1000-9632-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mb58b9384-0c8f-1000-9632-c0a838650000-mb58bbb81-0c8f-1000-9632-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/b58bbb81-0c8f-1000-9632-c0a838650000.xml#mb58bbb81-0c8f-1000-9632-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m90510c40-0c8e-1000-98cb-c0a838650000" name="FCT_OPERATIONS_DD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[FCT_OPERATIONS_DD]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m90510c41-0c8e-1000-98cb-c0a838650000" name="DISH_ID" dataType="DOUBLE" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c42-0c8e-1000-98cb-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c43-0c8e-1000-98cb-c0a838650000" name="FCT_TOTAL_SALES_DOL" dataType="DOUBLE" scale="5" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c44-0c8e-1000-98cb-c0a838650000" name="FCT_UNIT_AMOUNT" dataType="DOUBLE" scale="5" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c45-0c8e-1000-98cb-c0a838650000" name="GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c46-0c8e-1000-98cb-c0a838650000" name="PERIOD_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m90510c47-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

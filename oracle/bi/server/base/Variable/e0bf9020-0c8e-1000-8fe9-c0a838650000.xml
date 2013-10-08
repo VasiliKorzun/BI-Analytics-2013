@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="me0bf9020-0c8e-1000-8fe9-c0a838650000" name="VAR_ACT_YEAR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/d6ec74f0-0c8e-1000-8fe9-c0a838650000.xml#md6ec74f0-0c8e-1000-8fe9-c0a838650000">
+<Expr mdsid="m00000001-01f4-0000-996f-2f0400000000" name="Expr">
+<ExprText><![CDATA['2013']]></ExprText>
+<ExprTextDesc><![CDATA['2013']]></ExprTextDesc>
+</Expr>
+</Variable>

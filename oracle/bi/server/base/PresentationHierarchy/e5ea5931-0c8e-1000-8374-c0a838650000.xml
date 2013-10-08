@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="me5ea5931-0c8e-1000-8374-c0a838650000" name="Restaurants: Restaurant Type - Restaurant" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/e5ea5927-0c8e-1000-8374-c0a838650000.xml#me5ea5927-0c8e-1000-8374-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b368a8f0-0c8e-1000-897a-c0a838650000.xml#mb368a8f0-0c8e-1000-897a-c0a838650000">
+<Alias name="Restaurants: Type/Location-Restaurant - Restaurant Type"/>
+<PresentationLevel mdsid="me5ea8001-0c8e-1000-8374-c0a838650000" name="All" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5931-0c8e-1000-8374-c0a838650000.xml#me5ea5931-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b368a8f0-0c8e-1000-897a-c0a838650000.xml#mb368a8f3-0c8e-1000-897a-c0a838650000">
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea8002-0c8e-1000-8374-c0a838650000" name="Restaurant Type" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5931-0c8e-1000-8374-c0a838650000.xml#me5ea5931-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b368a8f0-0c8e-1000-897a-c0a838650000.xml#mb36af2e0-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea8002-0c8e-1000-8374-c0a838650000-me5ea31ff-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea5927-0c8e-1000-8374-c0a838650000.xml#me5ea31ff-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea8003-0c8e-1000-8374-c0a838650000" name="Restaurant" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5931-0c8e-1000-8374-c0a838650000.xml#me5ea5931-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b368a8f0-0c8e-1000-897a-c0a838650000.xml#mb368a8f1-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea8003-0c8e-1000-8374-c0a838650000-me5ea31f8-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea5927-0c8e-1000-8374-c0a838650000.xml#me5ea31f8-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

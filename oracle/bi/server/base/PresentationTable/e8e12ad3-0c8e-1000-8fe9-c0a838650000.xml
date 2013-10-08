@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me8e12ad3-0c8e-1000-8fe9-c0a838650000" name="Location" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e8e12ad1-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad1-0c8e-1000-8fe9-c0a838650000">
+<PresentationColumn mdsid="me8e103b6-0c8e-1000-8fe9-c0a838650000" name="Country Code A3" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd3-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b7-0c8e-1000-8fe9-c0a838650000" name="Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd4-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b8-0c8e-1000-8fe9-c0a838650000" name="Country Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd5-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103b9-0c8e-1000-8fe9-c0a838650000" name="Part" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabd8-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103ba-0c8e-1000-8fe9-c0a838650000" name="Region" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3aabd0-0c8e-1000-8fe9-c0a838650000.xml#mae3aabdb-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me8e12ad3-0c8e-1000-8fe9-c0a838650000-me8e12ad8-0c8e-1000-8fe9-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e8e12ad8-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad8-0c8e-1000-8fe9-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

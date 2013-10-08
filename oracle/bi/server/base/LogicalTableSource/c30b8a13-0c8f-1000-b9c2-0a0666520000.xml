@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc30b8a13-0c8f-1000-b9c2-0a0666520000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a11-0c8f-1000-b9c2-0a0666520000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-0563-f28800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0563-f28800000000-mc30b8a14-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a14-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-68a6-7e6400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-68a6-7e6400000000-mc3034cb5-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb5-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-2101-831a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_CLASS_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-2101-831a00000000-mc30b8a15-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a15-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-8742-514000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_CLASS_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-8742-514000000000-mc3034cb6-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb6-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-fd27-231600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-fd27-231600000000-mc30b8a16-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a16-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-c1d5-1c7300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-c1d5-1c7300000000-mc3034cb7-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb7-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-16ba-3fc300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-16ba-3fc300000000-mc30b8a17-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a17-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-3703-1d5e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-3703-1d5e00000000-mc3034cb8-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb8-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-f819-32fe00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f819-32fe00000000-mc30b8a18-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a18-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-b262-6f2600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-b262-6f2600000000-mc3034cb9-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb9-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-87b2-951800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."CHANNELS"."CHANNEL_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-87b2-951800000000-mc30b8a19-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a11-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a19-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-f75d-bc8d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-f75d-bc8d00000000-mc3034cba-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cba-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c3034cb4-0c8f-1000-b9c2-0a0666520000.xml#mc3034cb4-0c8f-1000-b9c2-0a0666520000">
+</Link>
+<WhereClause mdsid="m0000000d-01f4-0000-b18b-90c000000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000e-01f4-0000-1e20-b7d500000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000f-01f4-0000-54b5-5f8900000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="me5ea5933-0c8e-1000-8374-c0a838650000" name="Periods: Type Period - Period" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/e5ea5929-0c8e-1000-8374-c0a838650000.xml#me5ea5929-0c8e-1000-8374-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b3ac1a90-0c8e-1000-897a-c0a838650000.xml#mb3ac1a90-0c8e-1000-897a-c0a838650000">
+<Alias name="Periods: Type/Period"/>
+<PresentationLevel mdsid="me5ea800b-0c8e-1000-8374-c0a838650000" name="All Periods" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5933-0c8e-1000-8374-c0a838650000.xml#me5ea5933-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3ac1a90-0c8e-1000-897a-c0a838650000.xml#mb3ac1a93-0c8e-1000-897a-c0a838650000">
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea800c-0c8e-1000-8374-c0a838650000" name="Period Type" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5933-0c8e-1000-8374-c0a838650000.xml#me5ea5933-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3ac1a90-0c8e-1000-897a-c0a838650000.xml#mb3ad04f0-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea800c-0c8e-1000-8374-c0a838650000-me5ea5911-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea5929-0c8e-1000-8374-c0a838650000.xml#me5ea5911-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea800d-0c8e-1000-8374-c0a838650000" name="Period" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5933-0c8e-1000-8374-c0a838650000.xml#me5ea5933-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3ac1a90-0c8e-1000-897a-c0a838650000.xml#mb3ac1a91-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea800d-0c8e-1000-8374-c0a838650000-me5ea590f-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea5929-0c8e-1000-8374-c0a838650000.xml#me5ea590f-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

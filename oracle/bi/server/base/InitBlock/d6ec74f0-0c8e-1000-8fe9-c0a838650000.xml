@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="md6ec74f0-0c8e-1000-8fe9-c0a838650000" name="ActualYear" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="5184000" baseTime="2013-10-03 04:17:52" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/ad8342b0-0c8e-1000-8fe9-c0a838650000.xml#mad8342b0-0c8e-1000-8fe9-c0a838650000">
+<DBMapItem name="Oracle11g">
+<Value><![CDATA[SELECT max(calendar_year) FROM dim_times]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="md6ec74f0-0c8e-1000-8fe9-c0a838650000-me0bf9020-0c8e-1000-8fe9-c0a838650000" variableRef="/oracle/bi/server/base/Variable/e0bf9020-0c8e-1000-8fe9-c0a838650000.xml#me0bf9020-0c8e-1000-8fe9-c0a838650000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT max(calendar_year) FROM dim_times]]></InitString>
+</InitBlock>

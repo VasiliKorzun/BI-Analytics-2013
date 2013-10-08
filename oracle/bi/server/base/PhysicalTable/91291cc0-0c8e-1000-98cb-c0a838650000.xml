@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m91291cc0-0c8e-1000-98cb-c0a838650000" name="Locations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e532-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m91291cc1-0c8e-1000-98cb-c0a838650000" name="COUNTRY_CODE_A2" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e533-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc2-0c8e-1000-98cb-c0a838650000" name="COUNTRY_CODE_A3" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e534-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc3-0c8e-1000-98cb-c0a838650000" name="COUNTRY_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e535-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc4-0c8e-1000-98cb-c0a838650000" name="COUNTRY_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e536-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc5-0c8e-1000-98cb-c0a838650000" name="COUNTRY_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e537-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc6-0c8e-1000-98cb-c0a838650000" name="GEO_ID" dataType="DOUBLE" precision="20" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e538-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc7-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e539-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc8-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53a-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cc9-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53b-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cca-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53c-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291ccb-0c8e-1000-98cb-c0a838650000" name="PART_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53d-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291ccc-0c8e-1000-98cb-c0a838650000" name="PART_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53e-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291ccd-0c8e-1000-98cb-c0a838650000" name="PART_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e53f-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cce-0c8e-1000-98cb-c0a838650000" name="PART_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e540-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291ccf-0c8e-1000-98cb-c0a838650000" name="REGION_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e541-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cd0-0c8e-1000-98cb-c0a838650000" name="REGION_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e542-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cd1-0c8e-1000-98cb-c0a838650000" name="REGION_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e543-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m91291cd2-0c8e-1000-98cb-c0a838650000" name="REGION_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e544-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m91f3e6d0-0c8e-1000-98cb-c0a838650000" name="Locations_Key">
+<RefColumns>
+<RefColumn refId="m91f3e6d0-0c8e-1000-98cb-c0a838650000-m91291cc6-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc6-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m8367feb5-0c8e-1000-be8d-c0a838650000" name="DIM_LOCATIONS_SEND" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb3-0c8e-1000-be8d-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-5836-fc9b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."COUNTRY_CODE_A2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-5836-fc9b00000000-m8367feb6-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb6-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-2425-138a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."COUNTRY_CODE_A2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2425-138a00000000-m5769f09f-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f09f-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-d521-e62b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."COUNTRY_CODE_A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d521-e62b00000000-m8367feb7-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb7-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-4905-2e7300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."COUNTRY_CODE_A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-4905-2e7300000000-m5769f0a0-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a0-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-6b66-85db00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-6b66-85db00000000-m8367feb8-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb8-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-fbe5-8aba00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-fbe5-8aba00000000-m5769f0a1-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a1-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-fed3-80a700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-fed3-80a700000000-m8367feb9-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb9-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-4ac2-907800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-4ac2-907800000000-m5769f0a2-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a2-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-743f-399000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-743f-399000000000-m8367feba-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feba-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-bf94-93d600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-bf94-93d600000000-m5769f0a3-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a3-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-8e10-656e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-8e10-656e00000000-m8367febb-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febb-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-56fd-5daa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-56fd-5daa00000000-m5769f0a4-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a4-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-ded3-fbc100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_PART_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-ded3-fbc100000000-m8367febc-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febc-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-0f90-157900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_PART_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-0f90-157900000000-m5769f0a5-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a5-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-7eb7-69a000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_PART_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-7eb7-69a000000000-m8367febd-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febd-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-cf20-95d200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_PART_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-cf20-95d200000000-m5769f0a6-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a6-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-eca3-d23000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_PART_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-eca3-d23000000000-m8367febe-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febe-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-7cf3-c1a200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_PART_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-7cf3-c1a200000000-m5769f0a7-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a7-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-7b07-161b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_REGION_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-7b07-161b00000000-m8367febf-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febf-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-4d61-128400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_REGION_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-4d61-128400000000-m5769f0a8-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a8-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-60c1-84d200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-60c1-84d200000000-m8367fec0-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec0-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-dde9-8df800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-dde9-8df800000000-m5769f0a9-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0a9-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-f497-319c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-f497-319c00000000-m8367fec1-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec1-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-72c5-240200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-72c5-240200000000-m5769f0aa-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0aa-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000019-01f4-0000-a3f7-f8d200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."GEO_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-a3f7-f8d200000000-m8367fec2-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec2-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001a-01f4-0000-3dda-53e400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."GEO_SURR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-3dda-53e400000000-m5769f0ab-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0ab-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001b-01f4-0000-69f1-5f4c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."LEVEL_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-69f1-5f4c00000000-m8367fec3-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec3-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001c-01f4-0000-c3e8-f94500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."LEVEL_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-c3e8-f94500000000-m5769f0ac-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0ac-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001d-01f4-0000-302e-c2d900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-302e-c2d900000000-m8367fec4-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec4-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001e-01f4-0000-bb6d-843600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."VALID_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-bb6d-843600000000-m5769f0ad-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0ad-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001f-01f4-0000-73f0-4a2600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT"."LOCATIONS_SEND"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-73f0-4a2600000000-m8367fec5-0c8e-1000-be8d-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec5-0c8e-1000-be8d-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000020-01f4-0000-e0b3-f92b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Iryna_Bradzetskaya_MT".""."U_SAL"."DIM_LOCATIONS_SEND"."VALID_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-e0b3-f92b00000000-m5769f0ae-0c8e-1000-9b74-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0ae-0c8e-1000-9b74-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f09e-0c8e-1000-9b74-c0a838650000">
+</Link>
+<WhereClause mdsid="m00000021-01f4-0000-0bb8-7b0e00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000022-01f4-0000-a5a5-b7e500000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000023-01f4-0000-5f3a-928800000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

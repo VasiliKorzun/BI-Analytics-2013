@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m911d35e0-0c8e-1000-98cb-c0a838650000" name="Dishes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d22-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m911d35e1-0c8e-1000-98cb-c0a838650000" name="DISH_CODE" dataType="VARCHAR" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d23-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e2-0c8e-1000-98cb-c0a838650000" name="DISH_CUISINE_DESC" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d24-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e3-0c8e-1000-98cb-c0a838650000" name="DISH_CUISINE_ID" dataType="DOUBLE" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d25-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e4-0c8e-1000-98cb-c0a838650000" name="DISH_CUISINE_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d26-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e5-0c8e-1000-98cb-c0a838650000" name="DISH_DESC" dataType="VARCHAR" precision="2000" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d27-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e6-0c8e-1000-98cb-c0a838650000" name="DISH_ID" dataType="DOUBLE" precision="15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d28-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e7-0c8e-1000-98cb-c0a838650000" name="DISH_NAME" dataType="VARCHAR" precision="400" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d29-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e8-0c8e-1000-98cb-c0a838650000" name="DISH_TYPE_DESC" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d2a-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35e9-0c8e-1000-98cb-c0a838650000" name="DISH_TYPE_ID" dataType="DOUBLE" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d2b-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35ea-0c8e-1000-98cb-c0a838650000" name="DISH_TYPE_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d2c-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35eb-0c8e-1000-98cb-c0a838650000" name="DISH_WEIGHT" dataType="DOUBLE" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d2d-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m911d35ec-0c8e-1000-98cb-c0a838650000" name="START_UNIT_PRICE_DOL" dataType="DOUBLE" scale="5" precision="15" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/904e4d22-0c8e-1000-98cb-c0a838650000.xml#m904e4d2e-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m91eb3440-0c8e-1000-98cb-c0a838650000" name="Dishes_Key">
+<RefColumns>
+<RefColumn refId="m91eb3440-0c8e-1000-98cb-c0a838650000-m911d35e6-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/911d35e0-0c8e-1000-98cb-c0a838650000.xml#m911d35e6-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

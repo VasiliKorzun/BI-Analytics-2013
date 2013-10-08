@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc30b8aa0-0c8f-1000-b9c2-0a0666520000" name="SALES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a9e-0c8f-1000-b9c2-0a0666520000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-ee25-a16400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."AMOUNT_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-ee25-a16400000000-mc30b8aa1-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa1-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-63e1-e10e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."AMOUNT_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-63e1-e10e00000000-mc3034d26-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d26-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-b41e-5d6300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-b41e-5d6300000000-mc30b8aa2-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa2-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-65f7-4eb200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-65f7-4eb200000000-mc3034d27-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d27-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-37fa-26c800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."CUST_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-37fa-26c800000000-mc30b8aa3-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa3-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-e57d-fd4e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."CUST_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-e57d-fd4e00000000-mc3034d28-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d28-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-85f9-af6000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-85f9-af6000000000-mc30b8aa4-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa4-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-bd89-d88300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-bd89-d88300000000-mc3034d29-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d29-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-d158-b7f600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."PROMO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-d158-b7f600000000-mc30b8aa5-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa5-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-bfa0-cb1a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."PROMO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-bfa0-cb1a00000000-mc3034d2a-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d2a-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-ba87-c64000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."QUANTITY_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-ba87-c64000000000-mc30b8aa6-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa6-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-5c08-801600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."QUANTITY_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-5c08-801600000000-mc3034d2b-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d2b-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-6038-efe700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH"."SALES"."TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-6038-efe700000000-mc30b8aa7-0c8f-1000-b9c2-0a0666520000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c30b8a9e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8aa7-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-6a38-3c3b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."SALES"."TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-6a38-3c3b00000000-mc3034d2c-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d2c-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c3034d25-0c8f-1000-b9c2-0a0666520000.xml#mc3034d25-0c8f-1000-b9c2-0a0666520000">
+</Link>
+<WhereClause mdsid="m0000000f-01f4-0000-f3af-2edc00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000010-01f4-0000-5132-06e500000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000011-01f4-0000-2233-df6f00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

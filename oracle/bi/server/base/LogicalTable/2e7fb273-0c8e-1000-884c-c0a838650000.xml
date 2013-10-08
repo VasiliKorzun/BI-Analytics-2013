@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m2e7fb273-0c8e-1000-884c-c0a838650000" name="COUNTRIES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/2e7fb250-0c8e-1000-884c-c0a838650000.xml#m2e7fb250-0c8e-1000-884c-c0a838650000">
+<LogicalColumn mdsid="m2e7fb276-0c8e-1000-884c-c0a838650000" name="COUNTRY_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab158-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121731381160260">
+<Expr mdsid="m00000001-01f4-0000-347b-d67800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-347b-d67800000000-m261045d8-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045d8-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb277-0c8e-1000-884c-c0a838650000" name="COUNTRY_ISO_CODE" isWriteable="false">
+<AttrDefn mdsid="mc3aab159-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121741381160260">
+<Expr mdsid="m00000002-01f4-0000-c7fa-bc7100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_ISO_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-c7fa-bc7100000000-m261045d9-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045d9-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb278-0c8e-1000-884c-c0a838650000" name="COUNTRY_NAME" isWriteable="false">
+<AttrDefn mdsid="mc3aab15a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121751381160260">
+<Expr mdsid="m00000003-01f4-0000-6c5e-4ac700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6c5e-4ac700000000-m261045da-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045da-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb279-0c8e-1000-884c-c0a838650000" name="COUNTRY_NAME_HIST" isWriteable="false">
+<AttrDefn mdsid="mc3aab15b-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121761381160260">
+<Expr mdsid="m00000004-01f4-0000-1774-b78a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_NAME_HIST"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-1774-b78a00000000-m261045db-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045db-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27a-0c8e-1000-884c-c0a838650000" name="COUNTRY_REGION" isWriteable="false">
+<AttrDefn mdsid="mc3aab15c-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121771381160260">
+<Expr mdsid="m00000005-01f4-0000-dfa2-638000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_REGION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-dfa2-638000000000-m261045dc-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045dc-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27b-0c8e-1000-884c-c0a838650000" name="COUNTRY_REGION_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab15d-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121781381160260">
+<Expr mdsid="m00000006-01f4-0000-1205-9b6100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-1205-9b6100000000-m261045dd-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045dd-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27c-0c8e-1000-884c-c0a838650000" name="COUNTRY_SUBREGION" isWriteable="false">
+<AttrDefn mdsid="mc3aab15e-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121791381160260">
+<Expr mdsid="m00000007-01f4-0000-1148-9a0c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_SUBREGION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-1148-9a0c00000000-m261045de-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045de-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27d-0c8e-1000-884c-c0a838650000" name="COUNTRY_SUBREGION_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab15f-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121801381160260">
+<Expr mdsid="m00000008-01f4-0000-da9b-1a6b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_SUBREGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-da9b-1a6b00000000-m261045df-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045df-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27e-0c8e-1000-884c-c0a838650000" name="COUNTRY_TOTAL" isWriteable="false">
+<AttrDefn mdsid="mc3aab160-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121811381160260">
+<Expr mdsid="m00000009-01f4-0000-1ba5-857f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-1ba5-857f00000000-m261045e0-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045e0-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb27f-0c8e-1000-884c-c0a838650000" name="COUNTRY_TOTAL_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab161-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121821381160260">
+<Expr mdsid="m0000000a-01f4-0000-c920-7fcb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."COUNTRIES"."COUNTRY_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-c920-7fcb00000000-m261045e1-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/261045d7-0c8e-1000-884c-c0a838650000.xml#m261045e1-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m2e7fb280-0c8e-1000-884c-c0a838650000" name="COUNTRIES_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m2e7fb280-0c8e-1000-884c-c0a838650000-m2e7fb276-0c8e-1000-884c-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb273-0c8e-1000-884c-c0a838650000.xml#m2e7fb276-0c8e-1000-884c-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m2e7fb273-0c8e-1000-884c-c0a838650000-m2e7fb275-0c8e-1000-884c-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/2e7fb275-0c8e-1000-884c-c0a838650000.xml#m2e7fb275-0c8e-1000-884c-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

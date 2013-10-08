@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m57627681-0c8e-1000-9b74-c0a838650000" name="DIM_CURRENCY_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/57627680-0c8e-1000-9b74-c0a838650000.xml#m57627680-0c8e-1000-9b74-c0a838650000">
+<PhysicalColumn mdsid="m57627682-0c8e-1000-9b74-c0a838650000" name="CURRENCY_CODE" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627683-0c8e-1000-9b74-c0a838650000" name="CURRENCY_DESC" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627684-0c8e-1000-9b74-c0a838650000" name="CURRENCY_NAME" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627685-0c8e-1000-9b74-c0a838650000" name="CURRENCY_SUR_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627686-0c8e-1000-9b74-c0a838650000" name="CURRENCY_TO_DOLLAR" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627687-0c8e-1000-9b74-c0a838650000" name="CURRENCY_TYPE_DESC" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627688-0c8e-1000-9b74-c0a838650000" name="CURRENCY_TYPE_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m57627689-0c8e-1000-9b74-c0a838650000" name="VALID_FROM" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m5762768a-0c8e-1000-9b74-c0a838650000" name="VALID_TO" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m57629d90-0c8e-1000-9b74-c0a838650000" name="PK_DIM_CURRENCY_SCD">
+<RefColumns>
+<RefColumn refId="m57629d90-0c8e-1000-9b74-c0a838650000-m57627685-0c8e-1000-9b74-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57627685-0c8e-1000-9b74-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

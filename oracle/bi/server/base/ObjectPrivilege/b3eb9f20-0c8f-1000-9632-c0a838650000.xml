@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPrivilege mdsid="mb3eb9f20-0c8f-1000-9632-c0a838650000" name="ObjPriv_1500:4076381381133858" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" privilegePackageRef="/oracle/bi/server/base/PrivilegePackage/3162aa81-0c7b-1000-a83f-0a0612af0000.xml#m3162aa81-0c7b-1000-a83f-0a0612af0000">
+<RefObjects>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-mb3dcab0a-0c8f-1000-9632-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/b3dcab0a-0c8f-1000-9632-c0a838650000.xml#mb3dcab0a-0c8f-1000-9632-c0a838650000"/>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-mb3f5d8b5-0c8f-1000-9632-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/b3f5d8b5-0c8f-1000-9632-c0a838650000.xml#mb3f5d8b5-0c8f-1000-9632-c0a838650000"/>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-m83754f80-0c8f-1000-9dc2-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/83754f80-0c8f-1000-9dc2-c0a838650000.xml#m83754f80-0c8f-1000-9dc2-c0a838650000"/>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-me62231d0-0c8e-1000-9385-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/e62231d0-0c8e-1000-9385-c0a838650000.xml#me62231d0-0c8e-1000-9385-c0a838650000"/>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-mba80a65b-0c8f-1000-9912-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/ba80a65b-0c8f-1000-9912-c0a838650000.xml#mba80a65b-0c8f-1000-9912-c0a838650000"/>
+<RefObject refId="mb3eb9f20-0c8f-1000-9632-c0a838650000-me8e12ad1-0c8e-1000-8fe9-c0a838650000" objectTypeId="4004" objectRef="/oracle/bi/server/base/PresentationCatalog/e8e12ad1-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad1-0c8e-1000-8fe9-c0a838650000"/>
+</RefObjects>
+</ObjectPrivilege>

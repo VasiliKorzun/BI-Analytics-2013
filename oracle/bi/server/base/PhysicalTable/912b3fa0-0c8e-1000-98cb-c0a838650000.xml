@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m912b3fa0-0c8e-1000-98cb-c0a838650000" name="Restaurants" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e546-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m912b3fa1-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_ADDRESS" dataType="VARCHAR" precision="400" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e547-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa2-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_CITY_DESC" dataType="VARCHAR" precision="150" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e548-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa3-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_CITY_GEO_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e549-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa4-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_CITY_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54a-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa5-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_CODE" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54b-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa6-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_DESC" dataType="VARCHAR" precision="2000" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54c-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa7-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_EMAIL" dataType="VARCHAR" precision="200" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54d-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa8-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54e-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fa9-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e54f-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3faa-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_NAME" dataType="VARCHAR" precision="150" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e550-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fab-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_NUMBER_OF_DINING_RO" dataType="INT" precision="4" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e551-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fac-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_NUMBER_OF_SEATS" dataType="INT" precision="4" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e552-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fad-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_PHONE_NUMBER" dataType="VARCHAR" precision="30" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e553-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fae-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_TYPE_DESC" dataType="VARCHAR" precision="200" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e554-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3faf-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_TYPE_ID" dataType="INT" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e555-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m912b3fb0-0c8e-1000-98cb-c0a838650000" name="RESTAURANT_TYPE_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/9050e546-0c8e-1000-98cb-c0a838650000.xml#m9050e556-0c8e-1000-98cb-c0a838650000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m91e67950-0c8e-1000-98cb-c0a838650000" name="Restaurants_Key">
+<RefColumns>
+<RefColumn refId="m91e67950-0c8e-1000-98cb-c0a838650000-m912b3fa9-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa9-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m91f19ce0-0c8e-1000-98cb-c0a838650000" name="Restaurants_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91f3e6d0-0c8e-1000-98cb-c0a838650000">
+<RefColumns>
+<RefColumn refId="m91f19ce0-0c8e-1000-98cb-c0a838650000-m912b3fa8-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa8-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

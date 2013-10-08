@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mae3be452-0c8e-1000-8fe9-c0a838650000" name="FCT_INCOME_PRODUCTS_DAILY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be450-0c8e-1000-8fe9-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-9010-2de500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Amount Sold"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9010-2de500000000-mae3be453-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be453-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-f84d-05da00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."AMOUNT_SOLD"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f84d-05da00000000-mad8e8d7f-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d7f-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-d13b-5fd900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Customer Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d13b-5fd900000000-mae3be454-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be454-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-8839-25c100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."CUSTOMER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-8839-25c100000000-mad8e8d80-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d80-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-381d-1e1500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Date Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-381d-1e1500000000-mae3be455-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be455-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-5391-c65200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."EVENT_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-5391-c65200000000-mad8e8d81-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d81-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-775f-f58000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Location Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-775f-f58000000000-mae3be456-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be456-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-d967-10a400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."ORD_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-d967-10a400000000-mad8e8d82-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d82-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-5556-f07400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Product Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-5556-f07400000000-mae3be457-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be457-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-63b4-d7e800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."PRODUCT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-63b4-d7e800000000-mad8e8d83-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d83-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-bb12-80a200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Quantity"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-bb12-80a200000000-mae3be458-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be458-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-cec9-587600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."QUANTITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-cec9-587600000000-mad8e8d84-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d84-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-afa5-227500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_VY"."Daily Income Facts"."Total Cost"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-afa5-227500000000-mae3be459-0c8e-1000-8fe9-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/ae3be450-0c8e-1000-8fe9-c0a838650000.xml#mae3be459-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-7c16-848600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."FCT_INCOME_PRODUCTS_DAILY"."TOTAL_COST"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-7c16-848600000000-mad8e8d85-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d85-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/ad8e8d7e-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d7e-0c8e-1000-8fe9-c0a838650000">
+</Link>
+<WhereClause mdsid="m0000000f-01f4-0000-7dda-7bf800000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000010-01f4-0000-5ef7-6d2700000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000011-01f4-0000-1b07-5c7800000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

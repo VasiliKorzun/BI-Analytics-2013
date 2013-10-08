@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me5ea5928-0c8e-1000-8374-c0a838650000" name="Operations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e5ea5926-0c8e-1000-8374-c0a838650000.xml#me5ea5926-0c8e-1000-8374-c0a838650000">
+<PresentationColumn mdsid="me5ea5906-0c8e-1000-8374-c0a838650000" name="Dish identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c143-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5907-0c8e-1000-8374-c0a838650000" name="Event Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c144-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5908-0c8e-1000-8374-c0a838650000" name="Period identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c148-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5909-0c8e-1000-8374-c0a838650000" name="Restaurant identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c149-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea590a-0c8e-1000-8374-c0a838650000" name="Unit amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c146-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea590b-0c8e-1000-8374-c0a838650000" name="Total Sales ($)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m9406c145-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea590c-0c8e-1000-8374-c0a838650000" name="Total Sales with Tax ($)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#m959e7840-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7705cb1-0c8e-1000-8374-c0a838650000" name="Sales ago month ($)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/9406c140-0c8e-1000-98cb-c0a838650000.xml#me7622be0-0c8e-1000-8374-c0a838650000">
+<Alias name="Ago_month"/>
+</PresentationColumn>
+</PresentationTable>

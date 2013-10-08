@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mc30bd90b-0c8f-1000-b9c2-0a0666520000" name="Vera_Yakimovich_SH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c30b8a10-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a10-0c8f-1000-b9c2-0a0666520000">
+<Alias name="SH"/>
+<RefTables>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd90c-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd90c-0c8f-1000-b9c2-0a0666520000.xml#mc30bd90c-0c8f-1000-b9c2-0a0666520000"/>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd90d-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd90d-0c8f-1000-b9c2-0a0666520000.xml#mc30bd90d-0c8f-1000-b9c2-0a0666520000"/>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd90e-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd90e-0c8f-1000-b9c2-0a0666520000.xml#mc30bd90e-0c8f-1000-b9c2-0a0666520000"/>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd90f-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd90f-0c8f-1000-b9c2-0a0666520000.xml#mc30bd90f-0c8f-1000-b9c2-0a0666520000"/>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd910-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd910-0c8f-1000-b9c2-0a0666520000.xml#mc30bd910-0c8f-1000-b9c2-0a0666520000"/>
+<RefPresentationTable refId="mc30bd90b-0c8f-1000-b9c2-0a0666520000-mc30bd911-0c8f-1000-b9c2-0a0666520000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c30bd911-0c8f-1000-b9c2-0a0666520000.xml#mc30bd911-0c8f-1000-b9c2-0a0666520000"/>
+</RefTables>
+</PresentationCatalog>

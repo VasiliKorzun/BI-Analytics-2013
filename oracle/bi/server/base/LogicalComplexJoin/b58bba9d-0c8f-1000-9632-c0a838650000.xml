@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalComplexJoin mdsid="mb58bba9d-0c8f-1000-9632-c0a838650000" name="Iryna_Bradzetskaya_MT#1:Relationship_2004:4072641381133744" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Inner" logicalTable1Ref="/oracle/bi/server/base/LogicalTable/b58b9400-0c8f-1000-9632-c0a838650000.xml#mb58b9400-0c8f-1000-9632-c0a838650000" multiplicity1="n..n" isAggregate1="false" logicalTable2Ref="/oracle/bi/server/base/LogicalTable/b58b93bf-0c8f-1000-9632-c0a838650000.xml#mb58b93bf-0c8f-1000-9632-c0a838650000" multiplicity2="0..1" isAggregate2="false">
+</LogicalComplexJoin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m340656c6-0c8e-1000-884c-c0a838650000" name="SALES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/340656c5-0c8e-1000-884c-c0a838650000.xml#m340656c5-0c8e-1000-884c-c0a838650000">
+<PresentationColumn mdsid="m34062fb7-0c8e-1000-884c-c0a838650000" name="AMOUNT_SOLD" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32a-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb8-0c8e-1000-884c-c0a838650000" name="CHANNEL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32b-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fb9-0c8e-1000-884c-c0a838650000" name="CUST_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32c-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fba-0c8e-1000-884c-c0a838650000" name="PROD_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32d-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fbb-0c8e-1000-884c-c0a838650000" name="PROMO_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32e-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fbc-0c8e-1000-884c-c0a838650000" name="QUANTITY_SOLD" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb32f-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m34062fbd-0c8e-1000-884c-c0a838650000" name="TIME_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb327-0c8e-1000-884c-c0a838650000.xml#m2e7fb330-0c8e-1000-884c-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

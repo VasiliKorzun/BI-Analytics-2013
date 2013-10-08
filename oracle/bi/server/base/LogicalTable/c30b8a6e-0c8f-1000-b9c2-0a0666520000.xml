@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc30b8a6e-0c8f-1000-b9c2-0a0666520000" name="PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c30b8a10-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a10-0c8f-1000-b9c2-0a0666520000">
+<LogicalColumn mdsid="mc30b8a71-0c8f-1000-b9c2-0a0666520000" name="PROD_CATEGORY" isWriteable="false">
+<AttrDefn mdsid="mc3aab217-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123641381160260">
+<Expr mdsid="m00000001-01f4-0000-a84d-246300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_CATEGORY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-a84d-246300000000-mc3034d03-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d03-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a72-0c8f-1000-b9c2-0a0666520000" name="PROD_CATEGORY_DESC" isWriteable="false">
+<AttrDefn mdsid="mc3aab218-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123651381160260">
+<Expr mdsid="m00000002-01f4-0000-6cbf-2b8c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_CATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-6cbf-2b8c00000000-mc3034d04-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d04-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a73-0c8f-1000-b9c2-0a0666520000" name="PROD_CATEGORY_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab219-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123661381160260">
+<Expr mdsid="m00000003-01f4-0000-c20a-ef3f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_CATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-c20a-ef3f00000000-mc3034d05-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d05-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a74-0c8f-1000-b9c2-0a0666520000" name="PROD_DESC" isWriteable="false">
+<AttrDefn mdsid="mc3aab21a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123671381160260">
+<Expr mdsid="m00000004-01f4-0000-9838-b2f100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-9838-b2f100000000-mc3034d06-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d06-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a75-0c8f-1000-b9c2-0a0666520000" name="PROD_EFF_FROM" isWriteable="false">
+<AttrDefn mdsid="mc3aab21b-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123681381160260">
+<Expr mdsid="m00000005-01f4-0000-d3fe-c59000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_EFF_FROM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-d3fe-c59000000000-mc3034d07-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d07-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a76-0c8f-1000-b9c2-0a0666520000" name="PROD_EFF_TO" isWriteable="false">
+<AttrDefn mdsid="mc3aab21c-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123691381160260">
+<Expr mdsid="m00000006-01f4-0000-c9b0-c3d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_EFF_TO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-c9b0-c3d700000000-mc3034d08-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d08-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a77-0c8f-1000-b9c2-0a0666520000" name="PROD_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab21d-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123701381160260">
+<Expr mdsid="m00000007-01f4-0000-30ea-b91400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-30ea-b91400000000-mc3034d09-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d09-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a78-0c8f-1000-b9c2-0a0666520000" name="PROD_LIST_PRICE" isWriteable="false">
+<AttrDefn mdsid="mc3aab21e-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123711381160260">
+<Expr mdsid="m00000008-01f4-0000-eca8-7ebd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_LIST_PRICE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-eca8-7ebd00000000-mc3034d0a-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0a-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a79-0c8f-1000-b9c2-0a0666520000" name="PROD_MIN_PRICE" isWriteable="false">
+<AttrDefn mdsid="mc3aab21f-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123721381160260">
+<Expr mdsid="m00000009-01f4-0000-5c01-cc3000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_MIN_PRICE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-5c01-cc3000000000-mc3034d0b-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0b-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7a-0c8f-1000-b9c2-0a0666520000" name="PROD_NAME" isWriteable="false">
+<AttrDefn mdsid="mc3aab220-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123731381160260">
+<Expr mdsid="m0000000a-01f4-0000-aa5e-077800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-aa5e-077800000000-mc3034d0c-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0c-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7b-0c8f-1000-b9c2-0a0666520000" name="PROD_PACK_SIZE" isWriteable="false">
+<AttrDefn mdsid="mc3aab221-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123741381160260">
+<Expr mdsid="m0000000b-01f4-0000-51ad-7f6500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_PACK_SIZE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-51ad-7f6500000000-mc3034d0d-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0d-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7c-0c8f-1000-b9c2-0a0666520000" name="PROD_SRC_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab222-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123751381160260">
+<Expr mdsid="m0000000c-01f4-0000-3e7f-1a8700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_SRC_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-3e7f-1a8700000000-mc3034d0e-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0e-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7d-0c8f-1000-b9c2-0a0666520000" name="PROD_STATUS" isWriteable="false">
+<AttrDefn mdsid="mc3aab223-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123761381160260">
+<Expr mdsid="m0000000d-01f4-0000-9b79-987d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_STATUS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-9b79-987d00000000-mc3034d0f-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d0f-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7e-0c8f-1000-b9c2-0a0666520000" name="PROD_SUBCATEGORY" isWriteable="false">
+<AttrDefn mdsid="mc3aab224-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123771381160260">
+<Expr mdsid="m0000000e-01f4-0000-89b8-c14000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_SUBCATEGORY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-89b8-c14000000000-mc3034d10-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d10-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a7f-0c8f-1000-b9c2-0a0666520000" name="PROD_SUBCATEGORY_DESC" isWriteable="false">
+<AttrDefn mdsid="mc3aab225-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123781381160260">
+<Expr mdsid="m0000000f-01f4-0000-69d0-c8fe00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_SUBCATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-69d0-c8fe00000000-mc3034d11-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d11-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a80-0c8f-1000-b9c2-0a0666520000" name="PROD_SUBCATEGORY_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab226-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123791381160260">
+<Expr mdsid="m00000010-01f4-0000-fe69-3cdd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_SUBCATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-fe69-3cdd00000000-mc3034d12-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d12-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a81-0c8f-1000-b9c2-0a0666520000" name="PROD_TOTAL" isWriteable="false">
+<AttrDefn mdsid="mc3aab227-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123801381160260">
+<Expr mdsid="m00000011-01f4-0000-70f1-123200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-70f1-123200000000-mc3034d13-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d13-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a82-0c8f-1000-b9c2-0a0666520000" name="PROD_TOTAL_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab228-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123811381160260">
+<Expr mdsid="m00000012-01f4-0000-c91a-f75f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-c91a-f75f00000000-mc3034d14-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d14-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a83-0c8f-1000-b9c2-0a0666520000" name="PROD_UNIT_OF_MEASURE" isWriteable="false">
+<AttrDefn mdsid="mc3aab229-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123821381160260">
+<Expr mdsid="m00000013-01f4-0000-0b28-c80800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_UNIT_OF_MEASURE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-0b28-c80800000000-mc3034d15-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d15-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a84-0c8f-1000-b9c2-0a0666520000" name="PROD_VALID" isWriteable="false">
+<AttrDefn mdsid="mc3aab22a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123831381160260">
+<Expr mdsid="m00000014-01f4-0000-6dd9-1f4200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_VALID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-6dd9-1f4200000000-mc3034d16-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d16-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a85-0c8f-1000-b9c2-0a0666520000" name="PROD_WEIGHT_CLASS" isWriteable="false">
+<AttrDefn mdsid="mc3aab22b-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123841381160260">
+<Expr mdsid="m00000015-01f4-0000-5575-ce8000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."PROD_WEIGHT_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-5575-ce8000000000-mc3034d17-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d17-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc30b8a86-0c8f-1000-b9c2-0a0666520000" name="SUPPLIER_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab22c-0c8f-1000-815c-0a06665a0000" name="AD_3900:4123851381160260">
+<Expr mdsid="m00000016-01f4-0000-7bd9-632a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_SH".""."SH"."PRODUCTS"."SUPPLIER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-7bd9-632a00000000-mc3034d18-0c8f-1000-b9c2-0a0666520000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c3034d02-0c8f-1000-b9c2-0a0666520000.xml#mc3034d18-0c8f-1000-b9c2-0a0666520000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mc30b8a87-0c8f-1000-b9c2-0a0666520000" name="PRODUCTS_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mc30b8a87-0c8f-1000-b9c2-0a0666520000-mc30b8a77-0c8f-1000-b9c2-0a0666520000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c30b8a6e-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a77-0c8f-1000-b9c2-0a0666520000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mc30b8a6e-0c8f-1000-b9c2-0a0666520000-mc30b8a70-0c8f-1000-b9c2-0a0666520000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c30b8a70-0c8f-1000-b9c2-0a0666520000.xml#mc30b8a70-0c8f-1000-b9c2-0a0666520000"/>
+</RefTableSources>
+</LogicalTable>

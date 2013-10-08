@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="me8172400-0c8e-1000-8fe9-c0a838650000" name="Times" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/85722660-0c8e-1000-99b6-c0a838650000.xml#m85722660-0c8e-1000-99b6-c0a838650000">
+<LogicalColumn mdsid="me8172403-0c8e-1000-8fe9-c0a838650000" name="Beginning of Quarter" isWriteable="false">
+<AttrDefn mdsid="mc3aab179-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122061381160260">
+<Expr mdsid="m00000001-01f4-0000-cf55-d66b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."BEG_OF_CAL_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-cf55-d66b00000000-me8096861-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096861-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172404-0c8e-1000-8fe9-c0a838650000" name="Beginning of Year" isWriteable="false">
+<AttrDefn mdsid="mc3aab17a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122071381160260">
+<Expr mdsid="m00000002-01f4-0000-98ea-97f400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."BEG_OF_CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-98ea-97f400000000-me8096862-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096862-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172405-0c8e-1000-8fe9-c0a838650000" name="Month Name" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/e8172400-0c8e-1000-8fe9-c0a838650000.xml#me8172406-0c8e-1000-8fe9-c0a838650000">
+<AttrDefn mdsid="mc3aab17b-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122081381160260">
+<Expr mdsid="m00000003-01f4-0000-f56b-4eb400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."CALENDAR_MONTH_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-f56b-4eb400000000-me8096863-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096863-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172406-0c8e-1000-8fe9-c0a838650000" name="Month Number" isWriteable="false">
+<AttrDefn mdsid="mc3aab17c-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122091381160260">
+<Expr mdsid="m00000004-01f4-0000-1582-ba3900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."CALENDAR_MONTH_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-1582-ba3900000000-me8096864-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096864-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172407-0c8e-1000-8fe9-c0a838650000" name="Quarter Number" isWriteable="false">
+<AttrDefn mdsid="mc3aab17d-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122101381160260">
+<Expr mdsid="m00000005-01f4-0000-34c0-c73800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."CALENDAR_QUARTER_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-34c0-c73800000000-me8096865-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096865-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172408-0c8e-1000-8fe9-c0a838650000" name="Week Number" isWriteable="false">
+<AttrDefn mdsid="mc3aab17e-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122111381160260">
+<Expr mdsid="m00000006-01f4-0000-6634-01a800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."CALENDAR_WEEK_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-6634-01a800000000-me8096866-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096866-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172409-0c8e-1000-8fe9-c0a838650000" name="Year" isWriteable="false">
+<AttrDefn mdsid="mc3aab17f-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122121381160260">
+<Expr mdsid="m00000007-01f4-0000-73b4-135b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."CALENDAR_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-73b4-135b00000000-me8096867-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096867-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240a-0c8e-1000-8fe9-c0a838650000" name="Day" isWriteable="false">
+<AttrDefn mdsid="mc3aab180-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122131381160260">
+<Expr mdsid="m00000008-01f4-0000-2796-0edd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-2796-0edd00000000-me809686b-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686b-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240b-0c8e-1000-8fe9-c0a838650000" name="Day Number in Month" isWriteable="false">
+<AttrDefn mdsid="mc3aab181-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122141381160260">
+<Expr mdsid="m00000009-01f4-0000-64fb-979b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAY_NUMBER_IN_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-64fb-979b00000000-me809686c-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686c-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240c-0c8e-1000-8fe9-c0a838650000" name="Day Number in Week" isWriteable="false">
+<AttrDefn mdsid="mc3aab182-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122151381160260">
+<Expr mdsid="m0000000a-01f4-0000-0e37-2cf200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAY_NUMBER_IN_WEEK"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-0e37-2cf200000000-me809686d-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686d-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240d-0c8e-1000-8fe9-c0a838650000" name="Day Number in Year" isWriteable="false">
+<AttrDefn mdsid="mc3aab183-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122161381160260">
+<Expr mdsid="m0000000b-01f4-0000-43f5-afcd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAY_NUMBER_IN_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-43f5-afcd00000000-me809686e-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686e-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240e-0c8e-1000-8fe9-c0a838650000" name="Days in Month" isWriteable="false">
+<AttrDefn mdsid="mc3aab184-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122171381160260">
+<Expr mdsid="m0000000c-01f4-0000-1389-0b3800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAYS_IN_CAL_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-1389-0b3800000000-me8096868-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096868-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me817240f-0c8e-1000-8fe9-c0a838650000" name="Days in Quarter" isWriteable="false">
+<AttrDefn mdsid="mc3aab185-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122181381160260">
+<Expr mdsid="m0000000d-01f4-0000-4e74-828300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAYS_IN_CAL_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-4e74-828300000000-me8096869-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096869-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172410-0c8e-1000-8fe9-c0a838650000" name="Days in Year" isWriteable="false">
+<AttrDefn mdsid="mc3aab186-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122191381160260">
+<Expr mdsid="m0000000e-01f4-0000-915b-07be00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."DAYS_IN_CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-915b-07be00000000-me809686a-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686a-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172411-0c8e-1000-8fe9-c0a838650000" name="End of Month" isWriteable="false">
+<AttrDefn mdsid="mc3aab187-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122201381160260">
+<Expr mdsid="m0000000f-01f4-0000-f093-511000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."END_OF_CAL_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-f093-511000000000-me809686f-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me809686f-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172412-0c8e-1000-8fe9-c0a838650000" name="End of Quarter" isWriteable="false">
+<AttrDefn mdsid="mc3aab188-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122211381160260">
+<Expr mdsid="m00000010-01f4-0000-26d2-f85a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."END_OF_CAL_QUARTER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-26d2-f85a00000000-me8096870-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096870-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172413-0c8e-1000-8fe9-c0a838650000" name="End of Year" isWriteable="false">
+<AttrDefn mdsid="mc3aab189-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122221381160260">
+<Expr mdsid="m00000011-01f4-0000-334d-47ae00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."END_OF_CAL_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-334d-47ae00000000-me8096871-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096871-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172414-0c8e-1000-8fe9-c0a838650000" name="Month Key" isWriteable="false">
+<AttrDefn mdsid="mc3aab18a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122231381160260">
+<Expr mdsid="m00000012-01f4-0000-e1e4-816400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."MONTH_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-e1e4-816400000000-me80b3d20-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me80b3d20-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172415-0c8e-1000-8fe9-c0a838650000" name="Quart Key" isWriteable="false">
+<AttrDefn mdsid="mc3aab18b-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122241381160260">
+<Expr mdsid="m00000013-01f4-0000-1579-a5b500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."QUART_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-1579-a5b500000000-me80c9cb0-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me80c9cb0-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172416-0c8e-1000-8fe9-c0a838650000" name="Day Key" isWriteable="false">
+<AttrDefn mdsid="mc3aab18c-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122251381160260">
+<Expr mdsid="m00000014-01f4-0000-3d64-05b100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-3d64-05b100000000-me8096872-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096872-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="me8172417-0c8e-1000-8fe9-c0a838650000" name="End of Week" isWriteable="false">
+<AttrDefn mdsid="mc3aab18d-0c8f-1000-815c-0a06665a0000" name="AD_3900:4122261381160260">
+<Expr mdsid="m00000015-01f4-0000-ed19-137700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Vera_Yakimovich_DW".""."VY"."DIM_TIMES"."WEEK_ENDING_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-ed19-137700000000-me8096873-0c8e-1000-8fe9-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096873-0c8e-1000-8fe9-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="me8172418-0c8e-1000-8fe9-c0a838650000" name="DIM_TIMES_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="me8172418-0c8e-1000-8fe9-c0a838650000-me8172416-0c8e-1000-8fe9-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/e8172400-0c8e-1000-8fe9-c0a838650000.xml#me8172416-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="me8172400-0c8e-1000-8fe9-c0a838650000-me8172402-0c8e-1000-8fe9-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/e8172402-0c8e-1000-8fe9-c0a838650000.xml#me8172402-0c8e-1000-8fe9-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

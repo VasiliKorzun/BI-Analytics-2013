@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mba80a65b-0c8f-1000-9912-c0a838650000" name="VY-Actual" isDefaultReadable="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/85722660-0c8e-1000-99b6-c0a838650000.xml#m85722660-0c8e-1000-99b6-c0a838650000">
+<Alias name="V"/>
+<Alias name="VY#1"/>
+<Alias name="VY-Actual Europe"/>
+<Alias name="VY-Actual Eгrope"/>
+<Alias name="VY-Erope"/>
+<RefTables>
+<RefPresentationTable refId="mba80a65b-0c8f-1000-9912-c0a838650000-mba80a65c-0c8f-1000-9912-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ba80a65c-0c8f-1000-9912-c0a838650000.xml#mba80a65c-0c8f-1000-9912-c0a838650000"/>
+<RefPresentationTable refId="mba80a65b-0c8f-1000-9912-c0a838650000-mba80a65d-0c8f-1000-9912-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ba80a65d-0c8f-1000-9912-c0a838650000.xml#mba80a65d-0c8f-1000-9912-c0a838650000"/>
+<RefPresentationTable refId="mba80a65b-0c8f-1000-9912-c0a838650000-mba80a65e-0c8f-1000-9912-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ba80a65e-0c8f-1000-9912-c0a838650000.xml#mba80a65e-0c8f-1000-9912-c0a838650000"/>
+<RefPresentationTable refId="mba80a65b-0c8f-1000-9912-c0a838650000-mba80a660-0c8f-1000-9912-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/ba80a660-0c8f-1000-9912-c0a838650000.xml#mba80a660-0c8f-1000-9912-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

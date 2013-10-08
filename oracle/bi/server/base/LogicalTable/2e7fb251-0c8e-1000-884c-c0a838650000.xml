@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m2e7fb251-0c8e-1000-884c-c0a838650000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/2e7fb250-0c8e-1000-884c-c0a838650000.xml#m2e7fb250-0c8e-1000-884c-c0a838650000">
+<LogicalColumn mdsid="m2e7fb254-0c8e-1000-884c-c0a838650000" name="CHANNEL_CLASS" isWriteable="false">
+<AttrDefn mdsid="mc3aab145-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121541381160260">
+<Expr mdsid="m00000001-01f4-0000-fc69-cf0700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_CLASS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-fc69-cf0700000000-m260b15b2-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b2-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb255-0c8e-1000-884c-c0a838650000" name="CHANNEL_CLASS_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab146-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121551381160260">
+<Expr mdsid="m00000002-01f4-0000-dd6b-ffcf00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_CLASS_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-dd6b-ffcf00000000-m260b15b3-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b3-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb256-0c8e-1000-884c-c0a838650000" name="CHANNEL_DESC" isWriteable="false">
+<AttrDefn mdsid="mc3aab147-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121561381160260">
+<Expr mdsid="m00000003-01f4-0000-ad0c-8fee00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-ad0c-8fee00000000-m260b15b4-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b4-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb257-0c8e-1000-884c-c0a838650000" name="CHANNEL_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab148-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121571381160260">
+<Expr mdsid="m00000004-01f4-0000-ed05-0c3c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-ed05-0c3c00000000-m260b15b5-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b5-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb258-0c8e-1000-884c-c0a838650000" name="CHANNEL_TOTAL" isWriteable="false">
+<AttrDefn mdsid="mc3aab149-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121581381160260">
+<Expr mdsid="m00000005-01f4-0000-a3b2-e11100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-a3b2-e11100000000-m260b15b6-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b6-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m2e7fb259-0c8e-1000-884c-c0a838650000" name="CHANNEL_TOTAL_ID" isWriteable="false">
+<AttrDefn mdsid="mc3aab14a-0c8f-1000-815c-0a06665a0000" name="AD_3900:4121591381160260">
+<Expr mdsid="m00000006-01f4-0000-7f97-860000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_SH".""."SH"."CHANNELS"."CHANNEL_TOTAL_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-7f97-860000000000-m260b15b7-0c8e-1000-884c-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/260b15b1-0c8e-1000-884c-c0a838650000.xml#m260b15b7-0c8e-1000-884c-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m2e7fb25a-0c8e-1000-884c-c0a838650000" name="CHANNELS_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m2e7fb25a-0c8e-1000-884c-c0a838650000-m2e7fb257-0c8e-1000-884c-c0a838650000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/2e7fb251-0c8e-1000-884c-c0a838650000.xml#m2e7fb257-0c8e-1000-884c-c0a838650000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m2e7fb251-0c8e-1000-884c-c0a838650000-m2e7fb253-0c8e-1000-884c-c0a838650000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/2e7fb253-0c8e-1000-884c-c0a838650000.xml#m2e7fb253-0c8e-1000-884c-c0a838650000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m9050e532-0c8e-1000-98cb-c0a838650000" name="DIM_GEO_LOCATIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m9050e533-0c8e-1000-98cb-c0a838650000" name="COUNTRY_CODE_A2" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e534-0c8e-1000-98cb-c0a838650000" name="COUNTRY_CODE_A3" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e535-0c8e-1000-98cb-c0a838650000" name="COUNTRY_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e536-0c8e-1000-98cb-c0a838650000" name="COUNTRY_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e537-0c8e-1000-98cb-c0a838650000" name="COUNTRY_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e538-0c8e-1000-98cb-c0a838650000" name="GEO_ID" dataType="DOUBLE" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e539-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53a-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53b-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53c-0c8e-1000-98cb-c0a838650000" name="GEO_SYSTEM_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53d-0c8e-1000-98cb-c0a838650000" name="PART_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53e-0c8e-1000-98cb-c0a838650000" name="PART_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e53f-0c8e-1000-98cb-c0a838650000" name="PART_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e540-0c8e-1000-98cb-c0a838650000" name="PART_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e541-0c8e-1000-98cb-c0a838650000" name="REGION_CODE" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e542-0c8e-1000-98cb-c0a838650000" name="REGION_DESC" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e543-0c8e-1000-98cb-c0a838650000" name="REGION_GEO_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e544-0c8e-1000-98cb-c0a838650000" name="REGION_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m9050e545-0c8e-1000-98cb-c0a838650000" name="DIM_GEO_LOCATIONS_PK">
+<RefColumns>
+<RefColumn refId="m9050e545-0c8e-1000-98cb-c0a838650000-m9050e538-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/9050e532-0c8e-1000-98cb-c0a838650000.xml#m9050e538-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

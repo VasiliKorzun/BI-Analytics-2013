@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="me8e12ad1-0c8e-1000-8fe9-c0a838650000" name="VY" isDefaultReadable="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/85722660-0c8e-1000-99b6-c0a838650000.xml#m85722660-0c8e-1000-99b6-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad2-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad2-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad2-0c8e-1000-8fe9-c0a838650000"/>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad3-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad3-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad3-0c8e-1000-8fe9-c0a838650000"/>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad4-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad4-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad4-0c8e-1000-8fe9-c0a838650000"/>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad5-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad5-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad5-0c8e-1000-8fe9-c0a838650000"/>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad6-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad6-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad6-0c8e-1000-8fe9-c0a838650000"/>
+<RefPresentationTable refId="me8e12ad1-0c8e-1000-8fe9-c0a838650000-me8e12ad7-0c8e-1000-8fe9-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/e8e12ad7-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad7-0c8e-1000-8fe9-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

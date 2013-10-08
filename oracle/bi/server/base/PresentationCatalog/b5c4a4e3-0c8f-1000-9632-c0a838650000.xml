@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mb5c4a4e3-0c8f-1000-9632-c0a838650000" name="Iryna_Bradzetskaya_MT_Row-level_Security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/b58b9380-0c8f-1000-9632-c0a838650000.xml#mb58b9380-0c8f-1000-9632-c0a838650000">
+<RefTables>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e4-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e4-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e4-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e5-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e5-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e5-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e6-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e6-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e6-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e7-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e7-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e7-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e8-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e8-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e8-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4e9-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4e9-0c8f-1000-9632-c0a838650000.xml#mb5c4a4e9-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4ea-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4ea-0c8f-1000-9632-c0a838650000.xml#mb5c4a4ea-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4eb-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4eb-0c8f-1000-9632-c0a838650000.xml#mb5c4a4eb-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4ec-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4ec-0c8f-1000-9632-c0a838650000.xml#mb5c4a4ec-0c8f-1000-9632-c0a838650000"/>
+<RefPresentationTable refId="mb5c4a4e3-0c8f-1000-9632-c0a838650000-mb5c4a4ed-0c8f-1000-9632-c0a838650000" presentationTableRef="/oracle/bi/server/base/PresentationTable/b5c4a4ed-0c8f-1000-9632-c0a838650000.xml#mb5c4a4ed-0c8f-1000-9632-c0a838650000"/>
+</RefTables>
+</PresentationCatalog>

@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m93d948a0-0c8e-1000-98cb-c0a838650000" name="LTS Restaurants - Locations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93d773e0-0c8e-1000-98cb-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-0740-43fe00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0740-43fe00000000-m93e46c58-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c58-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-2d56-c89e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2d56-c89e00000000-m912b3fa9-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa9-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-142e-298b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-142e-298b00000000-m93e46c54-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c54-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-4b23-09ef00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-4b23-09ef00000000-m912b3fa5-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa5-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-651f-381d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-651f-381d00000000-m93e46c59-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c59-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-ddd0-53b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-ddd0-53b600000000-m912b3faa-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3faa-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-8039-85ca00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-8039-85ca00000000-m93e46c55-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c55-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-5dae-9dc100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-5dae-9dc100000000-m912b3fa6-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa6-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-6027-f22300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant email"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-6027-f22300000000-m93e46c56-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c56-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-ba91-27c500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_EMAIL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-ba91-27c500000000-m912b3fa7-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa7-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-274b-26de00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant phone number"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-274b-26de00000000-m93e46c5c-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5c-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-f676-34cc00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_PHONE_NUMBER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-f676-34cc00000000-m912b3fad-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fad-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-16a5-c7e000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Number of dining rooms"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-16a5-c7e000000000-m93e46c5a-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5a-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-4e31-c31100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_NUMBER_OF_DINING_RO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-4e31-c31100000000-m912b3fab-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fab-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-61be-e8d800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Number of seats"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-61be-e8d800000000-m93e46c5b-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5b-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-6b64-569b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_NUMBER_OF_SEATS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-6b64-569b00000000-m912b3fac-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fac-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-8c57-7a7d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant type identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-8c57-7a7d00000000-m93e46c5e-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5e-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-faec-8f5d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-faec-8f5d00000000-m912b3faf-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3faf-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-54b3-b2af00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant type name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-54b3-b2af00000000-m93e46c5f-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5f-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-e039-3f4000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_TYPE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-e039-3f4000000000-m912b3fb0-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fb0-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-177a-1b9e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant type description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-177a-1b9e00000000-m93e46c5d-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c5d-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-fe93-c0cb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_TYPE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-fe93-c0cb00000000-m912b3fae-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fae-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-a982-c90900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Restaurant address"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-a982-c90900000000-m93e46c60-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c60-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-2fee-212700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-2fee-212700000000-m912b3fa1-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa1-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000019-01f4-0000-b487-2b8700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."City geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-b487-2b8700000000-m93e46c52-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c52-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001a-01f4-0000-3268-9c4b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_CITY_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-3268-9c4b00000000-m912b3fa3-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa3-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001b-01f4-0000-f408-a87600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."City identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-f408-a87600000000-m93e46c53-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c53-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001c-01f4-0000-5d58-b5d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_CITY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-5d58-b5d700000000-m912b3fa4-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa4-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001d-01f4-0000-512e-900900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."City description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-512e-900900000000-m93e46c51-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c51-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001e-01f4-0000-eda6-226700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_CITY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-eda6-226700000000-m912b3fa2-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa2-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001f-01f4-0000-a180-aa5f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."RESTAURANT_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-a180-aa5f00000000-m93e46c57-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e46c57-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000020-01f4-0000-64b1-ba8e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Restaurants"."RESTAURANT_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-64b1-ba8e00000000-m912b3fa8-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa8-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000021-01f4-0000-a898-e8ec00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-a898-e8ec00000000-m93e5a4d9-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d9-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000022-01f4-0000-f901-0a9d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-f901-0a9d00000000-m91291cc6-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc6-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000023-01f4-0000-683e-9e0600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Country geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-683e-9e0600000000-m93e5a4d7-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d7-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000024-01f4-0000-6a11-708800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."COUNTRY_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-6a11-708800000000-m91291cc4-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc4-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000025-01f4-0000-fcd2-e1dd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Country identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000025-01f4-0000-fcd2-e1dd00000000-m93e5a4d8-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d8-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000026-01f4-0000-4437-3d8800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000026-01f4-0000-4437-3d8800000000-m91291cc5-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc5-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000027-01f4-0000-12a8-853f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Country code A2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000027-01f4-0000-12a8-853f00000000-m93e5a4d4-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d4-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000028-01f4-0000-7fa9-61e800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."COUNTRY_CODE_A2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000028-01f4-0000-7fa9-61e800000000-m91291cc1-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc1-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000029-01f4-0000-b996-95a500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Country code A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000029-01f4-0000-b996-95a500000000-m93e5a4d5-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d5-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002a-01f4-0000-c56d-c89200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."COUNTRY_CODE_A3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002a-01f4-0000-c56d-c89200000000-m91291cc2-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc2-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002b-01f4-0000-ce91-015500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Country description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002b-01f4-0000-ce91-015500000000-m93e5a4d6-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4d6-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002c-01f4-0000-af2a-9e2300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."COUNTRY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002c-01f4-0000-af2a-9e2300000000-m91291cc3-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc3-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002d-01f4-0000-ef9f-2d3500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Region geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002d-01f4-0000-ef9f-2d3500000000-m93e5cbc5-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc5-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002e-01f4-0000-a690-6d5f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."REGION_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002e-01f4-0000-a690-6d5f00000000-m91291cd1-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cd1-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002f-01f4-0000-6f41-e7b600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Region identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002f-01f4-0000-6f41-e7b600000000-m93e5cbc6-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc6-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000030-01f4-0000-9ac3-20b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000030-01f4-0000-9ac3-20b600000000-m91291cd2-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cd2-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000031-01f4-0000-b5f8-106900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Region code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000031-01f4-0000-b5f8-106900000000-m93e5cbc3-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc3-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000032-01f4-0000-1a04-6a3500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."REGION_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000032-01f4-0000-1a04-6a3500000000-m91291ccf-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291ccf-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000033-01f4-0000-5c9c-8cad00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Region description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000033-01f4-0000-5c9c-8cad00000000-m93e5cbc4-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc4-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000034-01f4-0000-c298-0da800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."REGION_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000034-01f4-0000-c298-0da800000000-m91291cd0-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cd0-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000035-01f4-0000-7d94-4f9d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Part geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000035-01f4-0000-7d94-4f9d00000000-m93e5cbc1-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc1-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000036-01f4-0000-622e-6f5b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000036-01f4-0000-622e-6f5b00000000-m91291ccd-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291ccd-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000037-01f4-0000-e379-17a300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Part identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000037-01f4-0000-e379-17a300000000-m93e5cbc2-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc2-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000038-01f4-0000-6725-ec9c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000038-01f4-0000-6725-ec9c00000000-m91291cce-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cce-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000039-01f4-0000-8b4a-af3d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Part code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000039-01f4-0000-8b4a-af3d00000000-m93e5a4de-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4de-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003a-01f4-0000-716a-fb1c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003a-01f4-0000-716a-fb1c00000000-m91291ccb-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291ccb-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003b-01f4-0000-885d-30d400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."Part description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003b-01f4-0000-885d-30d400000000-m93e5cbc0-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5cbc0-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003c-01f4-0000-da6f-2a8700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003c-01f4-0000-da6f-2a8700000000-m91291ccc-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291ccc-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003d-01f4-0000-2642-610000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."System geo identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003d-01f4-0000-2642-610000000000-m93e5a4dc-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4dc-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000003e-01f4-0000-be37-585400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."GEO_SYSTEM_GEO_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003e-01f4-0000-be37-585400000000-m91291cc9-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc9-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000003f-01f4-0000-07e5-b2ed00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."System identifier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000003f-01f4-0000-07e5-b2ed00000000-m93e5a4dd-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4dd-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000040-01f4-0000-802e-89cd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."GEO_SYSTEM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000040-01f4-0000-802e-89cd00000000-m91291cca-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cca-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000041-01f4-0000-c1cc-507d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."System code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000041-01f4-0000-c1cc-507d00000000-m93e5a4da-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4da-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000042-01f4-0000-d25a-01eb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."GEO_SYSTEM_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000042-01f4-0000-d25a-01eb00000000-m91291cc7-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc7-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000043-01f4-0000-6414-ffe100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau"."Restaurants"."System description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000043-01f4-0000-6414-ffe100000000-m93e5a4db-0c8e-1000-98cb-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/93d773e0-0c8e-1000-98cb-c0a838650000.xml#m93e5a4db-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000044-01f4-0000-b8f4-5b7400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."GEO_SYSTEM_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000044-01f4-0000-b8f4-5b7400000000-m91291cc8-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc8-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc0-0c8e-1000-98cb-c0a838650000">
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc0-0c8e-1000-98cb-c0a838650000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa0-0c8e-1000-98cb-c0a838650000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m91f19ce0-0c8e-1000-98cb-c0a838650000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa0-0c8e-1000-98cb-c0a838650000">
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m912b3fa0-0c8e-1000-98cb-c0a838650000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291cc0-0c8e-1000-98cb-c0a838650000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/912b3fa0-0c8e-1000-98cb-c0a838650000.xml#m91f19ce0-0c8e-1000-98cb-c0a838650000"/>
+</Link>
+<WhereClause mdsid="m00000045-01f4-0000-972f-7ebb00000000" name="WhereClause">
+<ExprText><![CDATA[(
+Position(';Anton_Tserakhau_role_Africa;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '484'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Oceania;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '485'
+)
+or
+(
+Position(';Anton_Tserakhau_role_North_America;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '486'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Asia;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '487'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Europe;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '488'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Lat_America;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" = '489'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Admin;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"%1" in ('484', '485', '486', '487', '488', '489')
+)]]></ExprText>
+<ExprTextDesc><![CDATA[(
+Position(';Anton_Tserakhau_role_Africa;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '484'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Oceania;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '485'
+)
+or
+(
+Position(';Anton_Tserakhau_role_North_America;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '486'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Asia;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '487'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Europe;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '488'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Lat_America;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" = '489'
+)
+or
+(
+Position(';Anton_Tserakhau_role_Admin;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';') > 0 
+and
+"Anton_Tserakhau_DW".""."ANTON_TSERAKHAU_DW"."Locations"."PART_GEO_ID" in ('484', '485', '486', '487', '488', '489')
+)]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000045-01f4-0000-972f-7ebb00000000-m91291ccd-0c8e-1000-98cb-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/91291cc0-0c8e-1000-98cb-c0a838650000.xml#m91291ccd-0c8e-1000-98cb-c0a838650000"/>
+</ObjectRefList>
+</WhereClause>
+<GroupBy mdsid="m00000046-01f4-0000-0ab8-982c00000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("Anton_Tserakhau"."Restaurants: Type/Location-Restaurant"."Restaurant")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000046-01f4-0000-0ab8-982c00000000-mb368a8f1-0c8e-1000-897a-c0a838650000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/b368a8f0-0c8e-1000-897a-c0a838650000.xml#mb368a8f1-0c8e-1000-897a-c0a838650000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m00000047-01f4-0000-4322-d5bc00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

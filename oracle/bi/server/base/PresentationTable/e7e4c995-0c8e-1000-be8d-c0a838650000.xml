@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me7e4c995-0c8e-1000-be8d-c0a838650000" name="LOCATIONS_SEND" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e7e4c990-0c8e-1000-be8d-c0a838650000.xml#me7e4c990-0c8e-1000-be8d-c0a838650000">
+<PresentationColumn mdsid="me7e4a283-0c8e-1000-be8d-c0a838650000" name="COUNTRY_CODE_A2" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb6-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a284-0c8e-1000-be8d-c0a838650000" name="COUNTRY_CODE_A3" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb7-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a285-0c8e-1000-be8d-c0a838650000" name="COUNTRY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb8-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a286-0c8e-1000-be8d-c0a838650000" name="GEO_COUNTRY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feb9-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a287-0c8e-1000-be8d-c0a838650000" name="GEO_COUNTRY_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367feba-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a288-0c8e-1000-be8d-c0a838650000" name="GEO_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febb-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a289-0c8e-1000-be8d-c0a838650000" name="GEO_PART_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febc-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28a-0c8e-1000-be8d-c0a838650000" name="GEO_PART_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febd-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28b-0c8e-1000-be8d-c0a838650000" name="GEO_PART_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febe-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28c-0c8e-1000-be8d-c0a838650000" name="GEO_REGION_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367febf-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28d-0c8e-1000-be8d-c0a838650000" name="GEO_REGION_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec0-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28e-0c8e-1000-be8d-c0a838650000" name="GEO_REGION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec1-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a28f-0c8e-1000-be8d-c0a838650000" name="GEO_SURR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec2-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a290-0c8e-1000-be8d-c0a838650000" name="LEVEL_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec3-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a291-0c8e-1000-be8d-c0a838650000" name="VALID_FROM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec4-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4a292-0c8e-1000-be8d-c0a838650000" name="VALID_TO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367feb3-0c8e-1000-be8d-c0a838650000.xml#m8367fec5-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me7e4c995-0c8e-1000-be8d-c0a838650000-me7e4c99b-0c8e-1000-be8d-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e7e4c99b-0c8e-1000-be8d-c0a838650000.xml#me7e4c99b-0c8e-1000-be8d-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me7e4c997-0c8e-1000-be8d-c0a838650000" name="TARIFFS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e7e4c990-0c8e-1000-be8d-c0a838650000.xml#me7e4c990-0c8e-1000-be8d-c0a838650000">
+<PresentationColumn mdsid="me7e4c968-0c8e-1000-be8d-c0a838650000" name="INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367fee8-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c969-0c8e-1000-be8d-c0a838650000" name="TARIFF_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367fee9-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96a-0c8e-1000-be8d-c0a838650000" name="TARIFF_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feea-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96b-0c8e-1000-be8d-c0a838650000" name="TARIFF_MAX_PAYMENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feeb-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96c-0c8e-1000-be8d-c0a838650000" name="TARIFF_MIN_PAYMENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feec-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96d-0c8e-1000-be8d-c0a838650000" name="TARIFF_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feed-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96e-0c8e-1000-be8d-c0a838650000" name="TARIFF_PAYMENT_SUM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feee-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c96f-0c8e-1000-be8d-c0a838650000" name="TARIFF_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367feef-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me7e4c970-0c8e-1000-be8d-c0a838650000" name="UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8367fee5-0c8e-1000-be8d-c0a838650000.xml#m8367fef0-0c8e-1000-be8d-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

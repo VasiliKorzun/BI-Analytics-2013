@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m9050be20-0c8e-1000-98cb-c0a838650000" name="DIM_GEN_PERIODS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/904e4d21-0c8e-1000-98cb-c0a838650000.xml#m904e4d21-0c8e-1000-98cb-c0a838650000">
+<PhysicalColumn mdsid="m9050be21-0c8e-1000-98cb-c0a838650000" name="END_DT" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be22-0c8e-1000-98cb-c0a838650000" name="PERIOD_CODE" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be23-0c8e-1000-98cb-c0a838650000" name="PERIOD_DESC" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be24-0c8e-1000-98cb-c0a838650000" name="PERIOD_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be25-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_DESC" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be26-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050be27-0c8e-1000-98cb-c0a838650000" name="PERIOD_TYPE_NAME" dataType="VARCHAR" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m9050e530-0c8e-1000-98cb-c0a838650000" name="START_DT" dataType="DATETIME" precision="150" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m9050e531-0c8e-1000-98cb-c0a838650000" name="DIM_GEN_PERIODS_PK">
+<RefColumns>
+<RefColumn refId="m9050e531-0c8e-1000-98cb-c0a838650000-m9050be24-0c8e-1000-98cb-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/9050be20-0c8e-1000-98cb-c0a838650000.xml#m9050be24-0c8e-1000-98cb-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

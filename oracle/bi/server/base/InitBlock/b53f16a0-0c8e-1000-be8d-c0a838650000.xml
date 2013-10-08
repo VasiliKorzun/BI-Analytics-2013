@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="mb53f16a0-0c8e-1000-be8d-c0a838650000" name="BI_IB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="3600" baseTime="2013-10-02 12:36:31" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/57125ab0-0c8e-1000-9b74-c0a838650000.xml#m57125ab0-0c8e-1000-9b74-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT MAX(EXTRACT (YEAR from EVENT_DT )) FROM FCT_TRANSACTIONS_DAILY]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="mb53f16a0-0c8e-1000-be8d-c0a838650000-mb5461b80-0c8e-1000-be8d-c0a838650000" variableRef="/oracle/bi/server/base/Variable/b5461b80-0c8e-1000-be8d-c0a838650000.xml#mb5461b80-0c8e-1000-be8d-c0a838650000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT MAX(EXTRACT (YEAR from EVENT_DT )) FROM FCT_TRANSACTIONS_DAILY]]></InitString>
+</InitBlock>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="me5ea5934-0c8e-1000-8374-c0a838650000" name="Dishes: Dish Type - Dish" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/e5ea592b-0c8e-1000-8374-c0a838650000.xml#me5ea592b-0c8e-1000-8374-c0a838650000" logicalDimensionRef="/oracle/bi/server/base/Dimension/b3498830-0c8e-1000-897a-c0a838650000.xml#mb3498830-0c8e-1000-897a-c0a838650000">
+<Alias name="Dishes: Cuisine/Type-Dish - Dish Type"/>
+<PresentationLevel mdsid="me5ea800e-0c8e-1000-8374-c0a838650000" name="All Dishes" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5934-0c8e-1000-8374-c0a838650000.xml#me5ea5934-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3498830-0c8e-1000-897a-c0a838650000.xml#mb3498833-0c8e-1000-897a-c0a838650000">
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea800f-0c8e-1000-8374-c0a838650000" name="Dish Type" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5934-0c8e-1000-8374-c0a838650000.xml#me5ea5934-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3498830-0c8e-1000-897a-c0a838650000.xml#mb34b35e0-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea800f-0c8e-1000-8374-c0a838650000-me5ea5920-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea592b-0c8e-1000-8374-c0a838650000.xml#me5ea5920-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="me5ea8010-0c8e-1000-8374-c0a838650000" name="Dish" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5934-0c8e-1000-8374-c0a838650000.xml#me5ea5934-0c8e-1000-8374-c0a838650000" logicalLevelRef="/oracle/bi/server/base/Dimension/b3498830-0c8e-1000-897a-c0a838650000.xml#mb3498831-0c8e-1000-897a-c0a838650000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="me5ea8010-0c8e-1000-8374-c0a838650000-me5ea591a-0c8e-1000-8374-c0a838650000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/e5ea592b-0c8e-1000-8374-c0a838650000.xml#me5ea591a-0c8e-1000-8374-c0a838650000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

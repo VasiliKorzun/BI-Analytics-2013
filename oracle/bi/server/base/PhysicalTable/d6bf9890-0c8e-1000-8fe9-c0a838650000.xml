@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="md6bf9890-0c8e-1000-8fe9-c0a838650000" name="FCT_ACTUAL_INCOME_PRODUCTS_DAILY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/ad8e8d50-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d50-0c8e-1000-8fe9-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT 
+EVENT_DT,
+  PRODUCT_ID,
+  ORD_GEO_ID,
+  CUSTOMER_ID,
+  QUANTITY,
+  TOTAL_COST,
+  AMOUNT_SOLD,
+PART_ID
+ FROM FCT_INCOME_PRODUCTS_DAILY  INNER JOIN dim_geo ON dim_geo.country_geo_id = FCT_INCOME_PRODUCTS_DAILY.ORD_GEO_ID
+INNER JOIN dim_times ON dim_times.time_id = fct_income_products_daily.event_dt
+WHERE  calendar_year IN VALUEOF(VAR_ACT_YEAR)]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="md6bf9891-0c8e-1000-8fe9-c0a838650000" name="AMOUNT_SOLD" dataType="DOUBLE" scale="2" precision="25" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9892-0c8e-1000-8fe9-c0a838650000" name="CUSTOMER_ID" dataType="DOUBLE" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9893-0c8e-1000-8fe9-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9894-0c8e-1000-8fe9-c0a838650000" name="ORD_GEO_ID" dataType="DOUBLE" precision="22" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9895-0c8e-1000-8fe9-c0a838650000" name="PRODUCT_ID" dataType="DOUBLE" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9896-0c8e-1000-8fe9-c0a838650000" name="QUANTITY" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="md6bf9897-0c8e-1000-8fe9-c0a838650000" name="TOTAL_COST" dataType="DOUBLE" scale="2" precision="25" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mba67a010-0c8f-1000-9912-c0a838650000" name="PART_ID" dataType="INT" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="md6bf9898-0c8e-1000-8fe9-c0a838650000" name="FCT_INCOME_PRODUCTS_DAILY_PK">
+<RefColumns>
+<RefColumn refId="md6bf9898-0c8e-1000-8fe9-c0a838650000-md6bf9893-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9893-0c8e-1000-8fe9-c0a838650000"/>
+<RefColumn refId="md6bf9898-0c8e-1000-8fe9-c0a838650000-md6bf9895-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9895-0c8e-1000-8fe9-c0a838650000"/>
+<RefColumn refId="md6bf9898-0c8e-1000-8fe9-c0a838650000-md6bf9894-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9894-0c8e-1000-8fe9-c0a838650000"/>
+<RefColumn refId="md6bf9898-0c8e-1000-8fe9-c0a838650000-md6bf9892-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9892-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="md6bf9899-0c8e-1000-8fe9-c0a838650000" name="FCT_INCOME_PRODUCTS_DAILY_FK1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/ad8e8d51-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d86-0c8e-1000-8fe9-c0a838650000">
+<RefColumns>
+<RefColumn refId="md6bf9899-0c8e-1000-8fe9-c0a838650000-md6bf9892-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9892-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="md6bf989a-0c8e-1000-8fe9-c0a838650000" name="FCT_INCOME_PRODUCTS_DAILY_FK3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d87-0c8e-1000-8fe9-c0a838650000">
+<RefColumns>
+<RefColumn refId="md6bf989a-0c8e-1000-8fe9-c0a838650000-md6bf9894-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9894-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="md6bf989b-0c8e-1000-8fe9-c0a838650000" name="FCT_INCOME_PRODUCTS_DAILY_FK2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/ad8e8d64-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d88-0c8e-1000-8fe9-c0a838650000">
+<RefColumns>
+<RefColumn refId="md6bf989b-0c8e-1000-8fe9-c0a838650000-md6bf9895-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9895-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m92bb11f1-0c8f-1000-9912-c0a838650000" name="FCT_ACTUAL_INCOME_PRODUCTS_DAILY_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/e8096860-0c8e-1000-8fe9-c0a838650000.xml#me8096874-0c8e-1000-8fe9-c0a838650000">
+<RefColumns>
+<RefColumn refId="m92bb11f1-0c8f-1000-9912-c0a838650000-md6bf9893-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/d6bf9890-0c8e-1000-8fe9-c0a838650000.xml#md6bf9893-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me5ea592a-0c8e-1000-8374-c0a838650000" name="Operations with agregation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e5ea5926-0c8e-1000-8374-c0a838650000.xml#me5ea5926-0c8e-1000-8374-c0a838650000">
+<PresentationColumn mdsid="me5ea5915-0c8e-1000-8374-c0a838650000" name="EVENT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb53-0c8e-1000-897a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5916-0c8e-1000-8374-c0a838650000" name="FCT_TOTAL_SALES_DOL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb54-0c8e-1000-897a-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5917-0c8e-1000-8374-c0a838650000" name="FCT_UNIT_AMOUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/b52acb50-0c8e-1000-897a-c0a838650000.xml#mb52acb55-0c8e-1000-897a-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

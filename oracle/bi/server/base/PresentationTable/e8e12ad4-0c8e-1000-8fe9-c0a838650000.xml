@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me8e12ad4-0c8e-1000-8fe9-c0a838650000" name="Products" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e8e12ad1-0c8e-1000-8fe9-c0a838650000.xml#me8e12ad1-0c8e-1000-8fe9-c0a838650000">
+<PresentationColumn mdsid="me8e103bb-0c8e-1000-8fe9-c0a838650000" name="Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3b2100-0c8e-1000-8fe9-c0a838650000.xml#mae3b2103-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103bc-0c8e-1000-8fe9-c0a838650000" name="Cost" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3b2100-0c8e-1000-8fe9-c0a838650000.xml#mae3b2104-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103bd-0c8e-1000-8fe9-c0a838650000" name="Measure" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3b2100-0c8e-1000-8fe9-c0a838650000.xml#mae3b2105-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103be-0c8e-1000-8fe9-c0a838650000" name="Product" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3b2100-0c8e-1000-8fe9-c0a838650000.xml#mae3b2106-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me8e103bf-0c8e-1000-8fe9-c0a838650000" name="Product Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/ae3b2100-0c8e-1000-8fe9-c0a838650000.xml#mae3b2107-0c8e-1000-8fe9-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

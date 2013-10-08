@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Variable mdsid="mb4f4ee40-0c8e-1000-897a-c0a838650000" name="Anton_Tserakhau_v_cur_month" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/b4daaf80-0c8e-1000-897a-c0a838650000.xml#mb4daaf80-0c8e-1000-897a-c0a838650000">
+<Expr mdsid="m00000001-01f4-0000-b545-26ba00000000" name="Expr">
+<ExprText><![CDATA[10.0d]]></ExprText>
+<ExprTextDesc><![CDATA[10.0d]]></ExprTextDesc>
+</Expr>
+</Variable>

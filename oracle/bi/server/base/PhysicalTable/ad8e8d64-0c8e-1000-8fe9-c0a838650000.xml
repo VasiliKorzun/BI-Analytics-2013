@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mad8e8d64-0c8e-1000-8fe9-c0a838650000" name="DIM_PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/ad8e8d50-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d50-0c8e-1000-8fe9-c0a838650000">
+<PhysicalColumn mdsid="mad8e8d65-0c8e-1000-8fe9-c0a838650000" name="CATEGORY_DESC" dataType="VARCHAR" precision="70" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mad8e8d66-0c8e-1000-8fe9-c0a838650000" name="COST" dataType="DOUBLE" scale="3" precision="15" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mad8e8d67-0c8e-1000-8fe9-c0a838650000" name="MEASURE_DESC" dataType="VARCHAR" precision="70" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mad8e8d68-0c8e-1000-8fe9-c0a838650000" name="PRODUCT_DESC" dataType="VARCHAR" precision="70" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mad8e8d69-0c8e-1000-8fe9-c0a838650000" name="PRODUCT_ID" dataType="DOUBLE" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mad8e8d88-0c8e-1000-8fe9-c0a838650000" name="DIM_PRODUCTS_PK">
+<RefColumns>
+<RefColumn refId="mad8e8d88-0c8e-1000-8fe9-c0a838650000-mad8e8d69-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d64-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d69-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

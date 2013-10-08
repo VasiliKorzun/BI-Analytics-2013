@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me5ea5929-0c8e-1000-8374-c0a838650000" name="Periods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e5ea5926-0c8e-1000-8374-c0a838650000.xml#me5ea5926-0c8e-1000-8374-c0a838650000">
+<PresentationColumn mdsid="me5ea590d-0c8e-1000-8374-c0a838650000" name="Period identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d6-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea590e-0c8e-1000-8374-c0a838650000" name="Period code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d4-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea590f-0c8e-1000-8374-c0a838650000" name="Period description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d5-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5910-0c8e-1000-8374-c0a838650000" name="Period type identifier" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d8-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5911-0c8e-1000-8374-c0a838650000" name="Period type name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d9-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5912-0c8e-1000-8374-c0a838650000" name="Period type description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d7-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5913-0c8e-1000-8374-c0a838650000" name="Start date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73da-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me5ea5914-0c8e-1000-8374-c0a838650000" name="End date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/940f73d0-0c8e-1000-98cb-c0a838650000.xml#m940f73d3-0c8e-1000-98cb-c0a838650000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="me5ea5929-0c8e-1000-8374-c0a838650000-me5ea5933-0c8e-1000-8374-c0a838650000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/e5ea5933-0c8e-1000-8374-c0a838650000.xml#me5ea5933-0c8e-1000-8374-c0a838650000"/>
+</RefHierarchies>
+</PresentationTable>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mb5318210-0c8e-1000-be8d-c0a838650000" name="FCT_TRANSACTIONS_ACTUAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" maxConn="0" containerRef="/oracle/bi/server/base/Schema/57627680-0c8e-1000-9b74-c0a838650000.xml#m57627680-0c8e-1000-9b74-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT * FROM FCT_TRANSACTIONS_DAILY
+WHERE
+EXTRACT (YEAR from EVENT_DT) = VALUEOF(BI_YEAR)]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="mb5318211-0c8e-1000-be8d-c0a838650000" name="AMOUNT_PAYMENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318212-0c8e-1000-be8d-c0a838650000" name="COUNT_PAYMENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318213-0c8e-1000-be8d-c0a838650000" name="CURRENCY_SUR_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318214-0c8e-1000-be8d-c0a838650000" name="CUST_SEND_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318215-0c8e-1000-be8d-c0a838650000" name="CUS_REC_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318216-0c8e-1000-be8d-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318217-0c8e-1000-be8d-c0a838650000" name="GEO_REC_SUR_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318218-0c8e-1000-be8d-c0a838650000" name="GEO_SEND_SUR_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb5318219-0c8e-1000-be8d-c0a838650000" name="INSERT_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb531821a-0c8e-1000-be8d-c0a838650000" name="OPERATION_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb531821b-0c8e-1000-be8d-c0a838650000" name="PERIOD_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb531821c-0c8e-1000-be8d-c0a838650000" name="TARIFF_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb531821d-0c8e-1000-be8d-c0a838650000" name="TA_COUNTRY_REC_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb531821e-0c8e-1000-be8d-c0a838650000" name="TA_COUNTRY_SEND_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="mb531821f-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_TIMES" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/576a17b7-0c8e-1000-9b74-c0a838650000.xml#m576a17cb-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb531821f-0c8e-1000-be8d-c0a838650000-mb5318216-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318216-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318220-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_LOC_REC" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/813bf6c0-0c8e-1000-be8d-c0a838650000.xml#m813bf6d1-0c8e-1000-be8d-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318220-0c8e-1000-be8d-c0a838650000-mb5318217-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318217-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318221-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_LOC_SEND" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/5769f09e-0c8e-1000-9b74-c0a838650000.xml#m5769f0af-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318221-0c8e-1000-be8d-c0a838650000-mb5318218-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318218-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318222-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_CURRENCY" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/57627681-0c8e-1000-9b74-c0a838650000.xml#m57629d90-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318222-0c8e-1000-be8d-c0a838650000-mb5318213-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318213-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318223-0c8e-1000-be8d-c0a838650000" name="FK_TR_CUST_SEND" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/81354001-0c8e-1000-be8d-c0a838650000.xml#m81356714-0c8e-1000-be8d-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318223-0c8e-1000-be8d-c0a838650000-mb5318214-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318214-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318224-0c8e-1000-be8d-c0a838650000" name="FK_TR_CUST_REC" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/5769f090-0c8e-1000-9b74-c0a838650000.xml#m5769f09d-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318224-0c8e-1000-be8d-c0a838650000-mb5318215-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb5318215-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318225-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_OPERATIONS" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/576a17a0-0c8e-1000-9b74-c0a838650000.xml#m576a17ab-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318225-0c8e-1000-be8d-c0a838650000-mb531821a-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb531821a-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb5318226-0c8e-1000-be8d-c0a838650000" name="FK_TRANS_TARIFFS" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/576a17ac-0c8e-1000-9b74-c0a838650000.xml#m576a17b6-0c8e-1000-9b74-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb5318226-0c8e-1000-be8d-c0a838650000-mb531821c-0c8e-1000-be8d-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b5318210-0c8e-1000-be8d-c0a838650000.xml#mb531821c-0c8e-1000-be8d-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

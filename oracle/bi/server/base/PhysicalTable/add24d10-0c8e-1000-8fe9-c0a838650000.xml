@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="madd24d10-0c8e-1000-8fe9-c0a838650000" name="DIM_GEO_CUSTOMERS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/ad8e8d50-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d50-0c8e-1000-8fe9-c0a838650000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d56-0c8e-1000-8fe9-c0a838650000">
+<PhysicalColumn mdsid="madd24d11-0c8e-1000-8fe9-c0a838650000" name="COUNTRY_CODE_A3" dataType="VARCHAR" precision="30" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d57-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d12-0c8e-1000-8fe9-c0a838650000" name="COUNTRY_DESC" dataType="VARCHAR" precision="200" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d58-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d13-0c8e-1000-8fe9-c0a838650000" name="COUNTRY_GEO_ID" dataType="DOUBLE" precision="22" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d59-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d14-0c8e-1000-8fe9-c0a838650000" name="COUNTRY_ID" dataType="DOUBLE" precision="22" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5a-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d15-0c8e-1000-8fe9-c0a838650000" name="IS_ACTUAL" dataType="CHAR" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5b-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d16-0c8e-1000-8fe9-c0a838650000" name="PART_DESC" dataType="VARCHAR" precision="200" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5c-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d17-0c8e-1000-8fe9-c0a838650000" name="PART_GEO_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5d-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d18-0c8e-1000-8fe9-c0a838650000" name="PART_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5e-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d19-0c8e-1000-8fe9-c0a838650000" name="REGION_DESC" dataType="VARCHAR" precision="200" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d5f-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d1a-0c8e-1000-8fe9-c0a838650000" name="REGION_GEO_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d60-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d1b-0c8e-1000-8fe9-c0a838650000" name="REGION_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d61-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d1c-0c8e-1000-8fe9-c0a838650000" name="VALID_FROM" dataType="VARCHAR" precision="9" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d62-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="madd24d1d-0c8e-1000-8fe9-c0a838650000" name="VALID_TO" dataType="VARCHAR" precision="9" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/ad8e8d56-0c8e-1000-8fe9-c0a838650000.xml#mad8e8d63-0c8e-1000-8fe9-c0a838650000">
+</PhysicalColumn>
+<PhysicalKey mdsid="maddc3820-0c8e-1000-8fe9-c0a838650000" name="DIM_GEO_CUSTOMERS_Key">
+<RefColumns>
+<RefColumn refId="maddc3820-0c8e-1000-8fe9-c0a838650000-madd24d13-0c8e-1000-8fe9-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/add24d10-0c8e-1000-8fe9-c0a838650000.xml#madd24d13-0c8e-1000-8fe9-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

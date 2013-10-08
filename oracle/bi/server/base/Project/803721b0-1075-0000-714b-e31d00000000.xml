@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Project mdsid="m803721b0-1075-0000-714b-e31d00000000" name="Siebel Marketing Server" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
-<RefUsers>
-<RefUser refId="m803721b0-1075-0000-714b-e31d00000000-m803fdfde-05dd-0000-714b-e31d00000000" userRef="/oracle/bi/server/base/User/803fdfde-05dd-0000-714b-e31d00000000.xml#m803fdfde-05dd-0000-714b-e31d00000000"/>
-</RefUsers>
 <RefVariables>
 <RefVariable refId="m803721b0-1075-0000-714b-e31d00000000-m00238445-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238445-0bd7-0000-714b-e31d00000000.xml#m00238445-0bd7-0000-714b-e31d00000000"/>
 <RefVariable refId="m803721b0-1075-0000-714b-e31d00000000-m00238447-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/00238447-0bd7-0000-714b-e31d00000000.xml#m00238447-0bd7-0000-714b-e31d00000000"/>

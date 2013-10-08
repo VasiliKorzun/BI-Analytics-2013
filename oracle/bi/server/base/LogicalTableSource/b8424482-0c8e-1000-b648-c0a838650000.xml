@@ -299,6 +299,10 @@ or
 (
  Position(';CurrentYearDW;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';')>0
 and "%1" =  Year( Current_Date )
+)
+or
+(
+ Position(';BIAdministrator;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';')>0
 )]]></ExprText>
 <ExprTextDesc><![CDATA[(
  Position(';AllYearsDW;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';')>0
@@ -308,6 +312,10 @@ or
 (
  Position(';CurrentYearDW;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';')>0
 and "Vasili_Korzun_DW".""."VASILI_KORZUN_DW"."DIM_TIMES"."CALENDAR_YEAR" =  Year( Current_Date )
+)
+or
+(
+ Position(';BIAdministrator;' in ';' || valueof(NQ_SESSION.ROLEGUIDS) || ';')>0
 )]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000025-01f4-0000-cfd6-dba500000000-m8f3cdd40-0c8e-1000-b648-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/8f3cdd39-0c8e-1000-b648-c0a838650000.xml#m8f3cdd40-0c8e-1000-b648-c0a838650000"/>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Project mdsid="m80c5e426-1075-0000-714b-e31d00000000" name="Project Analytics Fusion Edition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
-<RefGroups>
-<RefGroup refId="m80c5e426-1075-0000-714b-e31d00000000-m0023e1a2-106e-0000-714b-e31d00000000" groupRef="/oracle/bi/server/base/Group/0023e1a2-106e-0000-714b-e31d00000000.xml#m0023e1a2-106e-0000-714b-e31d00000000"/>
-</RefGroups>
-<RefUsers>
-<RefUser refId="m80c5e426-1075-0000-714b-e31d00000000-m0021f847-05dd-0000-714b-e31d00000000" userRef="/oracle/bi/server/base/User/0021f847-05dd-0000-714b-e31d00000000.xml#m0021f847-05dd-0000-714b-e31d00000000"/>
-</RefUsers>
 <RefVariables>
 <RefVariable refId="m80c5e426-1075-0000-714b-e31d00000000-m80c606e1-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c606e1-0bd7-0000-714b-e31d00000000.xml#m80c606e1-0bd7-0000-714b-e31d00000000"/>
 <RefVariable refId="m80c5e426-1075-0000-714b-e31d00000000-m80c606e3-0bd7-0000-714b-e31d00000000" variableRef="/oracle/bi/server/base/Variable/80c606e3-0bd7-0000-714b-e31d00000000.xml#m80c606e3-0bd7-0000-714b-e31d00000000"/>

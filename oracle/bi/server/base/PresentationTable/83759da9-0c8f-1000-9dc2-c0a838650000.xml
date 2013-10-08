@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m83759da9-0c8f-1000-9dc2-c0a838650000" name="DIM_SHIPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/83754f80-0c8f-1000-9dc2-c0a838650000.xml#m83754f80-0c8f-1000-9dc2-c0a838650000">
+<PresentationColumn mdsid="m83759daa-0c8f-1000-9dc2-c0a838650000" name="LAST_INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed03-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b0-0c8f-1000-9dc2-c0a838650000" name="LAST_UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed04-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b1-0c8f-1000-9dc2-c0a838650000" name="MAX_CARGO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed05-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b2-0c8f-1000-9dc2-c0a838650000" name="SHIP_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed06-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b3-0c8f-1000-9dc2-c0a838650000" name="SHIP_HEIGHT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed07-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b4-0c8f-1000-9dc2-c0a838650000" name="SHIP_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed08-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b5-0c8f-1000-9dc2-c0a838650000" name="SHIP_WEIGHT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed09-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8375c4b6-0c8f-1000-9dc2-c0a838650000" name="WATER_VOLUME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed00-0c8e-1000-9224-c0a838650000.xml#m8245ed0a-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

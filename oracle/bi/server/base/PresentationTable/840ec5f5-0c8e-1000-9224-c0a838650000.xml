@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m840ec5f5-0c8e-1000-9224-c0a838650000" name="FCT_TRANS_MONTHLY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/840ec5ee-0c8e-1000-9224-c0a838650000.xml#m840ec5ee-0c8e-1000-9224-c0a838650000">
+<PresentationColumn mdsid="m840ec5d8-0c8e-1000-9224-c0a838650000" name="AMOUNT_TOT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed2f-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5d9-0c8e-1000-9224-c0a838650000" name="ARR_PORT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed30-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5da-0c8e-1000-9224-c0a838650000" name="ARR_TIME_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed31-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5db-0c8e-1000-9224-c0a838650000" name="COMPANY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed32-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5dc-0c8e-1000-9224-c0a838650000" name="DEP_PORT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed33-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5dd-0c8e-1000-9224-c0a838650000" name="DEP_TIME_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed34-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5de-0c8e-1000-9224-c0a838650000" name="EVENT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed35-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5df-0c8e-1000-9224-c0a838650000" name="INCOME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed36-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e0-0c8e-1000-9224-c0a838650000" name="INSURANCE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed37-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e1-0c8e-1000-9224-c0a838650000" name="LAST_INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed38-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e2-0c8e-1000-9224-c0a838650000" name="LAST_UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed39-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e3-0c8e-1000-9224-c0a838650000" name="PCT_GOODS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed3a-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e4-0c8e-1000-9224-c0a838650000" name="PRODUCT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed3b-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m840ec5e5-0c8e-1000-9224-c0a838650000" name="SHIP_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ed2c-0c8e-1000-9224-c0a838650000.xml#m8245ed3c-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m808c2ec0-0c8e-1000-9224-c0a838650000" name="DIM_DEP_PORTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="30597.0" lastUpdated="2013-10-01 11:52:52" maxConn="0" containerRef="/oracle/bi/server/base/Schema/4723ae10-0c8e-1000-9224-c0a838650000.xml#m4723ae10-0c8e-1000-9224-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[DIM_DEP_PORTS]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m808c2ec1-0c8e-1000-9224-c0a838650000" name="CONTACT_PERSON" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec2-0c8e-1000-9224-c0a838650000" name="CONTACT_TEL" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec3-0c8e-1000-9224-c0a838650000" name="LAST_INSERT_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec4-0c8e-1000-9224-c0a838650000" name="LAST_UPDATE_DT" dataType="DATETIME" precision="30" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec5-0c8e-1000-9224-c0a838650000" name="PIER_CODE" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec6-0c8e-1000-9224-c0a838650000" name="PORT_ADDRESS" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec7-0c8e-1000-9224-c0a838650000" name="PORT_CITY" dataType="VARCHAR" precision="60" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec8-0c8e-1000-9224-c0a838650000" name="PORT_CODE" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2ec9-0c8e-1000-9224-c0a838650000" name="PORT_COUNTRY" dataType="VARCHAR" precision="60" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m808c2eca-0c8e-1000-9224-c0a838650000" name="PORT_ID" dataType="DOUBLE" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m808c2ecb-0c8e-1000-9224-c0a838650000" name="SYS_C0049486">
+<RefColumns>
+<RefColumn refId="m808c2ecb-0c8e-1000-9224-c0a838650000-m808c2eca-0c8e-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2eca-0c8e-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="me622321d-0c8e-1000-9385-c0a838650000" name="DIM_AR_PORTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/e62231d0-0c8e-1000-9385-c0a838650000.xml#me62231d0-0c8e-1000-9385-c0a838650000">
+<PresentationColumn mdsid="me622321e-0c8e-1000-9385-c0a838650000" name="CONTACT_PERSON" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecd9-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me622321f-0c8e-1000-9385-c0a838650000" name="CONTACT_TEL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecda-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223220-0c8e-1000-9385-c0a838650000" name="LAST_INSERT_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecdb-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223221-0c8e-1000-9385-c0a838650000" name="LAST_UPDATE_DT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecdc-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223222-0c8e-1000-9385-c0a838650000" name="PIER_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecdd-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223223-0c8e-1000-9385-c0a838650000" name="PORT_ADDRESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecde-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223224-0c8e-1000-9385-c0a838650000" name="PORT_CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ecdf-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223225-0c8e-1000-9385-c0a838650000" name="PORT_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ece0-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223226-0c8e-1000-9385-c0a838650000" name="PORT_COUNTRY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ece1-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="me6223227-0c8e-1000-9385-c0a838650000" name="PORT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/8245ecd6-0c8e-1000-9224-c0a838650000.xml#m8245ece2-0c8e-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

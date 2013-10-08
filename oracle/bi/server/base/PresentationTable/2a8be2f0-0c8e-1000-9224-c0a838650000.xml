@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m2a8be2f0-0c8e-1000-9224-c0a838650000" name="CUSTOMERS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/2a8be2e0-0c8e-1000-9224-c0a838650000.xml#m2a8be2e0-0c8e-1000-9224-c0a838650000">
+<PresentationColumn mdsid="m2a8be2f1-0c8e-1000-9224-c0a838650000" name="COUNTRY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebe9e-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f2-0c8e-1000-9224-c0a838650000" name="CUST_CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebe9f-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f3-0c8e-1000-9224-c0a838650000" name="CUST_CITY_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea0-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f4-0c8e-1000-9224-c0a838650000" name="CUST_CREDIT_LIMIT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea1-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f5-0c8e-1000-9224-c0a838650000" name="CUST_EFF_FROM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea2-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f6-0c8e-1000-9224-c0a838650000" name="CUST_EFF_TO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea3-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f7-0c8e-1000-9224-c0a838650000" name="CUST_EMAIL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea4-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f8-0c8e-1000-9224-c0a838650000" name="CUST_FIRST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea5-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2f9-0c8e-1000-9224-c0a838650000" name="CUST_GENDER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea6-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2fa-0c8e-1000-9224-c0a838650000" name="CUST_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea7-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2fb-0c8e-1000-9224-c0a838650000" name="CUST_INCOME_LEVEL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea8-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2fc-0c8e-1000-9224-c0a838650000" name="CUST_LAST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebea9-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2fd-0c8e-1000-9224-c0a838650000" name="CUST_MAIN_PHONE_NUMBER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeaa-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2fe-0c8e-1000-9224-c0a838650000" name="CUST_MARITAL_STATUS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeab-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be2ff-0c8e-1000-9224-c0a838650000" name="CUST_POSTAL_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeac-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be300-0c8e-1000-9224-c0a838650000" name="CUST_SRC_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebead-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be301-0c8e-1000-9224-c0a838650000" name="CUST_STATE_PROVINCE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeae-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be302-0c8e-1000-9224-c0a838650000" name="CUST_STATE_PROVINCE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeaf-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be303-0c8e-1000-9224-c0a838650000" name="CUST_STREET_ADDRESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeb0-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be304-0c8e-1000-9224-c0a838650000" name="CUST_TOTAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeb1-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be305-0c8e-1000-9224-c0a838650000" name="CUST_TOTAL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeb2-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be306-0c8e-1000-9224-c0a838650000" name="CUST_VALID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeb3-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+<PresentationColumn mdsid="m2a8be307-0c8e-1000-9224-c0a838650000" name="CUST_YEAR_OF_BIRTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c6cebe9b-0c8d-1000-9224-c0a838650000.xml#mc6cebeb4-0c8d-1000-9224-c0a838650000">
+</PresentationColumn>
+</PresentationTable>

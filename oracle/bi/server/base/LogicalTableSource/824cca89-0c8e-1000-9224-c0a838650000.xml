@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m824cca89-0c8e-1000-9224-c0a838650000" name="DIM_CATEGORIES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecee-0c8e-1000-9224-c0a838650000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-1e45-8cde00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."INCOME_COEF"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-1e45-8cde00000000-m8245ecf1-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf1-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-016c-4f6400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."INCOME_COEF"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-016c-4f6400000000-m4723d546-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d546-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-71e2-3e6400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_CATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-71e2-3e6400000000-m8245ecf2-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf2-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-78b1-ebec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_CATEGORIES"."PROD_CATEGORY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-78b1-ebec00000000-m81e9ea05-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea05-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-3154-415300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-3154-415300000000-m8245ecf3-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf3-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-e3ec-bc3500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."PROD_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-e3ec-bc3500000000-m4723d54a-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54a-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-0079-3fec00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-0079-3fec00000000-m8245ecf4-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf4-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-3815-40ec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."PROD_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-3815-40ec00000000-m4723d54b-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54b-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-eb15-aeb500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-eb15-aeb500000000-m8245ecf5-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf5-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-ba7f-e86800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."PROD_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-ba7f-e86800000000-m4723d54c-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54c-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-2f01-1f8b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-2f01-1f8b00000000-m8245ecf6-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf6-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-80bd-a29c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."PROD_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-80bd-a29c00000000-m4723d54d-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54d-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-9f74-ee0c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_SUR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-9f74-ee0c00000000-m8245ecf7-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m8245ecf7-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-e377-892d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_PRODUCTS_SCD"."PROD_SUR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-e377-892d00000000-m4723d54e-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54e-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-d872-d06200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_CATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-d872-d06200000000-m824cca85-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m824cca85-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-1b2d-e97d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_CATEGORIES"."PROD_CATEGORY_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-1b2d-e97d00000000-m81e9ea04-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea04-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-2ab2-604f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCD"."PROD_CATEGORY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-2ab2-604f00000000-m824cca86-0c8e-1000-9224-c0a838650000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8245ecee-0c8e-1000-9224-c0a838650000.xml#m824cca86-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-2c29-31da00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Uladzislau_Dodu_star_schema".""."DW_STAR"."DIM_CATEGORIES"."PROD_CATEGORY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-2c29-31da00000000-m81e9ea06-0c8e-1000-9224-c0a838650000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea06-0c8e-1000-9224-c0a838650000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d543-0c8e-1000-9224-c0a838650000">
+<Join type="LeftOuter" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d543-0c8e-1000-9224-c0a838650000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea00-0c8e-1000-9224-c0a838650000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m823264b0-0c8e-1000-9224-c0a838650000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea00-0c8e-1000-9224-c0a838650000">
+<Join type="RightOuter" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m81e9ea00-0c8e-1000-9224-c0a838650000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d543-0c8e-1000-9224-c0a838650000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m823264b0-0c8e-1000-9224-c0a838650000"/>
+</Link>
+<WhereClause mdsid="m00000013-01f4-0000-7a8a-958500000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000014-01f4-0000-1f7b-4a4a00000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("Uladzislau_Dodu_BM"."DIM_PRODUCTS_SCDDim"."Products")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-1f7b-4a4a00000000-mb399a401-0c8e-1000-9e70-c0a838650000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/b399a400-0c8e-1000-9e70-c0a838650000.xml#mb399a401-0c8e-1000-9e70-c0a838650000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m00000015-01f4-0000-5221-c6c900000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

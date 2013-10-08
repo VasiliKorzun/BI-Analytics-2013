@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mb1f62d30-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_ACTUAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="select" rowCount="41593.0" lastUpdated="2013-10-02 11:17:20" maxConn="0" containerRef="/oracle/bi/server/base/Schema/4723ae10-0c8e-1000-9224-c0a838650000.xml#m4723ae10-0c8e-1000-9224-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[select * from FCT_TRANS_MONTHLY where extract(year from event_dt) = VALUEOF(CURRENT_YEAR)]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="mb1f62d31-0c8e-1000-9e70-c0a838650000" name="AMOUNT_TOT" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d32-0c8e-1000-9e70-c0a838650000" name="ARR_PORT_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d33-0c8e-1000-9e70-c0a838650000" name="ARR_TIME_DT" dataType="DATETIME" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d34-0c8e-1000-9e70-c0a838650000" name="COMPANY_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d35-0c8e-1000-9e70-c0a838650000" name="DEP_PORT_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d36-0c8e-1000-9e70-c0a838650000" name="DEP_TIME_DT" dataType="DATETIME" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d37-0c8e-1000-9e70-c0a838650000" name="EVENT_DT" dataType="DATETIME" precision="20" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d38-0c8e-1000-9e70-c0a838650000" name="INCOME" dataType="DOUBLE" scale="2" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d39-0c8e-1000-9e70-c0a838650000" name="INSURANCE_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d3a-0c8e-1000-9e70-c0a838650000" name="LAST_INSERT_DT" dataType="DATETIME" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d3b-0c8e-1000-9e70-c0a838650000" name="LAST_UPDATE_DT" dataType="DATETIME" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d3c-0c8e-1000-9e70-c0a838650000" name="PCT_GOODS" dataType="DOUBLE" scale="2" precision="8" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d3d-0c8e-1000-9e70-c0a838650000" name="PRODUCT_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mb1f62d3e-0c8e-1000-9e70-c0a838650000" name="SHIP_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="mb1f65440-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54f-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65440-0c8e-1000-9e70-c0a838650000-mb1f62d3d-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d3d-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65441-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723d520-0c8e-1000-9224-c0a838650000.xml#m4723d52d-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65441-0c8e-1000-9e70-c0a838650000-mb1f62d34-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d34-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65442-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723d52e-0c8e-1000-9224-c0a838650000.xml#m4723d536-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65442-0c8e-1000-9e70-c0a838650000-mb1f62d39-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d39-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65443-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723fc39-0c8e-1000-9224-c0a838650000.xml#m4723fc44-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65443-0c8e-1000-9e70-c0a838650000-mb1f62d37-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d37-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65444-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723fc30-0c8e-1000-9224-c0a838650000.xml#m807f3670-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65444-0c8e-1000-9e70-c0a838650000-mb1f62d3e-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d3e-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65445-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#5" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/4723d537-0c8e-1000-9224-c0a838650000.xml#m4723d542-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65445-0c8e-1000-9e70-c0a838650000-mb1f62d32-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d32-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mb1f65446-0c8e-1000-9e70-c0a838650000" name="FCT_TRANS_MONTHLY_Foreign Key#6" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/808c2ec0-0c8e-1000-9224-c0a838650000.xml#m808c2ecb-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="mb1f65446-0c8e-1000-9e70-c0a838650000-mb1f62d35-0c8e-1000-9e70-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/b1f62d30-0c8e-1000-9e70-c0a838650000.xml#mb1f62d35-0c8e-1000-9e70-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

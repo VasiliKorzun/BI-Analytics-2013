@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m4723d543-0c8e-1000-9224-c0a838650000" name="DIM_PRODUCTS_SCD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="72.0" lastUpdated="2013-10-01 12:37:35" maxConn="0" containerRef="/oracle/bi/server/base/Schema/4723ae10-0c8e-1000-9224-c0a838650000.xml#m4723ae10-0c8e-1000-9224-c0a838650000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[DIM_PRODUCTS_SCD]]></Value>
+</DBMapItem>
+<PhysicalColumn mdsid="m4723d546-0c8e-1000-9224-c0a838650000" name="INCOME_COEF" dataType="DOUBLE" scale="2" precision="5" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d548-0c8e-1000-9224-c0a838650000" name="PROD_CATEGORY_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d54a-0c8e-1000-9224-c0a838650000" name="PROD_CODE" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d54b-0c8e-1000-9224-c0a838650000" name="PROD_DESC" dataType="VARCHAR" precision="200" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d54c-0c8e-1000-9224-c0a838650000" name="PROD_ID" dataType="DOUBLE" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d54d-0c8e-1000-9224-c0a838650000" name="PROD_NAME" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4723d54e-0c8e-1000-9224-c0a838650000" name="PROD_SUR_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m4723d54f-0c8e-1000-9224-c0a838650000" name="SYS_C0049484">
+<RefColumns>
+<RefColumn refId="m4723d54f-0c8e-1000-9224-c0a838650000-m4723d54e-0c8e-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d54e-0c8e-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m823264b0-0c8e-1000-9224-c0a838650000" name="DIM_PRODUCTS_SCD_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/81e9ea00-0c8e-1000-9224-c0a838650000.xml#m8233eb50-0c8e-1000-9224-c0a838650000">
+<RefColumns>
+<RefColumn refId="m823264b0-0c8e-1000-9224-c0a838650000-m4723d548-0c8e-1000-9224-c0a838650000" columnRef="/oracle/bi/server/base/PhysicalTable/4723d543-0c8e-1000-9224-c0a838650000.xml#m4723d548-0c8e-1000-9224-c0a838650000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>
